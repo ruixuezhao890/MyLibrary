@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="my_libarary"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/myLib/my_libarary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_libarary.elf">
+				<Option output="D:/myLib/my_libarary/cmake-build-debug/my_libarary.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/myLib/my_libarary/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/myLib/my_libarary/BSP/touch"/>
+					<Add directory="D:/myLib/my_libarary/BSP"/>
+					<Add directory="D:/myLib/my_libarary/LCD"/>
+					<Add directory="D:/myLib/my_libarary/other_library"/>
+					<Add directory="D:/myLib/my_libarary/MyLibrary/Inc"/>
+					<Add directory="D:/myLib/my_libarary/ConnectingBridge/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Core/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/CMSIS/Include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_libarary.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_libarary.elf/fast">
+				<Option output="D:/myLib/my_libarary/cmake-build-debug/my_libarary.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/myLib/my_libarary/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/myLib/my_libarary/BSP/touch"/>
+					<Add directory="D:/myLib/my_libarary/BSP"/>
+					<Add directory="D:/myLib/my_libarary/LCD"/>
+					<Add directory="D:/myLib/my_libarary/other_library"/>
+					<Add directory="D:/myLib/my_libarary/MyLibrary/Inc"/>
+					<Add directory="D:/myLib/my_libarary/ConnectingBridge/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Core/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/myLib/my_libarary/Drivers/CMSIS/Include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_libarary.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/myLib/my_libarary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/myLib/my_libarary/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/myLib/my_libarary/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/myLib/my_libarary/BSP/delay.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/delay.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/myiicZD.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/myiicZD.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/sys.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/sys.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/24cxx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/24cxx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/ctiic.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/ctiic.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/ft5206.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/ft5206.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/gt9xxx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/gt9xxx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/touch.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/BSP/touch/touch.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/ConnectingBridge/Src/Startup.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/fsmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/main.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/stm32f4xx_it.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Inc/usart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/dma.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/fsmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/main.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/stm32f4xx_it.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/syscalls.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/sysmem.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/system_stm32f4xx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/tim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Src/usart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Core/Startup/startup_stm32f407zgtx.s">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/CMSIS/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LCD/lcd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LCD/lcd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyGPIO.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyLCD.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyUsart.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/inputStream.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/myIIc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/outputStream.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/STM32F407ZGTX_FLASH.ld">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/other_library/WString.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/other_library/WString.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/other_library/stdlib_noniso.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/other_library/stdlib_noniso.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
