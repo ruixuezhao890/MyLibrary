@@ -33,6 +33,7 @@ namespace stm32f407{
        uint16_t pin;
        uint32_t mode;
        uint32_t speed;
+       uint32_t alternate;
    }GPIO_PIN;
 
    typedef struct _periphPORT{
@@ -53,9 +54,9 @@ namespace stm32f407{
        }
        GPIO(PORT_INDEX portIndex,uint16_t indexPin,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM);
        GPIO(PORT_INDEX p_periph,GPIO_TypeDef* p_port,uint16_t p_pins,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM);
-
+       void InitializeAF(uint32_t p_Alternate=0);
        void Initialize(uint32_t p_mode=GPIO_MODE_OUTPUT_PP);
-       void Initialize(PORT_INDEX p_periph,GPIO_TypeDef* p_port,uint16_t p_pins,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM);
+       void Initialize(PORT_INDEX p_periph,GPIO_TypeDef* p_port,uint16_t p_pins,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM ,uint32_t p_Alternate=0);
        inline bool IsHigh(){
 //           if((m_gpio.port->IDR & m_gpio.pin)!=(uint32_t)GPIO_PIN_RESET )
 //           {

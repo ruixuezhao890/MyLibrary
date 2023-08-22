@@ -74,7 +74,7 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
  D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
- D:\myLib\my_libarary\MyLibrary\Inc/myIIc.h \
+ D:\myLib\my_libarary\MyLibrary\Inc/MyIIc.h \
  D:\myLib\my_libarary\Core\Inc/tim.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MyGPIO.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h

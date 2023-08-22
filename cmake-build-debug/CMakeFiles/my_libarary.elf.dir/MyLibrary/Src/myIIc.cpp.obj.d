@@ -1,6 +1,6 @@
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj: \
- D:\myLib\my_libarary\MyLibrary\Src\myIIc.cpp \
- D:\myLib\my_libarary\MyLibrary\Inc/myIIc.h \
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: \
+ D:\myLib\my_libarary\MyLibrary\Src\MyIIc.cpp \
+ D:\myLib\my_libarary\MyLibrary\Inc/MyIIc.h \
  D:\myLib\my_libarary\Core\Inc/main.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  D:\myLib\my_libarary\Core\Inc/stm32f4xx_hal_conf.h \

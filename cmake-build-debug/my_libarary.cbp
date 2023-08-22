@@ -300,19 +300,67 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32f4xx_hal_can_legacy.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cec.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dfsdm.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
@@ -327,10 +375,76 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_irda.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_lptim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_mmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nand.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nor.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pccard.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
@@ -339,10 +453,46 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai_ex.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smartcard.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smbus.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spdifrx.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
@@ -357,16 +507,40 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_wwdg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dac.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmpi2c.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
@@ -375,10 +549,31 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_iwdg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_lptim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rtc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
@@ -390,22 +585,76 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_wwdg.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
@@ -420,7 +669,73 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
@@ -429,10 +744,46 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
@@ -447,7 +798,76 @@
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LCD/lcd.c">
@@ -459,16 +879,19 @@
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyGPIO.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyIIc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyLCD.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MySPI.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyUsart.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/inputStream.cpp">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/myIIc.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/outputStream.cpp">

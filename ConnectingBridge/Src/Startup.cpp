@@ -13,7 +13,7 @@
 #include "ConnectCplusplus.h"
 #include "MyGPIO.h"
 #include "MyUsart.h"
-#include "myIIc.h"
+#include "MyIIc.h"
 #include "WString.h"
 #include "tim.h"
 
@@ -27,6 +27,7 @@ void MyMain(){
     uint8_t pinputChar=0;
     GPIO SCL(PB,8);
     GPIO SDA(PB,9,GPIO_MODE_OUTPUT_OD);
+    GPIO Sck(PA,2|3,GPIO_MODE_AF_PP);
     MyIIc myIIc(&SDA,&SCL,0xA0,0);
     myUart.ReceiveInit();
     uint8_t temp;

@@ -65,7 +65,7 @@ void GPIO::Initialize(uint32_t p_mode) {
     m_gpio.mode=p_mode;
 }
 
-void GPIO::Initialize(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins, uint32_t p_mode, uint32_t p_speed) {
+void GPIO::Initialize(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins, uint32_t p_mode, uint32_t p_speed,uint32_t p_Alternate) {
     m_gpio.PinGroup=p_periph;
     m_gpio.port=p_port;
     m_gpio.pin=p_pins;
@@ -77,5 +77,16 @@ void GPIO::Initialize(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins
     GPIO_InitStruct.Mode=m_gpio.mode;
     GPIO_InitStruct.Speed=m_gpio.speed;
     RCCEnable(m_gpio.PinGroup);
+    if (p_Alternate!=0){
+        m_gpio.alternate=p_Alternate;
+        GPIO_InitStruct.Alternate=p_Alternate;
+    }
     HAL_GPIO_Init(m_gpio.port,&GPIO_InitStruct);
+}
+
+void GPIO::InitializeAF(uint32_t p_Alternate) {
+    if (m_gpio.alternate==p_Alternate)
+        return;
+    Initialize(m_gpio.PinGroup,m_gpio.port,m_gpio.pin,m_gpio.mode,m_gpio.speed,m_gpio.alternate);
+    m_gpio.alternate=p_Alternate;
 }

@@ -361,10 +361,24 @@ CMakeFiles/my_libarary.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/my_libarary.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\myLib\my_libarary\Core\Startup\startup_stm32f407zgtx.s -o CMakeFiles\my_libarary.elf.dir\Core\Startup\startup_stm32f407zgtx.s.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\Legacy\stm32f4xx_hal_can.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -375,10 +389,66 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cec.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -389,10 +459,122 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_co
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cryp_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dcmi_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dfsdm.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -403,10 +585,24 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -417,10 +613,38 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -434,7 +658,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ex
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -448,7 +672,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -462,7 +686,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -473,10 +697,66 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpi2c_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_fmpsmbus_ex.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -487,10 +767,262 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hash_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_irda.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_lptim.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_mmc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nand.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pccard.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -504,7 +1036,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -515,10 +1047,24 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_qspi.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -532,7 +1078,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -543,10 +1089,164 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sai_ex.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smartcard.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_smbus.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spdifrx.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
@@ -560,7 +1260,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sr
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -574,7 +1274,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -588,7 +1288,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -599,10 +1299,150 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_crc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dac.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_dma2d.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_exti.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmpi2c.c.s
+
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
@@ -613,10 +1453,192 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.s
 
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_gpio.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_i2c.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_lptim.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_pwr.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rcc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rng.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_rtc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_spi.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usart.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj -MF CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c.obj.d -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c.obj -c D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c > CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c.i
+
+CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c -o CMakeFiles\my_libarary.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_utils.c.s
+
 CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj: ../LCD/lcd.c
 CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj -MF CMakeFiles\my_libarary.elf.dir\LCD\lcd.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LCD\lcd.c.obj -c D:\myLib\my_libarary\LCD\lcd.c
 
 CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.i: cmake_force
@@ -630,7 +1652,7 @@ CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: ../MyLibrary/Src/MyGPIO.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyGPIO.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyGPIO.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyGPIO.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.i: cmake_force
@@ -641,10 +1663,24 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\MyGPIO.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyGPIO.cpp.s
 
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: ../MyLibrary/Src/MyIIc.cpp
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyIIc.cpp
+
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\myLib\my_libarary\MyLibrary\Src\MyIIc.cpp > CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.i
+
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\MyIIc.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.s
+
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: ../MyLibrary/Src/MyLCD.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyLCD.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyLCD.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyLCD.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.i: cmake_force
@@ -655,10 +1691,24 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\MyLCD.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyLCD.cpp.s
 
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: ../MyLibrary/Src/MySPI.cpp
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MySPI.cpp
+
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\myLib\my_libarary\MyLibrary\Src\MySPI.cpp > CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.i
+
+CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\MySPI.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.s
+
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: ../MyLibrary/Src/MyUsart.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyUsart.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyUsart.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyUsart.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.i: cmake_force
@@ -672,7 +1722,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: ../MyLibrary/Src/inputStream.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\inputStream.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\inputStream.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\inputStream.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.i: cmake_force
@@ -683,24 +1733,10 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\inputStream.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\inputStream.cpp.s
 
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj: ../MyLibrary/Src/myIIc.cpp
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj"
-	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\myIIc.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\myIIc.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\myIIc.cpp
-
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.i"
-	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\myLib\my_libarary\MyLibrary\Src\myIIc.cpp > CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\myIIc.cpp.i
-
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.s"
-	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\myLib\my_libarary\MyLibrary\Src\myIIc.cpp -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\myIIc.cpp.s
-
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: ../MyLibrary/Src/outputStream.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\outputStream.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\outputStream.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\outputStream.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.i: cmake_force
@@ -714,7 +1750,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: ../other_library/WString.cpp
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\other_library\WString.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\other_library\WString.cpp.obj -c D:\myLib\my_libarary\other_library\WString.cpp
 
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.i: cmake_force
@@ -728,7 +1764,7 @@ CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: ../other_library/stdlib_noniso.c
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj -MF CMakeFiles\my_libarary.elf.dir\other_library\stdlib_noniso.c.obj.d -o CMakeFiles\my_libarary.elf.dir\other_library\stdlib_noniso.c.obj -c D:\myLib\my_libarary\other_library\stdlib_noniso.c
 
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.i: cmake_force
@@ -762,30 +1798,104 @@ my_libarary_elf_OBJECTS = \
 "CMakeFiles/my_libarary.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj" \
+"CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj" \
+"CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj" \
-"CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj"
@@ -814,36 +1924,111 @@ my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Core/Src/system_stm32f4xx.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Core/Src/tim.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Core/Src/usart.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj
-my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/myIIc.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/build.make
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/objects1.rsp
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable my_libarary.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Linking CXX executable my_libarary.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_libarary.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/my_libarary/cmake-build-debug/my_libarary.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/my_libarary/cmake-build-debug/my_libarary.bin"
