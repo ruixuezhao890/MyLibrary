@@ -31,6 +31,7 @@ namespace stm32f407{
        PORT_INDEX PinGroup;
        GPIO_TypeDef * port;
        uint16_t pin;
+       uint32_t pull;
        uint32_t mode;
        uint32_t speed;
        uint32_t alternate;
@@ -52,7 +53,7 @@ namespace stm32f407{
        GPIO(){
 
        }
-       GPIO(PORT_INDEX portIndex,uint16_t indexPin,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM);
+       GPIO(PORT_INDEX portIndex,uint16_t indexPin,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM,uint32_t p_Alternate=0);
        GPIO(PORT_INDEX p_periph,GPIO_TypeDef* p_port,uint16_t p_pins,uint32_t p_mode=GPIO_MODE_OUTPUT_PP,uint32_t p_speed=GPIO_SPEED_FREQ_MEDIUM);
        void InitializeAF(uint32_t p_Alternate=0);
        void Initialize(uint32_t p_mode=GPIO_MODE_OUTPUT_PP);

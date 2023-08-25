@@ -50,8 +50,8 @@ void GPIO::RCCEnable(stm32f407::PORT_INDEX portIndex) {
     }
 }
 
-GPIO::GPIO(PORT_INDEX portIndex, uint16_t indexPin, uint32_t p_mode, uint32_t p_speed) {
-    Initialize(portIndex,Port[portIndex],(uint16_t)1<<indexPin,p_mode,p_speed);
+GPIO::GPIO(PORT_INDEX portIndex, uint16_t indexPin, uint32_t p_mode, uint32_t p_speed,uint32_t p_Alternate) {
+    Initialize(portIndex,Port[portIndex],(uint16_t)1<<indexPin,p_mode,p_speed,p_Alternate);
 }
 
 GPIO::GPIO(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins, uint32_t p_mode, uint32_t p_speed) {
@@ -76,6 +76,7 @@ void GPIO::Initialize(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins
     GPIO_InitStruct.Pin= m_gpio.pin;
     GPIO_InitStruct.Mode=m_gpio.mode;
     GPIO_InitStruct.Speed=m_gpio.speed;
+    GPIO_InitStruct.Pull=GPIO_PULLUP;
     RCCEnable(m_gpio.PinGroup);
     if (p_Alternate!=0){
         m_gpio.alternate=p_Alternate;
