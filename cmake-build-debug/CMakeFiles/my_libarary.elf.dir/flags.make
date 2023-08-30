@@ -6,19 +6,19 @@
 # compile CXX with D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
+ASM_INCLUDES = -ID:\myLib\my_libarary\MyApplication\Inc -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
 
 ASM_FLAGS = -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
+C_INCLUDES = -ID:\myLib\my_libarary\MyApplication\Inc -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
 
 C_FLAGS = -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 CXX_DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-CXX_INCLUDES = -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
+CXX_INCLUDES = -ID:\myLib\my_libarary\MyApplication\Inc -ID:\myLib\my_libarary\BSP\touch -ID:\myLib\my_libarary\BSP -ID:\myLib\my_libarary\LCD -ID:\myLib\my_libarary\other_library -ID:\myLib\my_libarary\MyLibrary\Inc -ID:\myLib\my_libarary\ConnectingBridge\Inc -ID:\myLib\my_libarary\Core\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc -ID:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -ID:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include -ID:\myLib\my_libarary\Drivers\CMSIS\Include
 
 CXX_FLAGS = -g -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu++17
 

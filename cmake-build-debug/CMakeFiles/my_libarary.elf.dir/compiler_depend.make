@@ -435,7 +435,8 @@ CMakeFiles/my_libarary.elf.dir/BSP/touch/touch.c.obj: ../BSP/touch/touch.c \
   ../BSP/delay.h \
   ../BSP/sys.h \
   ../Core/Inc/tim.h \
-  ../Core/Inc/main.h
+  ../Core/Inc/main.h \
+  ../BSP/touch/24cxx.h
 
 CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: ../ConnectingBridge/Src/Startup.cpp \
   ../ConnectingBridge/Inc/ConnectCplusplus.h \
@@ -481,6 +482,7 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: ../Connecti
   ../Core/Inc/gpio.h \
   ../Core/Inc/main.h \
   ../Core/Inc/usart.h \
+  ../ConnectingBridge/Inc/ALLfile.h \
   ../MyLibrary/Inc/MyGPIO.h \
   ../MyLibrary/Inc/MyUsart.h \
   ../MyLibrary/Inc/outputStream.h \
@@ -515,7 +517,18 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: ../Connecti
   ../MyLibrary/Inc/MyIIc.h \
   ../Core/Inc/tim.h \
   ../MyLibrary/Inc/MyGPIO.h \
-  ../MyLibrary/Inc/MyUsart.h
+  ../MyLibrary/Inc/MyUsart.h \
+  ../MyApplication/Inc/MyLCD.h \
+  ../LCD/lcd.h \
+  ../LCD/sys.h \
+  ../BSP/touch/touch.h \
+  ../BSP/sys.h \
+  ../BSP/touch/gt9xxx.h \
+  ../BSP/touch/ft5206.h \
+  ../MyLibrary/Inc/inputStream.h \
+  ../MyLibrary/Inc/outputStream.h \
+  ../MyLibrary/Inc/MySPI.h \
+  ../MyApplication/Inc/Flash.h
 
 CMakeFiles/my_libarary.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c \
   ../Core/Inc/dma.h \
@@ -967,207 +980,7 @@ CMakeFiles/my_libarary.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -1247,326 +1060,6 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_co
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
@@ -1607,127 +1100,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -1927,887 +1300,7 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -2927,46 +1420,6 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
@@ -3008,446 +1461,6 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -3647,140 +1660,6 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ua
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c
-
 CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
   ../Core/Inc/stm32f4xx_hal_conf.h \
@@ -3820,150 +1699,6 @@ CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsm
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-
-CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h
 
 CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj: ../LCD/lcd.c \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
@@ -4025,6 +1760,238 @@ CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj: ../LCD/lcd.c \
   ../BSP/sys.h \
   ../Core/Inc/tim.h \
   ../Core/Inc/main.h
+
+CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj: ../MyApplication/Src/Flash.cpp \
+  ../MyApplication/Inc/Flash.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../MyLibrary/Inc/MySPI.h \
+  ../MyLibrary/Inc/MyGPIO.h \
+  ../Core/Inc/gpio.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/tim.h \
+  ../MyLibrary/Inc/outputStream.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  ../other_library/WString.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  ../MyLibrary/Inc/inputStream.h
+
+CMakeFiles/my_libarary.elf.dir/MyApplication/Src/MyLCD.cpp.obj: ../MyApplication/Src/MyLCD.cpp \
+  ../MyApplication/Inc/MyLCD.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../LCD/lcd.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  ../LCD/sys.h \
+  ../BSP/touch/touch.h \
+  ../BSP/sys.h \
+  ../BSP/touch/gt9xxx.h \
+  ../BSP/touch/ft5206.h \
+  ../MyLibrary/Inc/inputStream.h \
+  ../other_library/WString.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  ../MyLibrary/Inc/outputStream.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring
+
+CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj: ../MyApplication/Src/OLED.cpp \
+  ../MyApplication/Inc/OLED.h \
+  ../MyLibrary/Inc/MySPI.h \
+  ../Core/Inc/main.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  ../Core/Inc/stm32f4xx_hal_conf.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  ../Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  ../Drivers/CMSIS/Include/cmsis_version.h \
+  ../Drivers/CMSIS/Include/cmsis_compiler.h \
+  ../Drivers/CMSIS/Include/cmsis_gcc.h \
+  ../Drivers/CMSIS/Include/mpu_armv7.h \
+  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  ../MyLibrary/Inc/MyGPIO.h \
+  ../Core/Inc/gpio.h \
+  ../Core/Inc/main.h \
+  ../Core/Inc/tim.h \
+  ../MyLibrary/Inc/outputStream.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  ../other_library/WString.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  ../MyLibrary/Inc/inputStream.h \
+  ../MyLibrary/Inc/MyIIc.h \
+  ../MyLibrary/Inc/MyUsart.h \
+  ../Core/Inc/usart.h
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: ../MyLibrary/Src/MyGPIO.cpp \
   ../MyLibrary/Inc/MyGPIO.h \
@@ -4147,83 +2114,6 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: ../MyLibrary/Src/MyI
   ../MyLibrary/Inc/MyUsart.h \
   ../Core/Inc/usart.h
 
-CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: ../MyLibrary/Src/MyLCD.cpp \
-  ../MyLibrary/Inc/MyLCD.h \
-  ../Core/Inc/main.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  ../Core/Inc/stm32f4xx_hal_conf.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  ../Drivers/CMSIS/Include/core_cm4.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  ../Drivers/CMSIS/Include/cmsis_version.h \
-  ../Drivers/CMSIS/Include/cmsis_compiler.h \
-  ../Drivers/CMSIS/Include/cmsis_gcc.h \
-  ../Drivers/CMSIS/Include/mpu_armv7.h \
-  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  ../LCD/lcd.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
-  ../LCD/sys.h \
-  ../BSP/touch/touch.h \
-  ../BSP/sys.h \
-  ../BSP/touch/gt9xxx.h \
-  ../BSP/touch/ft5206.h \
-  ../MyLibrary/Inc/inputStream.h \
-  ../other_library/WString.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
-  ../MyLibrary/Inc/outputStream.h \
-  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring
-
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: ../MyLibrary/Src/MySPI.cpp \
   ../MyLibrary/Inc/MySPI.h \
   ../Core/Inc/main.h \
@@ -4268,7 +2158,36 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: ../MyLibrary/Src/MyS
   ../MyLibrary/Inc/MyGPIO.h \
   ../Core/Inc/gpio.h \
   ../Core/Inc/main.h \
-  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+  ../Core/Inc/tim.h \
+  ../MyLibrary/Inc/outputStream.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstring \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  ../other_library/WString.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  ../MyLibrary/Inc/inputStream.h
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: ../MyLibrary/Src/MyUsart.cpp \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdarg \
@@ -4622,15 +2541,13 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c:
-
 ../Core/Inc/tim.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c:
+../MyApplication/Inc/MyLCD.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:
 
@@ -4648,8 +2565,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c:
-
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h:
@@ -4663,8 +2578,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/math.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:
 
@@ -4687,8 +2600,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
 ../Drivers/CMSIS/Include/cmsis_compiler.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/time.h:
 
@@ -4727,8 +2638,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 ../BSP/touch/24cxx.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:
 
@@ -4776,15 +2685,11 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../MyLibrary/Src/outputStream.cpp:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c:
-
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/signal.h:
 
@@ -4828,17 +2733,11 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c:
-
 ../Core/Inc/stm32f4xx_it.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c:
-
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h:
-
-../MyLibrary/Inc/MyLCD.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h:
 
@@ -4854,6 +2753,8 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../Core/Inc/usart.h:
 
+../ConnectingBridge/Inc/ALLfile.h:
+
 ../MyLibrary/Inc/MyGPIO.h:
 
 ../MyLibrary/Inc/MyUsart.h:
@@ -4868,8 +2769,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../other_library/WString.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:
-
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib:
@@ -4882,11 +2781,11 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/numeric_traits.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:
-
 ../MyLibrary/Inc/MyIIc.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c:
+../MyLibrary/Inc/MySPI.h:
+
+../MyApplication/Inc/Flash.h:
 
 ../Core/Src/dma.c:
 
@@ -4904,8 +2803,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stat.h:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c:
-
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/time.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/time.h:
@@ -4913,10 +2810,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/errno.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/signal.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_time.h:
 
@@ -4930,37 +2823,15 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../Core/Src/usart.c:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/Legacy/stm32f4xx_hal_can.c:
+../MyApplication/Inc/OLED.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c:
-
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c:
-
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
-
-../MyLibrary/Src/MyLCD.cpp:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
 
@@ -4972,77 +2843,11 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c:
-
-../other_library/WString.cpp:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c:
-
-../MyLibrary/Src/inputStream.cpp:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c:
-
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c:
 
@@ -5052,71 +2857,27 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c:
 
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:
-
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h:
-
 ../LCD/lcd.c:
 
 ../LCD/lcdfont.h:
 
 ../LCD/lcd_ex.c:
 
+../MyApplication/Src/Flash.cpp:
+
+../MyApplication/Src/MyLCD.cpp:
+
+../MyApplication/Src/OLED.cpp:
+
 ../MyLibrary/Src/MyGPIO.cpp:
 
 ../MyLibrary/Src/MySPI.cpp:
 
-../MyLibrary/Inc/MySPI.h:
-
-../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
-
 ../MyLibrary/Src/MyUsart.cpp:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdarg:
+
+../MyLibrary/Src/inputStream.cpp:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cmath:
 
@@ -5124,11 +2885,15 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/ext/type_traits.h:
 
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/specfun.h:
+
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/functexcept.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/exception_defines.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_pair.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/type_traits:
 
@@ -5148,17 +2913,25 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc:
 
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc:
+
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/ell_integral.tcc:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/hypergeometric.tcc:
 
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/legendre_function.tcc:
+
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/modified_bessel_func.tcc:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_laguerre.tcc:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/math.h:
+
+../other_library/WString.cpp:
 
 ../other_library/stdlib_noniso.h:
 

@@ -21,18 +21,24 @@ MySPI::MySPI() {
 MySPI::~MySPI() {
 
 }
-
-MySPI::MySPI(spi SPISelect, GPIO *CS) {
-    this->Mode=HardwareSPI;
+#ifdef HAL_SPI_ERROR_NONE
+MySPI::MySPI(SPI_HandleTypeDef* SPISelect, GPIO *CS) {
+    this->g_spi_handler=SPISelect;
     this->CS=CS;
-    if (SPISelect==HardwareSpi1)
-        this->NowSPIBase=GetBase.SPI_1;
-    if (SPISelect==HardwareSpi2)
-        this->NowSPIBase=GetBase.SPI_2;
-    if (SPISelect==HardwareSpi3)
-        this->NowSPIBase=GetBase.SPI_3;
-    SPIInit();
+    this->Mode=HardwareSPI;
+    buff.write_index=buff.read_index=buff.data_size=0;
+    for (int i = 0; i < 256; ++i)
+        buff.buf[i]=0;
 }
+uint8_t MySPI::SPIWriteRead(uint8_t SendData) {
+
+    uint8_t receiveData = 0;
+    HAL_SPI_TransmitReceive((this->g_spi_handler), &SendData, &receiveData, 1, 1000);
+    return receiveData;
+
+
+}
+#endif
 
 MySPI::MySPI(GPIO *CS, GPIO *SCK, GPIO *MISO, GPIO *MOSI) {
     this->Mode=SoftwareSPI;
@@ -40,99 +46,258 @@ MySPI::MySPI(GPIO *CS, GPIO *SCK, GPIO *MISO, GPIO *MOSI) {
     this->SCK=SCK;
     this->MOSI=MOSI;
     this->MISO=MISO;
-    SPIInit();
+    SoftSPIInit();
 }
 
-void MySPI::SPIInit() {
+void MySPI::SoftSPIInit() {
+    if (Mode==SoftwareSPI){
+        CS->High();
+       SoftGPIOInit();
+    }
 
+}
+
+void MySPI::SoftGPIOInit() {
+    switch (SoftSPIMode) {
+        case SPIMode0:{
+            SCK->Low();
+        }
+            break;
+        case SPIMode1:{
+            SCK->Low();
+        }
+            break;
+        case SPIMode2:{
+            SCK->High();
+        }
+            break;
+        case SPIMode3:{
+            SCK->High();
+        }
+            break;
+
+    }
+}
+
+
+
+size_t MySPI::write(uint8_t Send) {
 
     if (Mode==HardwareSPI){
-        HAL_SPI_DeInit(&hspi1);
-        if (NowSPIBase==SPI1)
-            __HAL_RCC_SPI1_CLK_ENABLE();
-        if (NowSPIBase==SPI2)
-            __HAL_RCC_SPI2_CLK_ENABLE();
-        if (NowSPIBase==SPI3)
-            __HAL_RCC_SPI3_CLK_ENABLE();
-        g_spi_handler.Instance = NowSPIBase;                              /* SPIx*/
-        g_spi_handler.Init.Mode = SPI_MODE_MASTER;                        /* 设置SPI工作模式，设置为主模式 */
-        g_spi_handler.Init.Direction = SPI_DIRECTION_2LINES;              /* 设置SPI单向或者双向的数据模式:SPI设置为双线模式 */
-        g_spi_handler.Init.DataSize = SPI_DATASIZE_8BIT;                  /* 设置SPI的数据大小:SPI发送接收8位帧结构 */
-        g_spi_handler.Init.CLKPolarity = SPI_POLARITY_HIGH;               /* 串行同步时钟的空闲状态为高电平 */
-        g_spi_handler.Init.CLKPhase = SPI_PHASE_2EDGE;                    /* 串行同步时钟的第二个跳变沿（上升或下降）数据被采样 */
-        g_spi_handler.Init.NSS = SPI_NSS_SOFT;                            /* NSS信号由硬件（NSS管脚）还是软件（使用SSI位）管理:内部NSS信号有SSI位控制 */
-        g_spi_handler.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_256; /* 定义波特率预分频的值:波特率预分频值为256 */
-        g_spi_handler.Init.FirstBit = SPI_FIRSTBIT_MSB;                   /* 指定数据传输从MSB位还是LSB位开始:数据传输从MSB位开始 */
-        g_spi_handler.Init.TIMode = SPI_TIMODE_DISABLE;                   /* 关闭TI模式 */
-        g_spi_handler.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;   /* 关闭硬件CRC校验 */
-        g_spi_handler.Init.CRCPolynomial = 7;                             /* CRC值计算的多项式 */
-        HAL_SPI_Init(&g_spi_handler);                                     /* 初始化 */
-        __HAL_SPI_ENABLE(&g_spi_handler); /* 使能SPI */
-        SPIWriteRead(0XFF);
-        GPIOInit();
+#ifdef HAL_SPI_ERROR_NONE
+        HAL_SPI_Transmit(this->g_spi_handler,&Send,1,1000);
+         return 1;
+#endif
+
 
     }
     if (Mode==SoftwareSPI){
-
+        this->SoftSPIWR(Send);
+        return 1;
     }
-
+    return 0;
 }
 
-void MySPI::GPIOInit() {
-    if (NowSPIBase==SPI1){
-        HAL_GPIO_DeInit(GPIOA, GPIO_PIN_5);
-        HAL_GPIO_DeInit(GPIOA, GPIO_PIN_6);
-        HAL_GPIO_DeInit(GPIOA, GPIO_PIN_7);
-//        SCK=new GPIO(PA,5,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI1);
-//        MISO=new GPIO(PA,6,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI1);
-//        MOSI=new GPIO(PA,7,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI1);
-        SPI1_SCK_GPIO_CLK_ENABLE();  /* SPI1_SCK脚时钟使能 */
-        SPI1_MISO_GPIO_CLK_ENABLE(); /* SPI1_MISO脚时钟使能 */
-        SPI1_MOSI_GPIO_CLK_ENABLE(); /* SPI1_MOSI脚时钟使能 */
-
-        /* SCK引脚模式设置(复用输出) */
-        gpio_init_struct.Pin = SPI1_SCK_GPIO_PIN;
-        gpio_init_struct.Mode = GPIO_MODE_AF_PP;
-        gpio_init_struct.Pull = GPIO_NOPULL;
-        gpio_init_struct.Speed = GPIO_SPEED_FREQ_HIGH;
-        gpio_init_struct.Alternate = GPIO_AF5_SPI1;
-        HAL_GPIO_Init(SPI1_SCK_GPIO_PORT, &gpio_init_struct);
-
-        /* MISO引脚模式设置(复用输出) */
-        gpio_init_struct.Pin = SPI1_MISO_GPIO_PIN;
-        HAL_GPIO_Init(SPI1_MISO_GPIO_PORT, &gpio_init_struct);
-
-        /* MOSI引脚模式设置(复用输出) */
-        gpio_init_struct.Pin = SPI1_MOSI_GPIO_PIN;
-        HAL_GPIO_Init(SPI1_MOSI_GPIO_PORT, &gpio_init_struct);
-    }
-
-    if (NowSPIBase==SPI2){
-
-//        SCK=new GPIO(PB,3,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI2);
-//        MISO=new GPIO(PB,4,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI2);
-//        MOSI=new GPIO(PB,5,GPIO_MODE_AF_PP,GPIO_SPEED_FREQ_VERY_HIGH,GPIO_AF5_SPI2);
-    }
-
-    if (NowSPIBase==SPI3){
+size_t MySPI::write(const uint8_t *SendData, size_t size) {
+    if (Mode==HardwareSPI){
+#ifdef HAL_SPI_ERROR_NONE
+        HAL_SPI_Transmit(this->g_spi_handler,(uint8_t *)SendData,size,1000);
+         return 1;
+#endif
 
     }
-
-
+    if (Mode==SoftwareSPI)
+    {
+        for (int i = 0; i < size; ++i) {
+            this->SoftSPIWR(SendData[i]);
+        }
+        return 1;
+    }
+    return 0;
 }
 
+void MySPI::SetCS(uint8_t set) {
+    if (set){
+        CS->High();
+        return;
+    }
+    CS->Low();
+}
+
+int MySPI::read() {
+    uint8_t Trigger=0xff;
+    if (Mode==HardwareSPI) {
+#ifdef HAL_SPI_ERROR_NONE
+        if (CMDFlag) {
+//            for (int i = 0; i < 2; ++i) {
+//                if (!i) {
+//                    // buff.buf[buff.read_index]
+//                    receive = this->SPIWriteRead(Trigger) << 8;
+//                } else {
+//                    // buff.buf[buff.read_index]
+//                    receive |= this->SPIWriteRead(Trigger);
+//                }
+//            }
+////        buff.read_index++;
+//            return receive;
+////        buff.buf[buff.read_index - 1];
+//        } else {
+
+            HAL_SPI_TransmitReceive(this->g_spi_handler, &Trigger, &buff.buf[buff.read_index++], 1, 1000);
+            return buff.buf[buff.read_index - 1];
+        }
+#endif
+    }
+    if(Mode==SoftwareSPI)
+    {
+        buff.buf[buff.read_index++]=this->SoftSPIWR(Trigger);
+        return buff.buf[buff.read_index-1];
+    }
+    return 0;
+}
+
+void MySPI::SoftSPIModeSet(SoftMode Set) {
+    this->SoftSPIMode=Set;
+}
+
+SoftMode MySPI::GetSoftSPIMode() {
+    return this->SoftSPIMode;
+}
+
+uint8_t MySPI::SoftSPIWR(uint8_t SendData) {
+    uint8_t temp=0;
+    switch (SoftSPIMode) {
+        case SPIMode0:{
+            temp=SoftSPIMode0WR(SendData);
+        }
+            break;
+        case SPIMode1:{
+            temp=SoftSPIMode1WR(SendData);
+        }
+            break;
+        case SPIMode2:{
+            temp= SoftSPIMode2WR(SendData);
+        }
+            break;
+        case SPIMode3:{
+            temp=SoftSPIMode3WR(SendData);
+        }
+            break;
+
+    }
+    return temp;
+}
+//CPOL=0;CPHA=0
+uint8_t MySPI::SoftSPIMode0WR(uint8_t SendData) {
+    uint8_t i,temp=0;
+    for (i = 0; i < 8; ++i) {
+        if (SendData&0x80)MOSI->High();
+        else MOSI->Low();
+        SendData<<=1;
+        SPIDelay();
+        SCK->High();
+        temp<<=1;
+        if (MISO->IsHigh()) temp++;
+        SPIDelay();
+        SCK->Low();
+        SPIDelay();
+    }
+    return temp;
+//    uint8_t i, read_dat;
+//    for( i = 0; i < 8; i++ )
+//    {
+//        if( SendData & 0x80 )
+//            MOSI->High();
+//        else
+//            MOSI->Low();
+//        SendData <<= 1;
+//        HAL_Delay_us(1);
+//        SCK->High();
+//        read_dat <<= 1;
+//        if( MISO )
+//            read_dat++;
+//        HAL_Delay_us(1);
+//        SCK->Low();
+//        HAL_Delay_us(1);
+//    }
+//
+//    return read_dat;
+
+}
+//CPOL=0;CPHA=1
+uint8_t MySPI::SoftSPIMode1WR(uint8_t SendData) {
+    uint8_t i,temp=0;
+    for (i = 0; i < 8; ++i) {
+        SCK->High();
+        if (SendData&0x80)MOSI->High();
+        else MOSI->Low();
+        SendData<<=1;
+        SPIDelay();
+        SCK->Low();
+        temp<<=1;
+        if (MISO->IsHigh()) temp++;
+        SPIDelay();
+    }
+    return temp;
+}
+//CPOL=1;CPHA=0
+uint8_t MySPI::SoftSPIMode2WR(uint8_t SendData) {
+    uint8_t i,temp=0;
+    for (i = 0; i < 8; ++i) {
+        if (SendData&0x80)MOSI->High();
+        else MOSI->Low();
+        SendData<<=1;
+        SPIDelay();
+        SCK->Low();
+        temp<<=1;
+        if (MISO->IsHigh()) temp++;
+        SPIDelay();
+        SCK->High();
+//        HAL_Delay_us(1);
+    }
+    return temp;
+}
+//CPOL=1;CPHA=1
+uint8_t MySPI::SoftSPIMode3WR(uint8_t SendData) {
+    uint8_t i,temp=0;
+    for (i = 0; i < 8; ++i) {
+        SCK->Low();
+        SPIDelay();
+         (SendData&0x80)?MOSI->High():MOSI->Low();
+        SendData<<=1;
+        SPIDelay();
+        SCK->High();
+        SPIDelay();
+        temp<<=1;
+        if (MISO->IsHigh()) temp++;
+        SPIDelay();
+    }
+    //SCK->High();
+    return temp;
+}
+
+void MySPI::SoftSPISpeedSet(uint16_t set) {
+    this->SoftSPISPEED=set;
+}
+
+void MySPI::SPIDelay() {
+    HAL_Delay_us(SoftSPISPEED);
+}
+
+#ifdef HAL_SPI_ERROR_NONE
 uint8_t MySPI::SPIWriteRead(uint8_t SendData) {
-    uint8_t receiveData=0;
-    HAL_SPI_TransmitReceive(&(this->g_spi_handler),&SendData,&receiveData,1,1000);
-    return receiveData;
+    uint8_t rxdata;
+    HAL_SPI_TransmitReceive(&g_spi1_handler, &txdata, &rxdata, 1, 1000);
+    return rxdata; /* 返回收到的数据 */
 }
+#endif
 
-void MySPI::SPISpeedSet(uint8_t speed) {
-
-    assert_param(IS_SPI_BAUDRATE_PRESCALER(speed)); /* 判断有效性 */
-    __HAL_SPI_DISABLE(&g_spi_handler);             /* 关闭SPI */
-    g_spi_handler.Instance->CR1 &= 0XFFC7;         /* 位3-5清零，用来设置波特率 */
-    g_spi_handler.Instance->CR1 |= speed << 3;     /* 设置SPI速度 */
-    __HAL_SPI_ENABLE(&g_spi_handler);              /* 使能SPI */
-}
+//void MySPI::SPISpeedSet(uint8_t speed) {
+//
+//    assert_param(IS_SPI_BAUDRATE_PRESCALER(speed)); /* 判断有效性 */
+//    __HAL_SPI_DISABLE(&g_spi_handler);             /* 关闭SPI */
+//    g_spi_handler.Instance->CR1 &= 0XFFC7;         /* 位3-5清零，用来设置波特率 */
+//    g_spi_handler.Instance->CR1 |= speed << 3;     /* 设置SPI速度 */
+//    __HAL_SPI_ENABLE(&g_spi_handler);              /* 使能SPI */
+//}
 

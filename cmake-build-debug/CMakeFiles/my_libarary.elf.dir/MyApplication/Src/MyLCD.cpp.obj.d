@@ -1,6 +1,6 @@
-CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
- D:\myLib\my_libarary\ConnectingBridge\Src\Startup.cpp \
- D:\myLib\my_libarary\ConnectingBridge\Inc/ConnectCplusplus.h \
+CMakeFiles/my_libarary.elf.dir/MyApplication/Src/MyLCD.cpp.obj: \
+ D:\myLib\my_libarary\MyApplication\Src\MyLCD.cpp \
+ D:\myLib\my_libarary\MyApplication\Inc/MyLCD.h \
  D:\myLib\my_libarary\Core\Inc/main.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  D:\myLib\my_libarary\Core\Inc/stm32f4xx_hal_conf.h \
@@ -40,51 +40,36 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\myLib\my_libarary\Core\Inc/gpio.h \
- D:\myLib\my_libarary\Core\Inc/main.h \
- D:\myLib\my_libarary\Core\Inc/usart.h \
- D:\myLib\my_libarary\ConnectingBridge\Inc/ALLfile.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyGPIO.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h \
- D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstring \
+ D:\myLib\my_libarary\LCD/lcd.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\c++config.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\os_defines.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\cpu_defines.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\string.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\ieeefp.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\newlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\config.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\ieeefp.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\reent.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_types.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_types.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\lock.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\cdefs.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_locale.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \
- D:\myLib\my_libarary\other_library/WString.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\alloca.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
- D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyIIc.h \
- D:\myLib\my_libarary\Core\Inc/tim.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyGPIO.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h \
- D:\myLib\my_libarary\MyApplication\Inc/MyLCD.h \
- D:\myLib\my_libarary\LCD/lcd.h D:\myLib\my_libarary\LCD/sys.h \
- D:\myLib\my_libarary\BSP\touch/touch.h D:\myLib\my_libarary\BSP/sys.h \
- D:\myLib\my_libarary\BSP\touch/gt9xxx.h \
+ D:\myLib\my_libarary\LCD/sys.h D:\myLib\my_libarary\BSP\touch/touch.h \
+ D:\myLib\my_libarary\BSP/sys.h D:\myLib\my_libarary\BSP\touch/gt9xxx.h \
  D:\myLib\my_libarary\BSP\touch/ft5206.h \
  D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
+ D:\myLib\my_libarary\other_library/WString.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\string.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_locale.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
  D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MySPI.h \
- D:\myLib\my_libarary\MyApplication\Inc/Flash.h
+ d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstring

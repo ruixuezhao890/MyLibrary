@@ -49,12 +49,13 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(BSP/touch BSP LCD other_library MyLibrary/Inc ConnectingBridge/Inc Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(MyApplication/Inc BSP/touch BSP LCD other_library MyLibrary/Inc ConnectingBridge/Inc Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "ConnectingBridge/Src/*.*"
-         "MyLibrary/Src/*.*""other_library/*.*" "LCD/lcd.c" "BSP/*.*" "BSP/touch/*.*")
+         "MyLibrary/Src/*.*""other_library/*.*" "LCD/lcd.c" "BSP/*.*" "BSP/touch/*.*"
+        "MyApplication/Src/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)
 

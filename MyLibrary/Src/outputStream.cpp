@@ -194,4 +194,8 @@ size_t outputStream::println(double num, int digits) {
     return n;
 }
 
+//void outputStream::SetSelectMode(uint16_t Set) {
+//    SelectMode=Set;
+//}
+
 

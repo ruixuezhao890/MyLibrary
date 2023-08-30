@@ -20,4 +20,6 @@
 #include "MyLCD.h"
 #include "MySPI.h"
 #include "WString.h"
+#include "Flash.h"
+#include "OLED.h"
 #endif //MY_LIBARARY_ALLFILE_H

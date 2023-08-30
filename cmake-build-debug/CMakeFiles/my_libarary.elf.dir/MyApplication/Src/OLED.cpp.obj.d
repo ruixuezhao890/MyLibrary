@@ -1,6 +1,7 @@
-CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
- D:\myLib\my_libarary\ConnectingBridge\Src\Startup.cpp \
- D:\myLib\my_libarary\ConnectingBridge\Inc/ConnectCplusplus.h \
+CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj: \
+ D:\myLib\my_libarary\MyApplication\Src\OLED.cpp \
+ D:\myLib\my_libarary\MyApplication\Inc/OLED.h \
+ D:\myLib\my_libarary\MyLibrary\Inc/MySPI.h \
  D:\myLib\my_libarary\Core\Inc/main.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  D:\myLib\my_libarary\Core\Inc/stm32f4xx_hal_conf.h \
@@ -40,12 +41,9 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\myLib\my_libarary\Core\Inc/gpio.h \
- D:\myLib\my_libarary\Core\Inc/main.h \
- D:\myLib\my_libarary\Core\Inc/usart.h \
- D:\myLib\my_libarary\ConnectingBridge\Inc/ALLfile.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MyGPIO.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h \
+ D:\myLib\my_libarary\Core\Inc/gpio.h \
+ D:\myLib\my_libarary\Core\Inc/main.h D:\myLib\my_libarary\Core\Inc/tim.h \
  D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstring \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\c++config.h \
@@ -76,15 +74,5 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
  D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MyIIc.h \
- D:\myLib\my_libarary\Core\Inc/tim.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyGPIO.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h \
- D:\myLib\my_libarary\MyApplication\Inc/MyLCD.h \
- D:\myLib\my_libarary\LCD/lcd.h D:\myLib\my_libarary\LCD/sys.h \
- D:\myLib\my_libarary\BSP\touch/touch.h D:\myLib\my_libarary\BSP/sys.h \
- D:\myLib\my_libarary\BSP\touch/gt9xxx.h \
- D:\myLib\my_libarary\BSP\touch/ft5206.h \
- D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
- D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MySPI.h \
- D:\myLib\my_libarary\MyApplication\Inc/Flash.h
+ D:\myLib\my_libarary\Core\Inc/usart.h

@@ -23,10 +23,12 @@
 //{
 //#endif
 #include "main.h"
+
 #define DEC 10
 #define HEX 16
 #define OCT 8
 #define BIN 2
+#define CMD 0
 #define endl "\r\n"
 /*______________________类的声明在这下面________________:*/
 
@@ -34,7 +36,10 @@ class outputStream{
 private:
     size_t printNumber(unsigned long,uint8_t);
     size_t printFloat(double ,uint8_t);
+
 public:
+//    static uint16_t SelectMode;
+//    static void SetSelectMode(uint16_t Set);
     virtual size_t write(uint8_t) = 0;
     size_t write(const char *str)
     {
@@ -54,7 +59,7 @@ public:
     size_t print(char);
 
     size_t print(unsigned char, int = DEC);
-    size_t print(int, int = DEC);
+    size_t print(int, int  = DEC);
     size_t print(unsigned int, int = DEC);
     size_t print(long long, int = DEC);
     size_t print(unsigned long long, int = DEC);
@@ -87,6 +92,7 @@ public:
         return *this;
     }
 };
+//uint16_t outputStream::SelectMode=DEC;
 //#ifdef __cplusplus
 //}
 //#endif

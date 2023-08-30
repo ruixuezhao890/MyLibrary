@@ -117,9 +117,9 @@ double inputStream::scanFloat() {
 }
 
 int inputStream::getc() {
-    if (available()<=0){
-        return -1;
-    }
+//    if (available()<=0){
+//        return -1;
+//    }
     return read();
 }
 
@@ -210,4 +210,53 @@ int inputStream::scan(double &in) {
 int inputStream::scan(float &in) {
     in = scanFloat();
     return (int)in;
+}
+
+int inputStream::scan(int & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(uint16_t & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(uint32_t & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(unsigned int & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(long long int & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(unsigned long long int & in, int base) {
+    CMDFlag=1;
+    in=read();
+    CMDFlag=0;
+    return 1;
+}
+
+int inputStream::scan(uint8_t &in, int base) {
+    CMDFlag=2;
+    in=read();
+    CMDFlag=0;
+    return 1;
 }

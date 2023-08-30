@@ -16,47 +16,19 @@
 #define MY_LIBARARY_MYSPI_H
 #include "main.h"
 #include "MyGPIO.h"
+#include "tim.h"
+#ifdef HAL_SPI_ERROR_NONE
 #include "stm32f4xx_hal_spi.h"
 # include "spi.h"
-#define SPI_SPEED_2         0
-#define SPI_SPEED_4         1
-#define SPI_SPEED_8         2
-#define SPI_SPEED_16        3
-#define SPI_SPEED_32        4
-#define SPI_SPEED_64        5
-#define SPI_SPEED_128       6
-#define SPI_SPEED_256       7
-#define SPI1_SCK_GPIO_PORT              GPIOB
-#define SPI1_SCK_GPIO_PIN               GPIO_PIN_3
-#define SPI1_SCK_GPIO_CLK_ENABLE()      do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
+#endif
 
-#define SPI1_MISO_GPIO_PORT             GPIOB
-#define SPI1_MISO_GPIO_PIN              GPIO_PIN_4
-#define SPI1_MISO_GPIO_CLK_ENABLE()     do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
-
-#define SPI1_MOSI_GPIO_PORT             GPIOB
-#define SPI1_MOSI_GPIO_PIN              GPIO_PIN_5
-#define SPI1_MOSI_GPIO_CLK_ENABLE()     do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
-//#define SPI2_SCK_GPIO_PORT              GPIOB
-//#define SPI2_SCK_GPIO_PIN               GPIO_PIN_3
-//#define SPI2_SCK_GPIO_CLK_ENABLE()      do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
-//
-//#define SPI2_MISO_GPIO_PORT             GPIOB
-//#define SPI2_MISO_GPIO_PIN              GPIO_PIN_4
-//#define SPI2_MISO_GPIO_CLK_ENABLE()     do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
-//
-//#define SPI2_MOSI_GPIO_PORT             GPIOB
-//#define SPI2_MOSI_GPIO_PIN              GPIO_PIN_5
-//#define SPI2_MOSI_GPIO_CLK_ENABLE()     do{ __HAL_RCC_GPIOB_CLK_ENABLE(); }while(0)   /* PB口时钟使能 */
-enum spi{
-    HardwareSpi1=1,
-    HardwareSpi2,
-    HardwareSpi3,
-};
-struct ALLSPIBase{
-    SPI_TypeDef *SPI_1=SPI1;
-    SPI_TypeDef *SPI_2=SPI2;
-    SPI_TypeDef *SPI_3=SPI3;
+#include "outputStream.h"
+#include "inputStream.h"
+enum SoftMode{
+    SPIMode0=0,
+    SPIMode1,
+    SPIMode2,
+    SPIMode3,
 };
 typedef enum ModeSelect{
     HardwareSPI=0,
@@ -64,23 +36,42 @@ typedef enum ModeSelect{
 }modeSelect;
 using namespace stm32f407;
 namespace stm32f407 {
-    class MySPI {
+    class MySPI :public outputStream,public inputStream{
     public:
         MySPI();
-        MySPI(spi SPISelect,GPIO *CS);
+#ifdef HAL_SPI_ERROR_NONE
+        MySPI(SPI_HandleTypeDef* SPISelect,GPIO *CS);
+#endif
         MySPI(GPIO* CS,GPIO* SCK,GPIO * MISO ,GPIO * MOSI);
-        void SPIInit();
-        void GPIOInit();
-        void SPISpeedSet(uint8_t speed);
+        void SoftSPIModeSet(SoftMode Set);
+        SoftMode GetSoftSPIMode();
+        void SoftSPISpeedSet(uint16_t set=1);
+        void SoftSPIInit();
+        void SoftGPIOInit();
+        uint8_t SoftSPIWR(uint8_t SendData);
+
+#ifdef HAL_SPI_ERROR_NONE
         uint8_t SPIWriteRead(uint8_t SendData);
+#endif
+        virtual size_t write(uint8_t);
+        virtual size_t write(const uint8_t *, size_t);
+        virtual int read();
+        void SetCS(uint8_t set);
         ~MySPI();
 
     private:
+        void SPIDelay();
+        uint8_t SoftSPIMode0WR(uint8_t SendData);
+        uint8_t SoftSPIMode1WR(uint8_t SendData);
+        uint8_t SoftSPIMode2WR(uint8_t SendData);
+        uint8_t SoftSPIMode3WR(uint8_t SendData);
+        uint16_t SoftSPISPEED;
+        SoftMode SoftSPIMode;
         GPIO *CS;GPIO* SCK;GPIO * MISO ;GPIO * MOSI;
         modeSelect Mode;
-        ALLSPIBase GetBase;
-        SPI_TypeDef * NowSPIBase;
-        SPI_HandleTypeDef g_spi_handler;
+#ifdef HAL_SPI_ERROR_NONE
+        SPI_HandleTypeDef* g_spi_handler;
+#endif
         GPIO_InitTypeDef gpio_init_struct;
 
 

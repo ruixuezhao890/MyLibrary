@@ -70,4 +70,5 @@ CMakeFiles/my_libarary.elf.dir/BSP/touch/touch.c.obj: \
  D:\myLib\my_libarary\BSP\touch\gt9xxx.h \
  D:\myLib\my_libarary\BSP\touch\ft5206.h D:\myLib\my_libarary\BSP/delay.h \
  D:\myLib\my_libarary\BSP/sys.h D:\myLib\my_libarary\Core\Inc/tim.h \
- D:\myLib\my_libarary\Core\Inc/main.h
+ D:\myLib\my_libarary\Core\Inc/main.h \
+ D:\myLib\my_libarary\BSP\touch\24cxx.h
