@@ -250,7 +250,7 @@
 				112,
 				113,
 				114,
-				126
+				127
 			]
 		},
 		{
@@ -386,7 +386,8 @@
 				121,
 				122,
 				123,
-				124
+				124,
+				125
 			]
 		},
 		{
@@ -621,7 +622,8 @@
 				122,
 				123,
 				124,
-				126
+				125,
+				127
 			]
 		},
 		{
@@ -700,8 +702,8 @@
 				92,
 				93,
 				94,
-				125,
-				127
+				126,
+				128
 			]
 		},
 		{
@@ -712,7 +714,7 @@
 				40,
 				62,
 				95,
-				128
+				129
 			]
 		}
 	],
@@ -1342,12 +1344,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "MyApplication/Src/MyLCD.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 1,
 			"path" : "MyApplication/Src/OLED.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -1361,6 +1357,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
 			"path" : "MyLibrary/Src/MyIIc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "MyLibrary/Src/MyKey.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "MyLibrary/Src/MyLCD.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

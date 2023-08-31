@@ -1096,30 +1096,6 @@ MyApplication/Src/Flash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.s
 .PHONY : MyApplication/Src/Flash.cpp.s
 
-MyApplication/Src/MyLCD.obj: MyApplication/Src/MyLCD.cpp.obj
-.PHONY : MyApplication/Src/MyLCD.obj
-
-# target to build an object file
-MyApplication/Src/MyLCD.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/MyLCD.cpp.obj
-.PHONY : MyApplication/Src/MyLCD.cpp.obj
-
-MyApplication/Src/MyLCD.i: MyApplication/Src/MyLCD.cpp.i
-.PHONY : MyApplication/Src/MyLCD.i
-
-# target to preprocess a source file
-MyApplication/Src/MyLCD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/MyLCD.cpp.i
-.PHONY : MyApplication/Src/MyLCD.cpp.i
-
-MyApplication/Src/MyLCD.s: MyApplication/Src/MyLCD.cpp.s
-.PHONY : MyApplication/Src/MyLCD.s
-
-# target to generate assembly for a file
-MyApplication/Src/MyLCD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/MyLCD.cpp.s
-.PHONY : MyApplication/Src/MyLCD.cpp.s
-
 MyApplication/Src/OLED.obj: MyApplication/Src/OLED.cpp.obj
 .PHONY : MyApplication/Src/OLED.obj
 
@@ -1191,6 +1167,54 @@ MyLibrary/Src/MyIIc.s: MyLibrary/Src/MyIIc.cpp.s
 MyLibrary/Src/MyIIc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.s
 .PHONY : MyLibrary/Src/MyIIc.cpp.s
+
+MyLibrary/Src/MyKey.obj: MyLibrary/Src/MyKey.cpp.obj
+.PHONY : MyLibrary/Src/MyKey.obj
+
+# target to build an object file
+MyLibrary/Src/MyKey.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj
+.PHONY : MyLibrary/Src/MyKey.cpp.obj
+
+MyLibrary/Src/MyKey.i: MyLibrary/Src/MyKey.cpp.i
+.PHONY : MyLibrary/Src/MyKey.i
+
+# target to preprocess a source file
+MyLibrary/Src/MyKey.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.i
+.PHONY : MyLibrary/Src/MyKey.cpp.i
+
+MyLibrary/Src/MyKey.s: MyLibrary/Src/MyKey.cpp.s
+.PHONY : MyLibrary/Src/MyKey.s
+
+# target to generate assembly for a file
+MyLibrary/Src/MyKey.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.s
+.PHONY : MyLibrary/Src/MyKey.cpp.s
+
+MyLibrary/Src/MyLCD.obj: MyLibrary/Src/MyLCD.cpp.obj
+.PHONY : MyLibrary/Src/MyLCD.obj
+
+# target to build an object file
+MyLibrary/Src/MyLCD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj
+.PHONY : MyLibrary/Src/MyLCD.cpp.obj
+
+MyLibrary/Src/MyLCD.i: MyLibrary/Src/MyLCD.cpp.i
+.PHONY : MyLibrary/Src/MyLCD.i
+
+# target to preprocess a source file
+MyLibrary/Src/MyLCD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.i
+.PHONY : MyLibrary/Src/MyLCD.cpp.i
+
+MyLibrary/Src/MyLCD.s: MyLibrary/Src/MyLCD.cpp.s
+.PHONY : MyLibrary/Src/MyLCD.s
+
+# target to generate assembly for a file
+MyLibrary/Src/MyLCD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.s
+.PHONY : MyLibrary/Src/MyLCD.cpp.s
 
 MyLibrary/Src/MySPI.obj: MyLibrary/Src/MySPI.cpp.obj
 .PHONY : MyLibrary/Src/MySPI.obj
@@ -1466,9 +1490,6 @@ help:
 	@echo ... MyApplication/Src/Flash.obj
 	@echo ... MyApplication/Src/Flash.i
 	@echo ... MyApplication/Src/Flash.s
-	@echo ... MyApplication/Src/MyLCD.obj
-	@echo ... MyApplication/Src/MyLCD.i
-	@echo ... MyApplication/Src/MyLCD.s
 	@echo ... MyApplication/Src/OLED.obj
 	@echo ... MyApplication/Src/OLED.i
 	@echo ... MyApplication/Src/OLED.s
@@ -1478,6 +1499,12 @@ help:
 	@echo ... MyLibrary/Src/MyIIc.obj
 	@echo ... MyLibrary/Src/MyIIc.i
 	@echo ... MyLibrary/Src/MyIIc.s
+	@echo ... MyLibrary/Src/MyKey.obj
+	@echo ... MyLibrary/Src/MyKey.i
+	@echo ... MyLibrary/Src/MyKey.s
+	@echo ... MyLibrary/Src/MyLCD.obj
+	@echo ... MyLibrary/Src/MyLCD.i
+	@echo ... MyLibrary/Src/MyLCD.s
 	@echo ... MyLibrary/Src/MySPI.obj
 	@echo ... MyLibrary/Src/MySPI.i
 	@echo ... MyLibrary/Src/MySPI.s

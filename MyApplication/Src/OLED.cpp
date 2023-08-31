@@ -63,6 +63,9 @@ OLED::OLED(GPIO *CS, GPIO *RST, GPIO *RS, GPIO *SCLK, GPIO *SDIN, GPIO *WR, GPIO
 
 OLED::OLED(GPIO *CS, GPIO *D0,GPIO * RS,GPIO* RST,GPIO* D1) : MySPI(CS, D0,NULL,D1) {
     MODE=MODESPI;
+    SCLK=D0;
+    this->SDIN=D1;
+    this->CS=CS;
     this->RS=RS;
     this->RST=RST;
     SoftSPIModeSet(SPIMode3);
@@ -106,20 +109,20 @@ void OLED::oledSPIWRByte(uint8_t data, uint8_t cmd) {
 //    uint8_t i;
     cmd?RS->High():RS->Low();
     CS->Low();
-//    uint8_t i;
-//    cmd?RS->High():RS->Low();
-//    CS->Low();
-//    for (i = 0; i < 8;i++) {
-//        SCLK->Low();
-//        (data&0x80)?SDIN->High():SDIN->Low();
-//        SCLK->High();
-//        data<<=1;
-//    }
-//    CS->High();
-//    RS->High();
-    SoftSPIWR(data);
+    uint8_t i;
+    cmd?RS->High():RS->Low();
+    CS->Low();
+    for (i = 0; i < 8;i++) {
+        SCLK->Low();
+        (data&0x80)?SDIN->High():SDIN->Low();
+        SCLK->High();
+        data<<=1;
+    }
     CS->High();
     RS->High();
+  //  SoftSPIWR(data);
+//    CS->High();
+//    RS->High();
 }
 
 void OLED::oledIICWRByte(uint8_t data, uint8_t cmd) {
@@ -153,7 +156,7 @@ void OLED::Dataout8080(uint8_t data) {
     GPIOE->ODR |= ((data >> 6) & 0x01) << 5;
     GPIOE->ODR |= ((data >> 7) & 0x01) << 6;
 }
-
+MyUsart myoledUsart(&huart1);
 void OLED::oledInit() {
 //    OLED_CS(1);
 //    OLED_RS(1);
@@ -166,12 +169,15 @@ void OLED::oledInit() {
     RST->Low();
     HAL_Delay(1000);
     RST->High();
+    myoledUsart<<"1"<<endl;
     oledWRByte(0xAE, OLED_CMD);   /* 关闭显示 */
+
     oledWRByte(0xD5, OLED_CMD);   /* 设置时钟分频因子,震荡频率 */
+
     oledWRByte(80, OLED_CMD);     /* [3:0],分频因子;[7:4],震荡频率 */
     oledWRByte(0xA8, OLED_CMD);   /* 设置驱动路数 */
     oledWRByte(0X3F, OLED_CMD);   /* 默认0X3F(1/64) */
-    oledWRByte(0xD3, OLED_CMD);   /* 设置显示偏移 */
+    oledWRByte(0xD3, OLED_CMD);   /* 设置显示偏移 */  myoledUsart<<"2"<<endl;
     oledWRByte(0X00, OLED_CMD);   /* 默认为0 */
 
     oledWRByte(0x40, OLED_CMD);   /* 设置显示开始行 [5:0],行数. */
@@ -184,18 +190,19 @@ void OLED::oledInit() {
     oledWRByte(0xC8, OLED_CMD);   /* 设置COM扫描方向;bit3:0,普通模式;1,重定义模式 COM[N-1]->COM0;N:驱动路数 */
     oledWRByte(0xDA, OLED_CMD);   /* 设置COM硬件引脚配置 */
     oledWRByte(0x12, OLED_CMD);   /* [5:4]配置 */
-
+    myoledUsart<<"3"<<endl;
     oledWRByte(0x81, OLED_CMD);   /* 对比度设置 */
     oledWRByte(0xEF, OLED_CMD);   /* 1~255;默认0X7F (亮度设置,越大越亮) */
     oledWRByte(0xD9, OLED_CMD);   /* 设置预充电周期 */
     oledWRByte(0xf1, OLED_CMD);   /* [3:0],PHASE 1;[7:4],PHASE 2; */
     oledWRByte(0xDB, OLED_CMD);   /* 设置VCOMH 电压倍率 */
     oledWRByte(0x30, OLED_CMD);   /* [6:4] 000,0.65*vcc;001,0.77*vcc;011,0.83*vcc; */
-
+    myoledUsart<<4<<endl;
     oledWRByte(0xA4, OLED_CMD);   /* 全局显示开启;bit0:1,开启;0,关闭;(白屏/黑屏) */
     oledWRByte(0xA6, OLED_CMD);   /* 设置显示方式;bit0:1,反相显示;0,正常显示 */
     oledWRByte(0xAF, OLED_CMD);   /* 开启显示 */
     oled_clear();
+    myoledUsart<<5<<endl;
 }
 
 void OLED::oled_clear(void) {

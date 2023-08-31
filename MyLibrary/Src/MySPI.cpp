@@ -194,35 +194,15 @@ uint8_t MySPI::SoftSPIMode0WR(uint8_t SendData) {
         if (SendData&0x80)MOSI->High();
         else MOSI->Low();
         SendData<<=1;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
         SCK->High();
         temp<<=1;
         if (MISO->IsHigh()) temp++;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
         SCK->Low();
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
     }
     return temp;
-//    uint8_t i, read_dat;
-//    for( i = 0; i < 8; i++ )
-//    {
-//        if( SendData & 0x80 )
-//            MOSI->High();
-//        else
-//            MOSI->Low();
-//        SendData <<= 1;
-//        HAL_Delay_us(1);
-//        SCK->High();
-//        read_dat <<= 1;
-//        if( MISO )
-//            read_dat++;
-//        HAL_Delay_us(1);
-//        SCK->Low();
-//        HAL_Delay_us(1);
-//    }
-//
-//    return read_dat;
-
 }
 //CPOL=0;CPHA=1
 uint8_t MySPI::SoftSPIMode1WR(uint8_t SendData) {
@@ -232,11 +212,11 @@ uint8_t MySPI::SoftSPIMode1WR(uint8_t SendData) {
         if (SendData&0x80)MOSI->High();
         else MOSI->Low();
         SendData<<=1;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
         SCK->Low();
         temp<<=1;
         if (MISO->IsHigh()) temp++;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
     }
     return temp;
 }
@@ -247,13 +227,13 @@ uint8_t MySPI::SoftSPIMode2WR(uint8_t SendData) {
         if (SendData&0x80)MOSI->High();
         else MOSI->Low();
         SendData<<=1;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
         SCK->Low();
         temp<<=1;
         if (MISO->IsHigh()) temp++;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
         SCK->High();
-//        HAL_Delay_us(1);
+        HAL_Delay_us(SPISPEED);
     }
     return temp;
 }
@@ -262,15 +242,19 @@ uint8_t MySPI::SoftSPIMode3WR(uint8_t SendData) {
     uint8_t i,temp=0;
     for (i = 0; i < 8; ++i) {
         SCK->Low();
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
+//        SPIDelay();
          (SendData&0x80)?MOSI->High():MOSI->Low();
         SendData<<=1;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
+//       SPIDelay();
         SCK->High();
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
+//        SPIDelay();
         temp<<=1;
         if (MISO->IsHigh()) temp++;
-        SPIDelay();
+        HAL_Delay_us(SPISPEED);
+       // SPIDelay();
     }
     //SCK->High();
     return temp;
@@ -284,6 +268,12 @@ void MySPI::SPIDelay() {
     HAL_Delay_us(SoftSPISPEED);
 }
 
+void MySPI::SoftSPIW(uint8_t SendData) {
+    if (Mode==SPIMode0){
+
+    }
+}
+
 #ifdef HAL_SPI_ERROR_NONE
 uint8_t MySPI::SPIWriteRead(uint8_t SendData) {
     uint8_t rxdata;
@@ -292,12 +282,5 @@ uint8_t MySPI::SPIWriteRead(uint8_t SendData) {
 }
 #endif
 
-//void MySPI::SPISpeedSet(uint8_t speed) {
-//
-//    assert_param(IS_SPI_BAUDRATE_PRESCALER(speed)); /* 判断有效性 */
-//    __HAL_SPI_DISABLE(&g_spi_handler);             /* 关闭SPI */
-//    g_spi_handler.Instance->CR1 &= 0XFFC7;         /* 位3-5清零，用来设置波特率 */
-//    g_spi_handler.Instance->CR1 |= speed << 3;     /* 设置SPI速度 */
-//    __HAL_SPI_ENABLE(&g_spi_handler);              /* 使能SPI */
-//}
+
 

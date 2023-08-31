@@ -83,6 +83,7 @@ void GPIO::Initialize(PORT_INDEX p_periph, GPIO_TypeDef *p_port, uint16_t p_pins
         GPIO_InitStruct.Alternate=p_Alternate;
     }
     HAL_GPIO_Init(m_gpio.port,&GPIO_InitStruct);
+    High();
 }
 
 void GPIO::InitializeAF(uint32_t p_Alternate) {

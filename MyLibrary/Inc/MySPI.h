@@ -21,7 +21,7 @@
 #include "stm32f4xx_hal_spi.h"
 # include "spi.h"
 #endif
-
+#define SPISPEED 1
 #include "outputStream.h"
 #include "inputStream.h"
 enum SoftMode{
@@ -49,7 +49,8 @@ namespace stm32f407 {
         void SoftSPIInit();
         void SoftGPIOInit();
         uint8_t SoftSPIWR(uint8_t SendData);
-
+        void SoftSPIW(uint8_t SendData);
+        uint8_t SoftSPIR();
 #ifdef HAL_SPI_ERROR_NONE
         uint8_t SPIWriteRead(uint8_t SendData);
 #endif
@@ -61,6 +62,15 @@ namespace stm32f407 {
 
     private:
         void SPIDelay();
+        void SoftSPIW0(uint8_t SendData);
+        void SoftSPIW1(uint8_t SendData);
+        void SoftSPIW2(uint8_t SendData);
+        void SoftSPIW3(uint8_t SendData);
+
+        uint8_t SoftSPIR0();
+        uint8_t SoftSPIR1();
+        uint8_t SoftSPIR2();
+        uint8_t SoftSPIR3();
         uint8_t SoftSPIMode0WR(uint8_t SendData);
         uint8_t SoftSPIMode1WR(uint8_t SendData);
         uint8_t SoftSPIMode2WR(uint8_t SendData);

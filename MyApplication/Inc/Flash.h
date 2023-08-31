@@ -64,8 +64,8 @@ public:
     Flash(GPIO* CS,GPIO* SCK,GPIO * MISO ,GPIO * MOSI);
     void norflash_wait_busy(void);               /* 等待空闲 */
     void norflash_send_address(uint32_t address);/* 发送地址 */
-    void norflash_write_page(uint8_t *pbuf, uint32_t addr, uint16_t datalen);    /* 写入page */
-    void norflash_write_nocheck(uint8_t *pbuf, uint32_t addr, uint16_t datalen); /* 写flash,不带擦除 */
+    void norflash_write_page(char *pbuf, uint32_t addr, uint16_t datalen);    /* 写入page */
+    void norflash_write_nocheck(char *pbuf, uint32_t addr, uint16_t datalen); /* 写flash,不带擦除 */
     void norflash_init(void);                   /* 初始化25QXX */
     uint16_t norflash_read_id(void);            /* 读取FLASH ID */
     void norflash_write_enable(void);           /* 写使能 */
@@ -74,9 +74,10 @@ public:
 
     void norflash_erase_chip(void);             /* 整片擦除 */
     void norflash_erase_sector(uint32_t saddr); /* 扇区擦除 */
-    void norflash_read(uint8_t *pbuf, uint32_t addr, uint16_t datalen);     /* 读取flash */
-    void norflash_write(uint8_t *pbuf, uint32_t addr, uint16_t datalen);    /* 写入flash */
+    void norflash_read(char *pbuf, uint32_t addr, uint16_t datalen);     /* 读取flash */
+    void norflash_write(char *pbuf, uint32_t addr, uint16_t datalen);    /* 写入flash */
 private:
     uint16_t g_norflash_type = W25Q128;
+   char g_norflash_buf[4096];   /* 扇区缓存 */
 };
 #endif //MY_LIBARARY_FLASH_H

@@ -20,7 +20,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef7e5bc9-df2a-4e05-9f50-7380407fde24" name="更改" comment="" />
+    <list default="true" id="ef7e5bc9-df2a-4e05-9f50-7380407fde24" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectingBridge/Inc/ALLfile.h" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectingBridge/Inc/ALLfile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyApplication/Src/OLED.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyApplication/Src/OLED.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,10 +90,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myLib\my_libarary\MyApplication\Src" />
-      <recent name="D:\myLib\my_libarary\MyApplication\Inc" />
       <recent name="D:\myLib\my_libarary\MyLibrary\Src" />
       <recent name="D:\myLib\my_libarary\MyLibrary\Inc" />
+      <recent name="D:\myLib\my_libarary\MyLibrary" />
+      <recent name="D:\myLib\my_libarary\MyApplication\Src" />
+      <recent name="D:\myLib\my_libarary\MyApplication\Inc" />
     </key>
   </component>
   <component name="RtosSettings">
@@ -87,9 +102,9 @@
     <option name="rtosType" value="FreeRTOS" />
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD my_libarary">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="my_libarary.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="my_libarary" TARGET_NAME="my_libarary.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="my_libarary" RUN_TARGET_NAME="my_libarary.elf">
@@ -138,7 +153,10 @@
       <workItem from="1693052488603" duration="4994000" />
       <workItem from="1693230488666" duration="9667000" />
       <workItem from="1693271483092" duration="16392000" />
-      <workItem from="1693353865593" duration="5901000" />
+      <workItem from="1693353865593" duration="9092000" />
+      <workItem from="1693400896262" duration="611000" />
+      <workItem from="1693467528043" duration="16000" />
+      <workItem from="1693467552767" duration="10416000" />
     </task>
     <task id="LOCAL-00001" summary="增添GPIO可以设置硬件复用引脚的功能">
       <created>1692732846083</created>
@@ -154,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692931070672</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加oled">
+      <created>1693388825099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693388825099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,14 +211,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="增添GPIO可以设置硬件复用引脚的功能" />
     <MESSAGE value="代码再次初始化SPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码再次初始化SPI" />
+    <MESSAGE value="增加oled" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加oled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp</url>
-          <line>35</line>
+          <line>66</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -202,9 +228,14 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp</url>
-          <line>24</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/MyApplication/Src/OLED.cpp</url>
+          <line>71</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/MyApplication/Src/OLED.cpp</url>
+          <line>203</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

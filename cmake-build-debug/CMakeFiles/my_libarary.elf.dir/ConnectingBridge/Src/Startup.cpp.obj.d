@@ -87,4 +87,5 @@ CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj: \
  D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
  D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
  D:\myLib\my_libarary\MyLibrary\Inc/MySPI.h \
- D:\myLib\my_libarary\MyApplication\Inc/Flash.h
+ D:\myLib\my_libarary\MyApplication\Inc/Flash.h \
+ D:\myLib\my_libarary\MyApplication\Inc/OLED.h

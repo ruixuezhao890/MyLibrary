@@ -461,9 +461,6 @@
 		<Unit filename="D:/myLib/my_libarary/MyApplication/Src/Flash.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/MyApplication/Src/MyLCD.cpp">
-			<Option target="my_libarary.elf"/>
-		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyApplication/Src/OLED.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
@@ -471,6 +468,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyIIc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyKey.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyLCD.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MySPI.cpp">

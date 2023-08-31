@@ -2,25 +2,23 @@
 *********************************************************************
 *********
 * @project_name :my_libarary
-* @file : ALLfile.h
+* @file : MyKey.h
 * @author : zen3
 * @brief : None
 * @attention : None
-* @date : 2023/8/23 
+* @date : 2023/8/31 
 *********************************************************************
 *********
 */
 //
 
-#ifndef MY_LIBARARY_ALLFILE_H
-#define MY_LIBARARY_ALLFILE_H
+#ifndef MY_LIBARARY_MYKEY_H
+#define MY_LIBARARY_MYKEY_H
+#include "main.h"
 #include "MyGPIO.h"
-#include "MyUsart.h"
-#include "MyIIc.h"
-#include "MyLCD.h"
-#include "MySPI.h"
-#include "WString.h"
-#include "Flash.h"
-#include "OLED.h"
+class MyKey{
+private:
 
-#endif //MY_LIBARARY_ALLFILE_H
+public:
+};
+#endif //MY_LIBARARY_MYKEY_H
