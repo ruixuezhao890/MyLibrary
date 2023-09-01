@@ -24,7 +24,7 @@ extern "C"
 {
 #endif
 #include "main.h"
-
+#include "usart.h"
 #define RELENTH 256
 #define UART_RX_BUF_SIZE 256
 /*______________________类的声明在这下面________________:*/

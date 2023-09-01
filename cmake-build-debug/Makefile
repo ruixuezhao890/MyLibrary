@@ -1096,30 +1096,6 @@ MyApplication/Src/Flash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.s
 .PHONY : MyApplication/Src/Flash.cpp.s
 
-MyApplication/Src/OLED.obj: MyApplication/Src/OLED.cpp.obj
-.PHONY : MyApplication/Src/OLED.obj
-
-# target to build an object file
-MyApplication/Src/OLED.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj
-.PHONY : MyApplication/Src/OLED.cpp.obj
-
-MyApplication/Src/OLED.i: MyApplication/Src/OLED.cpp.i
-.PHONY : MyApplication/Src/OLED.i
-
-# target to preprocess a source file
-MyApplication/Src/OLED.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.i
-.PHONY : MyApplication/Src/OLED.cpp.i
-
-MyApplication/Src/OLED.s: MyApplication/Src/OLED.cpp.s
-.PHONY : MyApplication/Src/OLED.s
-
-# target to generate assembly for a file
-MyApplication/Src/OLED.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.s
-.PHONY : MyApplication/Src/OLED.cpp.s
-
 MyLibrary/Src/MyGPIO.obj: MyLibrary/Src/MyGPIO.cpp.obj
 .PHONY : MyLibrary/Src/MyGPIO.obj
 
@@ -1490,9 +1466,6 @@ help:
 	@echo ... MyApplication/Src/Flash.obj
 	@echo ... MyApplication/Src/Flash.i
 	@echo ... MyApplication/Src/Flash.s
-	@echo ... MyApplication/Src/OLED.obj
-	@echo ... MyApplication/Src/OLED.i
-	@echo ... MyApplication/Src/OLED.s
 	@echo ... MyLibrary/Src/MyGPIO.obj
 	@echo ... MyLibrary/Src/MyGPIO.i
 	@echo ... MyLibrary/Src/MyGPIO.s

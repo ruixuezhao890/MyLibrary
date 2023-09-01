@@ -21,6 +21,6 @@
 #include "MySPI.h"
 #include "WString.h"
 #include "Flash.h"
-#include "OLED.h"
-
+//#include "OLED.h"
+#include "MyKey.h"
 #endif //MY_LIBARARY_ALLFILE_H

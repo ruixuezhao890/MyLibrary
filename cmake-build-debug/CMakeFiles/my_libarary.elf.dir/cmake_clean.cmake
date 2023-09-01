@@ -80,8 +80,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj.d"
   "CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj"
   "CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj.d"
-  "CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj"
-  "CMakeFiles/my_libarary.elf.dir/MyApplication/Src/OLED.cpp.obj.d"
   "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj"
   "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj.d"
   "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj"

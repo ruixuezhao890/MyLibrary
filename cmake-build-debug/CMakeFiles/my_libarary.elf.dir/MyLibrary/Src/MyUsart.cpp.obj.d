@@ -84,4 +84,6 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h
+ D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
+ D:\myLib\my_libarary\Core\Inc/usart.h \
+ D:\myLib\my_libarary\Core\Inc/main.h

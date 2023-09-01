@@ -461,9 +461,6 @@
 		<Unit filename="D:/myLib/my_libarary/MyApplication/Src/Flash.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/MyApplication/Src/OLED.cpp">
-			<Option target="my_libarary.elf"/>
-		</Unit>
 		<Unit filename="D:/myLib/my_libarary/MyLibrary/Src/MyGPIO.cpp">
 			<Option target="my_libarary.elf"/>
 		</Unit>

@@ -17,13 +17,30 @@ using namespace stm32f407;
  char g_text_buf[] = {"STM32 SPI TEST"};
 #define TEXT_SIZE   sizeof(g_text_buf)
 MyUsart myUart(&huart1);
+    void PressDownHandle(){
+        myUart<<"button pressDown"<<endl;
+        myUart<<"test OK"<<endl;
+    }
+    void Pressrepet(){
+
+//        while (1){
+            myUart<<"repet"<<endl;
+//        }
+    }
+    void Longpress(){
+            myUart<<"Longpress"<<endl;
+    }
 void MyMain(){
     uint16_t id=0;
     uint32_t flashsize=0;
     char datatemp[TEXT_SIZE];
-
-
+    MyButton KEY1(PE,3,0);
+    KEY1.MyButtonTaskRegister(PRESS_DOWN,PressDownHandle);
+    KEY1.MyButtonTaskRegister(stm32f407::DOUBLE_CLICK,Pressrepet);
+    KEY1.MyButtonTaskRegister(stm32f407::LONG_PRESS_HOLD,Longpress);
+    KEY1.MyButtonEnable();
     GPIO LED1(PF,9);
+    LED1.Low();
     GPIO CS(PB,14);
     GPIO SCK(PB,3);
     GPIO MISO(PB,4,GPIO_MODE_INPUT);
@@ -44,6 +61,7 @@ void MyMain(){
    flashsize = 16 * 1024 * 1024;
 
     for (;;){
+
 //        if (Key1.IsLow()){
 //            HAL_Delay(100);
 //            myUart<<"start write"<<endl;
@@ -66,3 +84,6 @@ void MyMain(){
 void Interrupt_management(DMA_HandleTypeDef * hdma_usartx_rx){
     myUart.ReceiveDataCallBack(hdma_usartx_rx);
 }
+void KeyTimeBenchmark(){
+        buttonManage.buttonTick();
+    }

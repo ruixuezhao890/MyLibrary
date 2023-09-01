@@ -25,6 +25,7 @@ extern "C"
 void Step();
 void MyMain();
 void Interrupt_management(DMA_HandleTypeDef * hdma_usartx_rx);
+void KeyTimeBenchmark();
 #ifdef __cplusplus
 }
 #endif
