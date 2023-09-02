@@ -21,7 +21,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7e5bc9-df2a-4e05-9f50-7380407fde24" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/LVGL/lv_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LVGL/lvgl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectingBridge/Inc/ALLfile.h" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectingBridge/Inc/ALLfile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7c9aab4849a6009622bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-01T06-41-25-0505.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-my_libarary.elf-Debug-7aebf88b4f085d4a4f82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/ConnectingBridge/Src/Startup.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/Core/Src/stm32f4xx_it.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/Core/Src/stm32f4xx_it.c.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/my_libarary.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/my_libarary.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/my_libarary.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +175,10 @@
       <workItem from="1693400896262" duration="611000" />
       <workItem from="1693467528043" duration="16000" />
       <workItem from="1693467552767" duration="11107000" />
-      <workItem from="1693537922490" duration="25347000" />
+      <workItem from="1693537922490" duration="27239000" />
+      <workItem from="1693616995178" duration="467000" />
+      <workItem from="1693617738926" duration="126000" />
+      <workItem from="1693617921146" duration="10577000" />
     </task>
     <task id="LOCAL-00001" summary="增添GPIO可以设置硬件复用引脚的功能">
       <created>1692732846083</created>
@@ -175,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693488503120</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加增加key">
+      <created>1693574787475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693574787475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,12 +256,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp</url>
-          <line>84</line>
+          <line>92</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/stm32f4xx_it.c</url>
-          <line>211</line>
+          <line>215</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

@@ -627,10 +627,1774 @@ CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LCD\lcd.c -o CMakeFiles\my_libarary.elf.dir\LCD\lcd.c.s
 
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj: ../LVGL/examples/porting/lv_port_disp.c
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_disp.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_disp.c.obj -c D:\myLib\my_libarary\LVGL\examples\porting\lv_port_disp.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\examples\porting\lv_port_disp.c > CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_disp.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\examples\porting\lv_port_disp.c -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_disp.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj: ../LVGL/examples/porting/lv_port_fs.c
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_fs.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_fs.c.obj -c D:\myLib\my_libarary\LVGL\examples\porting\lv_port_fs.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\examples\porting\lv_port_fs.c > CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_fs.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\examples\porting\lv_port_fs.c -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_fs.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj: ../LVGL/examples/porting/lv_port_indev.c
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_indev.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_indev.c.obj -c D:\myLib\my_libarary\LVGL\examples\porting\lv_port_indev.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\examples\porting\lv_port_indev.c > CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_indev.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\examples\porting\lv_port_indev.c -o CMakeFiles\my_libarary.elf.dir\LVGL\examples\porting\lv_port_indev.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj: ../LVGL/src/core/lv_disp.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_disp.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_disp.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_disp.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_disp.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_disp.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_disp.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_disp.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj: ../LVGL/src/core/lv_event.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_event.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_event.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_event.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_event.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_event.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_event.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_event.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj: ../LVGL/src/core/lv_group.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_group.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_group.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_group.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_group.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_group.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_group.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_group.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj: ../LVGL/src/core/lv_indev.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_indev.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_indev.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_indev.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj: ../LVGL/src/core/lv_indev_scroll.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev_scroll.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev_scroll.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_indev_scroll.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_indev_scroll.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev_scroll.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_indev_scroll.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_indev_scroll.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj: ../LVGL/src/core/lv_obj.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj: ../LVGL/src/core/lv_obj_class.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_class.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_class.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_class.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_class.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_class.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_class.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_class.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj: ../LVGL/src/core/lv_obj_draw.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_draw.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_draw.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_draw.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_draw.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_draw.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_draw.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_draw.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj: ../LVGL/src/core/lv_obj_pos.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_pos.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_pos.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_pos.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_pos.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_pos.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_pos.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_pos.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj: ../LVGL/src/core/lv_obj_scroll.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_scroll.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_scroll.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_scroll.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_scroll.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_scroll.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_scroll.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_scroll.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj: ../LVGL/src/core/lv_obj_style.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_style.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_style.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_style.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj: ../LVGL/src/core/lv_obj_style_gen.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style_gen.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style_gen.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_style_gen.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_style_gen.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style_gen.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_style_gen.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_style_gen.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj: ../LVGL/src/core/lv_obj_tree.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_tree.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_tree.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_obj_tree.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_obj_tree.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_tree.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_obj_tree.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_obj_tree.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj: ../LVGL/src/core/lv_refr.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_refr.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_refr.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_refr.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_refr.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_refr.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_refr.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_refr.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj: ../LVGL/src/core/lv_theme.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_theme.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_theme.c.obj -c D:\myLib\my_libarary\LVGL\src\core\lv_theme.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\core\lv_theme.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_theme.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\core\lv_theme.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\core\lv_theme.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj: ../LVGL/src/draw/lv_draw_arc.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_arc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_arc.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_arc.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_arc.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_arc.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_arc.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_arc.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj: ../LVGL/src/draw/lv_draw_blend.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_blend.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_blend.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_blend.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_blend.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_blend.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_blend.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_blend.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj: ../LVGL/src/draw/lv_draw_img.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_img.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_img.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_img.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_img.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_img.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_img.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_img.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj: ../LVGL/src/draw/lv_draw_label.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_label.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_label.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_label.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_label.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_label.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_label.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_label.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj: ../LVGL/src/draw/lv_draw_line.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_line.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_line.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_line.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_line.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_line.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_line.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_line.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj: ../LVGL/src/draw/lv_draw_mask.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_mask.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_mask.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_mask.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_mask.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_mask.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_mask.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_mask.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj: ../LVGL/src/draw/lv_draw_rect.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_rect.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_rect.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_rect.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_rect.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_rect.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_rect.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_rect.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj: ../LVGL/src/draw/lv_draw_triangle.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_triangle.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_triangle.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_draw_triangle.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_draw_triangle.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_triangle.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_draw_triangle.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_draw_triangle.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj: ../LVGL/src/draw/lv_img_buf.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_buf.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_buf.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_img_buf.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_img_buf.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_buf.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_img_buf.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_buf.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj: ../LVGL/src/draw/lv_img_cache.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_cache.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_cache.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_img_cache.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_img_cache.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_cache.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_img_cache.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_cache.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj: ../LVGL/src/draw/lv_img_decoder.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_decoder.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_decoder.c.obj -c D:\myLib\my_libarary\LVGL\src\draw\lv_img_decoder.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\draw\lv_img_decoder.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_decoder.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\draw\lv_img_decoder.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\draw\lv_img_decoder.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: ../LVGL/src/extra/layouts/flex/lv_flex.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\flex\lv_flex.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\flex\lv_flex.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\layouts\flex\lv_flex.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\layouts\flex\lv_flex.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\flex\lv_flex.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\layouts\flex\lv_flex.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\flex\lv_flex.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: ../LVGL/src/extra/layouts/grid/lv_grid.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\grid\lv_grid.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\grid\lv_grid.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\layouts\grid\lv_grid.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\layouts\grid\lv_grid.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\grid\lv_grid.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\layouts\grid\lv_grid.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\layouts\grid\lv_grid.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj: ../LVGL/src/extra/lv_extra.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\lv_extra.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\lv_extra.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\lv_extra.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\lv_extra.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\lv_extra.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\lv_extra.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\lv_extra.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: ../LVGL/src/extra/themes/basic/lv_theme_basic.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\basic\lv_theme_basic.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\themes\basic\lv_theme_basic.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\themes\basic\lv_theme_basic.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\basic\lv_theme_basic.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\themes\basic\lv_theme_basic.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\basic\lv_theme_basic.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: ../LVGL/src/extra/themes/default/lv_theme_default.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\default\lv_theme_default.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\default\lv_theme_default.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\themes\default\lv_theme_default.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\themes\default\lv_theme_default.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\default\lv_theme_default.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\themes\default\lv_theme_default.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\default\lv_theme_default.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: ../LVGL/src/extra/themes/mono/lv_theme_mono.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\mono\lv_theme_mono.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\themes\mono\lv_theme_mono.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\themes\mono\lv_theme_mono.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\mono\lv_theme_mono.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\themes\mono\lv_theme_mono.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\themes\mono\lv_theme_mono.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: ../LVGL/src/extra/widgets/animimg/lv_animimg.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\animimg\lv_animimg.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\animimg\lv_animimg.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\animimg\lv_animimg.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\animimg\lv_animimg.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\animimg\lv_animimg.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\animimg\lv_animimg.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_arrow.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: ../LVGL/src/extra/widgets/chart/lv_chart.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\chart\lv_chart.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\chart\lv_chart.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\chart\lv_chart.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\chart\lv_chart.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\chart\lv_chart.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\chart\lv_chart.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\chart\lv_chart.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: ../LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\colorwheel\lv_colorwheel.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: ../LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\imgbtn\lv_imgbtn.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: ../LVGL/src/extra/widgets/keyboard/lv_keyboard.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\keyboard\lv_keyboard.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\keyboard\lv_keyboard.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\keyboard\lv_keyboard.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\keyboard\lv_keyboard.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: ../LVGL/src/extra/widgets/led/lv_led.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\led\lv_led.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\led\lv_led.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\led\lv_led.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\led\lv_led.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\led\lv_led.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\led\lv_led.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\led\lv_led.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: ../LVGL/src/extra/widgets/list/lv_list.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\list\lv_list.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\list\lv_list.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\list\lv_list.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\list\lv_list.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\list\lv_list.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\list\lv_list.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\list\lv_list.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: ../LVGL/src/extra/widgets/meter/lv_meter.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\meter\lv_meter.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\meter\lv_meter.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\meter\lv_meter.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\meter\lv_meter.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\meter\lv_meter.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\meter\lv_meter.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\meter\lv_meter.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: ../LVGL/src/extra/widgets/msgbox/lv_msgbox.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\msgbox\lv_msgbox.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\msgbox\lv_msgbox.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\msgbox\lv_msgbox.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\msgbox\lv_msgbox.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: ../LVGL/src/extra/widgets/span/lv_span.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\span\lv_span.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\span\lv_span.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\span\lv_span.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\span\lv_span.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\span\lv_span.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\span\lv_span.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\span\lv_span.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: ../LVGL/src/extra/widgets/spinbox/lv_spinbox.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\spinbox\lv_spinbox.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\spinbox\lv_spinbox.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\spinbox\lv_spinbox.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinbox\lv_spinbox.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: ../LVGL/src/extra/widgets/spinner/lv_spinner.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinner\lv_spinner.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\spinner\lv_spinner.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\spinner\lv_spinner.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinner\lv_spinner.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\spinner\lv_spinner.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\spinner\lv_spinner.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: ../LVGL/src/extra/widgets/tabview/lv_tabview.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tabview\lv_tabview.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\tabview\lv_tabview.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\tabview\lv_tabview.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tabview\lv_tabview.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\tabview\lv_tabview.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tabview\lv_tabview.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: ../LVGL/src/extra/widgets/tileview/lv_tileview.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tileview\lv_tileview.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\tileview\lv_tileview.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\tileview\lv_tileview.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tileview\lv_tileview.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\tileview\lv_tileview.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\tileview\lv_tileview.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: ../LVGL/src/extra/widgets/win/lv_win.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\win\lv_win.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\win\lv_win.c.obj -c D:\myLib\my_libarary\LVGL\src\extra\widgets\win\lv_win.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\extra\widgets\win\lv_win.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\win\lv_win.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\extra\widgets\win\lv_win.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\extra\widgets\win\lv_win.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj: ../LVGL/src/font/lv_font.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: ../LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_dejavu_16_persian_hebrew.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: ../LVGL/src/font/lv_font_fmt_txt.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_fmt_txt.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_fmt_txt.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_fmt_txt.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_fmt_txt.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_fmt_txt.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_fmt_txt.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj: ../LVGL/src/font/lv_font_loader.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_loader.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_loader.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_loader.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_loader.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_loader.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_loader.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_loader.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: ../LVGL/src/font/lv_font_montserrat_10.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_10.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_10.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_10.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_10.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_10.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_10.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: ../LVGL/src/font/lv_font_montserrat_12.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: ../LVGL/src/font/lv_font_montserrat_12_subpx.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12_subpx.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12_subpx.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12_subpx.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12_subpx.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_12_subpx.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_12_subpx.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: ../LVGL/src/font/lv_font_montserrat_14.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_14.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_14.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_14.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_14.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_14.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_14.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: ../LVGL/src/font/lv_font_montserrat_16.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_16.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_16.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_16.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_16.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_16.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_16.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: ../LVGL/src/font/lv_font_montserrat_18.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_18.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_18.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_18.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_18.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_18.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_18.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: ../LVGL/src/font/lv_font_montserrat_20.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_20.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_20.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_20.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_20.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_20.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_20.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: ../LVGL/src/font/lv_font_montserrat_22.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_22.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_22.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_22.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_22.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_22.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_22.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: ../LVGL/src/font/lv_font_montserrat_24.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_24.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_24.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_24.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_24.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_24.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_24.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: ../LVGL/src/font/lv_font_montserrat_26.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_26.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_26.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_26.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_26.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_26.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_26.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: ../LVGL/src/font/lv_font_montserrat_28.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: ../LVGL/src/font/lv_font_montserrat_28_compressed.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28_compressed.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28_compressed.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28_compressed.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28_compressed.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_28_compressed.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_28_compressed.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: ../LVGL/src/font/lv_font_montserrat_30.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_30.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_30.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_30.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_30.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_30.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_30.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: ../LVGL/src/font/lv_font_montserrat_32.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_32.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_32.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_32.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_32.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_32.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_32.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: ../LVGL/src/font/lv_font_montserrat_34.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_34.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_34.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_34.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_34.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_34.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_34.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: ../LVGL/src/font/lv_font_montserrat_36.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_36.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_36.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_36.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_36.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_36.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_36.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: ../LVGL/src/font/lv_font_montserrat_38.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_38.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_38.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_38.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_38.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_38.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_38.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: ../LVGL/src/font/lv_font_montserrat_40.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_40.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_40.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_40.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_40.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_40.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_40.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: ../LVGL/src/font/lv_font_montserrat_42.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_42.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_42.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_42.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_42.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_42.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_42.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: ../LVGL/src/font/lv_font_montserrat_44.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_44.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_44.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_44.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_44.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_44.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_44.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: ../LVGL/src/font/lv_font_montserrat_46.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_46.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_46.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_46.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_46.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_46.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_46.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: ../LVGL/src/font/lv_font_montserrat_48.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_48.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_48.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_48.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_48.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_48.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_48.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: ../LVGL/src/font/lv_font_montserrat_8.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_8.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_8.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_8.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_8.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_montserrat_8.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_montserrat_8.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: ../LVGL/src/font/lv_font_simsun_16_cjk.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_simsun_16_cjk.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_simsun_16_cjk.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_simsun_16_cjk.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_simsun_16_cjk.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_simsun_16_cjk.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_simsun_16_cjk.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj: ../LVGL/src/font/lv_font_unscii_16.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_16.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_16.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_16.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_16.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_16.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_16.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_16.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj: ../LVGL/src/font/lv_font_unscii_8.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_8.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_8.c.obj -c D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_8.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_8.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_8.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\font\lv_font_unscii_8.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\font\lv_font_unscii_8.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj: ../LVGL/src/gpu/lv_gpu_nxp_pxp.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp.c.obj -c D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj: ../LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c.obj -c D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_pxp_osa.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj: ../LVGL/src/gpu/lv_gpu_nxp_vglite.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_vglite.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_vglite.c.obj -c D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_vglite.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_vglite.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_vglite.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_nxp_vglite.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_nxp_vglite.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj: ../LVGL/src/gpu/lv_gpu_stm32_dma2d.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_stm32_dma2d.c.obj -c D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_stm32_dma2d.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_stm32_dma2d.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_stm32_dma2d.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\gpu\lv_gpu_stm32_dma2d.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\gpu\lv_gpu_stm32_dma2d.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj: ../LVGL/src/hal/lv_hal_disp.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_disp.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_disp.c.obj -c D:\myLib\my_libarary\LVGL\src\hal\lv_hal_disp.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\hal\lv_hal_disp.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_disp.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\hal\lv_hal_disp.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_disp.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj: ../LVGL/src/hal/lv_hal_indev.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_indev.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_indev.c.obj -c D:\myLib\my_libarary\LVGL\src\hal\lv_hal_indev.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\hal\lv_hal_indev.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_indev.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\hal\lv_hal_indev.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_indev.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj: ../LVGL/src/hal/lv_hal_tick.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_tick.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_tick.c.obj -c D:\myLib\my_libarary\LVGL\src\hal\lv_hal_tick.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\hal\lv_hal_tick.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_tick.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\hal\lv_hal_tick.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\hal\lv_hal_tick.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj: ../LVGL/src/misc/lv_anim.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_anim.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_anim.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_anim.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_anim.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_anim.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_anim.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_anim.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj: ../LVGL/src/misc/lv_area.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_area.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_area.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_area.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_area.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_area.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_area.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_area.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj: ../LVGL/src/misc/lv_async.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_async.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_async.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_async.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_async.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_async.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_async.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_async.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj: ../LVGL/src/misc/lv_bidi.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_bidi.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_bidi.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_bidi.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_bidi.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_bidi.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_bidi.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_bidi.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj: ../LVGL/src/misc/lv_color.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_color.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_color.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_color.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_color.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_color.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_color.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_color.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj: ../LVGL/src/misc/lv_fs.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_fs.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_fs.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_fs.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_fs.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_fs.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_fs.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_fs.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj: ../LVGL/src/misc/lv_gc.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_gc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_gc.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_gc.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_gc.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_gc.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_gc.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_gc.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj: ../LVGL/src/misc/lv_ll.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_ll.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_ll.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_ll.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_ll.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_ll.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_ll.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_ll.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj: ../LVGL/src/misc/lv_log.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_log.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_log.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_log.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_log.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_log.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_log.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_log.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj: ../LVGL/src/misc/lv_math.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_math.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_math.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_math.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_math.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_math.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_math.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_math.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj: ../LVGL/src/misc/lv_mem.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_mem.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_mem.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_mem.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_mem.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_mem.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_mem.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_mem.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj: ../LVGL/src/misc/lv_printf.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_printf.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_printf.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_printf.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_printf.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_printf.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_printf.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_printf.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj: ../LVGL/src/misc/lv_style.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_style.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_style.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_style.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: ../LVGL/src/misc/lv_style_gen.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style_gen.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style_gen.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_style_gen.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_style_gen.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style_gen.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_style_gen.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_style_gen.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj: ../LVGL/src/misc/lv_templ.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_templ.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_templ.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_templ.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_templ.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_templ.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_templ.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_templ.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj: ../LVGL/src/misc/lv_timer.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_timer.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_timer.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_timer.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_timer.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_timer.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_timer.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_timer.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj: ../LVGL/src/misc/lv_tlsf.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_tlsf.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_tlsf.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_tlsf.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_tlsf.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_tlsf.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_tlsf.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_tlsf.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj: ../LVGL/src/misc/lv_txt.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_txt.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_txt.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_txt.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj: ../LVGL/src/misc/lv_txt_ap.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt_ap.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt_ap.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_txt_ap.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_txt_ap.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt_ap.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_txt_ap.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_txt_ap.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj: ../LVGL/src/misc/lv_utils.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_utils.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_utils.c.obj -c D:\myLib\my_libarary\LVGL\src\misc\lv_utils.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\misc\lv_utils.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_utils.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\misc\lv_utils.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\misc\lv_utils.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj: ../LVGL/src/widgets/lv_arc.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_arc.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_arc.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_arc.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_arc.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_arc.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_arc.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_arc.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj: ../LVGL/src/widgets/lv_bar.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_bar.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_bar.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_bar.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_bar.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_bar.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_bar.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_bar.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj: ../LVGL/src/widgets/lv_btn.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btn.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btn.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_btn.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_btn.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btn.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_btn.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btn.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: ../LVGL/src/widgets/lv_btnmatrix.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btnmatrix.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btnmatrix.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_btnmatrix.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_btnmatrix.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btnmatrix.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_btnmatrix.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_btnmatrix.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj: ../LVGL/src/widgets/lv_canvas.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_canvas.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_canvas.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_canvas.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_canvas.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_canvas.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_canvas.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_canvas.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj: ../LVGL/src/widgets/lv_checkbox.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_checkbox.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_checkbox.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_checkbox.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_checkbox.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_checkbox.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_checkbox.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_checkbox.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj: ../LVGL/src/widgets/lv_dropdown.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_dropdown.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_dropdown.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_dropdown.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_dropdown.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_dropdown.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_dropdown.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_dropdown.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj: ../LVGL/src/widgets/lv_img.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_img.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_img.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_img.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_img.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_img.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_img.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_img.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj: ../LVGL/src/widgets/lv_label.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_label.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_label.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_label.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_label.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_label.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_label.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_label.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj: ../LVGL/src/widgets/lv_line.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_line.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_line.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_line.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_line.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_line.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_line.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_line.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj: ../LVGL/src/widgets/lv_objx_templ.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_objx_templ.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_objx_templ.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_objx_templ.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_objx_templ.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_objx_templ.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_objx_templ.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_objx_templ.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj: ../LVGL/src/widgets/lv_roller.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_roller.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_roller.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_roller.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_roller.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_roller.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_roller.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_roller.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj: ../LVGL/src/widgets/lv_slider.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_slider.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_slider.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_slider.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_slider.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_slider.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_slider.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_slider.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj: ../LVGL/src/widgets/lv_switch.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_switch.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_switch.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_switch.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_switch.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_switch.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_switch.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_switch.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj: ../LVGL/src/widgets/lv_table.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_table.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_table.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_table.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_table.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_table.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_table.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_table.c.s
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj: ../LVGL/src/widgets/lv_textarea.c
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj -MF CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_textarea.c.obj.d -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_textarea.c.obj -c D:\myLib\my_libarary\LVGL\src\widgets\lv_textarea.c
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\myLib\my_libarary\LVGL\src\widgets\lv_textarea.c > CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_textarea.c.i
+
+CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\myLib\my_libarary\LVGL\src\widgets\lv_textarea.c -o CMakeFiles\my_libarary.elf.dir\LVGL\src\widgets\lv_textarea.c.s
+
 CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj: ../MyApplication/Src/Flash.cpp
 CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyApplication\Src\Flash.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyApplication\Src\Flash.cpp.obj -c D:\myLib\my_libarary\MyApplication\Src\Flash.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.i: cmake_force
@@ -644,7 +2408,7 @@ CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: ../MyLibrary/Src/MyGPIO.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyGPIO.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyGPIO.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyGPIO.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.i: cmake_force
@@ -658,7 +2422,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: ../MyLibrary/Src/MyIIc.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyIIc.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyIIc.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.i: cmake_force
@@ -672,7 +2436,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj: ../MyLibrary/Src/MyKey.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyKey.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyKey.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyKey.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.i: cmake_force
@@ -686,7 +2450,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyKey.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: ../MyLibrary/Src/MyLCD.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyLCD.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyLCD.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyLCD.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.i: cmake_force
@@ -700,7 +2464,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyLCD.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: ../MyLibrary/Src/MySPI.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MySPI.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MySPI.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.i: cmake_force
@@ -714,7 +2478,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MySPI.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: ../MyLibrary/Src/MyUsart.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyUsart.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\MyUsart.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\MyUsart.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.i: cmake_force
@@ -728,7 +2492,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: ../MyLibrary/Src/inputStream.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\inputStream.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\inputStream.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\inputStream.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.i: cmake_force
@@ -742,7 +2506,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/inputStream.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: ../MyLibrary/Src/outputStream.cpp
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\outputStream.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\MyLibrary\Src\outputStream.cpp.obj -c D:\myLib\my_libarary\MyLibrary\Src\outputStream.cpp
 
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.i: cmake_force
@@ -756,7 +2520,7 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: ../other_library/WString.cpp
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj -MF CMakeFiles\my_libarary.elf.dir\other_library\WString.cpp.obj.d -o CMakeFiles\my_libarary.elf.dir\other_library\WString.cpp.obj -c D:\myLib\my_libarary\other_library\WString.cpp
 
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.i: cmake_force
@@ -770,7 +2534,7 @@ CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.s: cmake_force
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: CMakeFiles/my_libarary.elf.dir/flags.make
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: ../other_library/stdlib_noniso.c
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: CMakeFiles/my_libarary.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj -MF CMakeFiles\my_libarary.elf.dir\other_library\stdlib_noniso.c.obj.d -o CMakeFiles\my_libarary.elf.dir\other_library\stdlib_noniso.c.obj -c D:\myLib\my_libarary\other_library\stdlib_noniso.c
 
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.i: cmake_force
@@ -823,6 +2587,132 @@ my_libarary_elf_OBJECTS = \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj" \
+"CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj" \
 "CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj" \
@@ -878,6 +2768,132 @@ my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyApplication/Src/Flash.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyGPIO.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyIIc.cpp.obj
@@ -890,8 +2906,9 @@ my_libarary.elf: CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/outputStream.cpp.o
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/build.make
+my_libarary.elf: CMakeFiles/my_libarary.elf.dir/objects1.rsp
 my_libarary.elf: CMakeFiles/my_libarary.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable my_libarary.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\myLib\my_libarary\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Linking CXX executable my_libarary.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_libarary.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/my_libarary/cmake-build-debug/my_libarary.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/myLib/my_libarary/cmake-build-debug/my_libarary.bin"

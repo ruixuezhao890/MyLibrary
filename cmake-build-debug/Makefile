@@ -1072,6 +1072,3030 @@ LCD/lcd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LCD/lcd.c.s
 .PHONY : LCD/lcd.c.s
 
+LVGL/examples/porting/lv_port_disp.obj: LVGL/examples/porting/lv_port_disp.c.obj
+.PHONY : LVGL/examples/porting/lv_port_disp.obj
+
+# target to build an object file
+LVGL/examples/porting/lv_port_disp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+.PHONY : LVGL/examples/porting/lv_port_disp.c.obj
+
+LVGL/examples/porting/lv_port_disp.i: LVGL/examples/porting/lv_port_disp.c.i
+.PHONY : LVGL/examples/porting/lv_port_disp.i
+
+# target to preprocess a source file
+LVGL/examples/porting/lv_port_disp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.i
+.PHONY : LVGL/examples/porting/lv_port_disp.c.i
+
+LVGL/examples/porting/lv_port_disp.s: LVGL/examples/porting/lv_port_disp.c.s
+.PHONY : LVGL/examples/porting/lv_port_disp.s
+
+# target to generate assembly for a file
+LVGL/examples/porting/lv_port_disp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.s
+.PHONY : LVGL/examples/porting/lv_port_disp.c.s
+
+LVGL/examples/porting/lv_port_fs.obj: LVGL/examples/porting/lv_port_fs.c.obj
+.PHONY : LVGL/examples/porting/lv_port_fs.obj
+
+# target to build an object file
+LVGL/examples/porting/lv_port_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+.PHONY : LVGL/examples/porting/lv_port_fs.c.obj
+
+LVGL/examples/porting/lv_port_fs.i: LVGL/examples/porting/lv_port_fs.c.i
+.PHONY : LVGL/examples/porting/lv_port_fs.i
+
+# target to preprocess a source file
+LVGL/examples/porting/lv_port_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.i
+.PHONY : LVGL/examples/porting/lv_port_fs.c.i
+
+LVGL/examples/porting/lv_port_fs.s: LVGL/examples/porting/lv_port_fs.c.s
+.PHONY : LVGL/examples/porting/lv_port_fs.s
+
+# target to generate assembly for a file
+LVGL/examples/porting/lv_port_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_fs.c.s
+.PHONY : LVGL/examples/porting/lv_port_fs.c.s
+
+LVGL/examples/porting/lv_port_indev.obj: LVGL/examples/porting/lv_port_indev.c.obj
+.PHONY : LVGL/examples/porting/lv_port_indev.obj
+
+# target to build an object file
+LVGL/examples/porting/lv_port_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+.PHONY : LVGL/examples/porting/lv_port_indev.c.obj
+
+LVGL/examples/porting/lv_port_indev.i: LVGL/examples/porting/lv_port_indev.c.i
+.PHONY : LVGL/examples/porting/lv_port_indev.i
+
+# target to preprocess a source file
+LVGL/examples/porting/lv_port_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.i
+.PHONY : LVGL/examples/porting/lv_port_indev.c.i
+
+LVGL/examples/porting/lv_port_indev.s: LVGL/examples/porting/lv_port_indev.c.s
+.PHONY : LVGL/examples/porting/lv_port_indev.s
+
+# target to generate assembly for a file
+LVGL/examples/porting/lv_port_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_indev.c.s
+.PHONY : LVGL/examples/porting/lv_port_indev.c.s
+
+LVGL/src/core/lv_disp.obj: LVGL/src/core/lv_disp.c.obj
+.PHONY : LVGL/src/core/lv_disp.obj
+
+# target to build an object file
+LVGL/src/core/lv_disp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.obj
+.PHONY : LVGL/src/core/lv_disp.c.obj
+
+LVGL/src/core/lv_disp.i: LVGL/src/core/lv_disp.c.i
+.PHONY : LVGL/src/core/lv_disp.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_disp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.i
+.PHONY : LVGL/src/core/lv_disp.c.i
+
+LVGL/src/core/lv_disp.s: LVGL/src/core/lv_disp.c.s
+.PHONY : LVGL/src/core/lv_disp.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_disp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_disp.c.s
+.PHONY : LVGL/src/core/lv_disp.c.s
+
+LVGL/src/core/lv_event.obj: LVGL/src/core/lv_event.c.obj
+.PHONY : LVGL/src/core/lv_event.obj
+
+# target to build an object file
+LVGL/src/core/lv_event.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.obj
+.PHONY : LVGL/src/core/lv_event.c.obj
+
+LVGL/src/core/lv_event.i: LVGL/src/core/lv_event.c.i
+.PHONY : LVGL/src/core/lv_event.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_event.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.i
+.PHONY : LVGL/src/core/lv_event.c.i
+
+LVGL/src/core/lv_event.s: LVGL/src/core/lv_event.c.s
+.PHONY : LVGL/src/core/lv_event.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_event.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_event.c.s
+.PHONY : LVGL/src/core/lv_event.c.s
+
+LVGL/src/core/lv_group.obj: LVGL/src/core/lv_group.c.obj
+.PHONY : LVGL/src/core/lv_group.obj
+
+# target to build an object file
+LVGL/src/core/lv_group.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.obj
+.PHONY : LVGL/src/core/lv_group.c.obj
+
+LVGL/src/core/lv_group.i: LVGL/src/core/lv_group.c.i
+.PHONY : LVGL/src/core/lv_group.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_group.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.i
+.PHONY : LVGL/src/core/lv_group.c.i
+
+LVGL/src/core/lv_group.s: LVGL/src/core/lv_group.c.s
+.PHONY : LVGL/src/core/lv_group.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_group.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_group.c.s
+.PHONY : LVGL/src/core/lv_group.c.s
+
+LVGL/src/core/lv_indev.obj: LVGL/src/core/lv_indev.c.obj
+.PHONY : LVGL/src/core/lv_indev.obj
+
+# target to build an object file
+LVGL/src/core/lv_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.obj
+.PHONY : LVGL/src/core/lv_indev.c.obj
+
+LVGL/src/core/lv_indev.i: LVGL/src/core/lv_indev.c.i
+.PHONY : LVGL/src/core/lv_indev.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.i
+.PHONY : LVGL/src/core/lv_indev.c.i
+
+LVGL/src/core/lv_indev.s: LVGL/src/core/lv_indev.c.s
+.PHONY : LVGL/src/core/lv_indev.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev.c.s
+.PHONY : LVGL/src/core/lv_indev.c.s
+
+LVGL/src/core/lv_indev_scroll.obj: LVGL/src/core/lv_indev_scroll.c.obj
+.PHONY : LVGL/src/core/lv_indev_scroll.obj
+
+# target to build an object file
+LVGL/src/core/lv_indev_scroll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.obj
+.PHONY : LVGL/src/core/lv_indev_scroll.c.obj
+
+LVGL/src/core/lv_indev_scroll.i: LVGL/src/core/lv_indev_scroll.c.i
+.PHONY : LVGL/src/core/lv_indev_scroll.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_indev_scroll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.i
+.PHONY : LVGL/src/core/lv_indev_scroll.c.i
+
+LVGL/src/core/lv_indev_scroll.s: LVGL/src/core/lv_indev_scroll.c.s
+.PHONY : LVGL/src/core/lv_indev_scroll.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_indev_scroll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_indev_scroll.c.s
+.PHONY : LVGL/src/core/lv_indev_scroll.c.s
+
+LVGL/src/core/lv_obj.obj: LVGL/src/core/lv_obj.c.obj
+.PHONY : LVGL/src/core/lv_obj.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.obj
+.PHONY : LVGL/src/core/lv_obj.c.obj
+
+LVGL/src/core/lv_obj.i: LVGL/src/core/lv_obj.c.i
+.PHONY : LVGL/src/core/lv_obj.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.i
+.PHONY : LVGL/src/core/lv_obj.c.i
+
+LVGL/src/core/lv_obj.s: LVGL/src/core/lv_obj.c.s
+.PHONY : LVGL/src/core/lv_obj.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj.c.s
+.PHONY : LVGL/src/core/lv_obj.c.s
+
+LVGL/src/core/lv_obj_class.obj: LVGL/src/core/lv_obj_class.c.obj
+.PHONY : LVGL/src/core/lv_obj_class.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_class.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.obj
+.PHONY : LVGL/src/core/lv_obj_class.c.obj
+
+LVGL/src/core/lv_obj_class.i: LVGL/src/core/lv_obj_class.c.i
+.PHONY : LVGL/src/core/lv_obj_class.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_class.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.i
+.PHONY : LVGL/src/core/lv_obj_class.c.i
+
+LVGL/src/core/lv_obj_class.s: LVGL/src/core/lv_obj_class.c.s
+.PHONY : LVGL/src/core/lv_obj_class.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_class.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_class.c.s
+.PHONY : LVGL/src/core/lv_obj_class.c.s
+
+LVGL/src/core/lv_obj_draw.obj: LVGL/src/core/lv_obj_draw.c.obj
+.PHONY : LVGL/src/core/lv_obj_draw.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_draw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.obj
+.PHONY : LVGL/src/core/lv_obj_draw.c.obj
+
+LVGL/src/core/lv_obj_draw.i: LVGL/src/core/lv_obj_draw.c.i
+.PHONY : LVGL/src/core/lv_obj_draw.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.i
+.PHONY : LVGL/src/core/lv_obj_draw.c.i
+
+LVGL/src/core/lv_obj_draw.s: LVGL/src/core/lv_obj_draw.c.s
+.PHONY : LVGL/src/core/lv_obj_draw.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_draw.c.s
+.PHONY : LVGL/src/core/lv_obj_draw.c.s
+
+LVGL/src/core/lv_obj_pos.obj: LVGL/src/core/lv_obj_pos.c.obj
+.PHONY : LVGL/src/core/lv_obj_pos.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_pos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.obj
+.PHONY : LVGL/src/core/lv_obj_pos.c.obj
+
+LVGL/src/core/lv_obj_pos.i: LVGL/src/core/lv_obj_pos.c.i
+.PHONY : LVGL/src/core/lv_obj_pos.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_pos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.i
+.PHONY : LVGL/src/core/lv_obj_pos.c.i
+
+LVGL/src/core/lv_obj_pos.s: LVGL/src/core/lv_obj_pos.c.s
+.PHONY : LVGL/src/core/lv_obj_pos.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_pos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_pos.c.s
+.PHONY : LVGL/src/core/lv_obj_pos.c.s
+
+LVGL/src/core/lv_obj_scroll.obj: LVGL/src/core/lv_obj_scroll.c.obj
+.PHONY : LVGL/src/core/lv_obj_scroll.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_scroll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.obj
+.PHONY : LVGL/src/core/lv_obj_scroll.c.obj
+
+LVGL/src/core/lv_obj_scroll.i: LVGL/src/core/lv_obj_scroll.c.i
+.PHONY : LVGL/src/core/lv_obj_scroll.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_scroll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.i
+.PHONY : LVGL/src/core/lv_obj_scroll.c.i
+
+LVGL/src/core/lv_obj_scroll.s: LVGL/src/core/lv_obj_scroll.c.s
+.PHONY : LVGL/src/core/lv_obj_scroll.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_scroll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_scroll.c.s
+.PHONY : LVGL/src/core/lv_obj_scroll.c.s
+
+LVGL/src/core/lv_obj_style.obj: LVGL/src/core/lv_obj_style.c.obj
+.PHONY : LVGL/src/core/lv_obj_style.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_style.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.obj
+.PHONY : LVGL/src/core/lv_obj_style.c.obj
+
+LVGL/src/core/lv_obj_style.i: LVGL/src/core/lv_obj_style.c.i
+.PHONY : LVGL/src/core/lv_obj_style.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_style.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.i
+.PHONY : LVGL/src/core/lv_obj_style.c.i
+
+LVGL/src/core/lv_obj_style.s: LVGL/src/core/lv_obj_style.c.s
+.PHONY : LVGL/src/core/lv_obj_style.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_style.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style.c.s
+.PHONY : LVGL/src/core/lv_obj_style.c.s
+
+LVGL/src/core/lv_obj_style_gen.obj: LVGL/src/core/lv_obj_style_gen.c.obj
+.PHONY : LVGL/src/core/lv_obj_style_gen.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_style_gen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.obj
+.PHONY : LVGL/src/core/lv_obj_style_gen.c.obj
+
+LVGL/src/core/lv_obj_style_gen.i: LVGL/src/core/lv_obj_style_gen.c.i
+.PHONY : LVGL/src/core/lv_obj_style_gen.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_style_gen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.i
+.PHONY : LVGL/src/core/lv_obj_style_gen.c.i
+
+LVGL/src/core/lv_obj_style_gen.s: LVGL/src/core/lv_obj_style_gen.c.s
+.PHONY : LVGL/src/core/lv_obj_style_gen.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_style_gen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_style_gen.c.s
+.PHONY : LVGL/src/core/lv_obj_style_gen.c.s
+
+LVGL/src/core/lv_obj_tree.obj: LVGL/src/core/lv_obj_tree.c.obj
+.PHONY : LVGL/src/core/lv_obj_tree.obj
+
+# target to build an object file
+LVGL/src/core/lv_obj_tree.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.obj
+.PHONY : LVGL/src/core/lv_obj_tree.c.obj
+
+LVGL/src/core/lv_obj_tree.i: LVGL/src/core/lv_obj_tree.c.i
+.PHONY : LVGL/src/core/lv_obj_tree.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_obj_tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.i
+.PHONY : LVGL/src/core/lv_obj_tree.c.i
+
+LVGL/src/core/lv_obj_tree.s: LVGL/src/core/lv_obj_tree.c.s
+.PHONY : LVGL/src/core/lv_obj_tree.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_obj_tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_obj_tree.c.s
+.PHONY : LVGL/src/core/lv_obj_tree.c.s
+
+LVGL/src/core/lv_refr.obj: LVGL/src/core/lv_refr.c.obj
+.PHONY : LVGL/src/core/lv_refr.obj
+
+# target to build an object file
+LVGL/src/core/lv_refr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.obj
+.PHONY : LVGL/src/core/lv_refr.c.obj
+
+LVGL/src/core/lv_refr.i: LVGL/src/core/lv_refr.c.i
+.PHONY : LVGL/src/core/lv_refr.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_refr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.i
+.PHONY : LVGL/src/core/lv_refr.c.i
+
+LVGL/src/core/lv_refr.s: LVGL/src/core/lv_refr.c.s
+.PHONY : LVGL/src/core/lv_refr.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_refr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_refr.c.s
+.PHONY : LVGL/src/core/lv_refr.c.s
+
+LVGL/src/core/lv_theme.obj: LVGL/src/core/lv_theme.c.obj
+.PHONY : LVGL/src/core/lv_theme.obj
+
+# target to build an object file
+LVGL/src/core/lv_theme.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.obj
+.PHONY : LVGL/src/core/lv_theme.c.obj
+
+LVGL/src/core/lv_theme.i: LVGL/src/core/lv_theme.c.i
+.PHONY : LVGL/src/core/lv_theme.i
+
+# target to preprocess a source file
+LVGL/src/core/lv_theme.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.i
+.PHONY : LVGL/src/core/lv_theme.c.i
+
+LVGL/src/core/lv_theme.s: LVGL/src/core/lv_theme.c.s
+.PHONY : LVGL/src/core/lv_theme.s
+
+# target to generate assembly for a file
+LVGL/src/core/lv_theme.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/core/lv_theme.c.s
+.PHONY : LVGL/src/core/lv_theme.c.s
+
+LVGL/src/draw/lv_draw_arc.obj: LVGL/src/draw/lv_draw_arc.c.obj
+.PHONY : LVGL/src/draw/lv_draw_arc.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.obj
+.PHONY : LVGL/src/draw/lv_draw_arc.c.obj
+
+LVGL/src/draw/lv_draw_arc.i: LVGL/src/draw/lv_draw_arc.c.i
+.PHONY : LVGL/src/draw/lv_draw_arc.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.i
+.PHONY : LVGL/src/draw/lv_draw_arc.c.i
+
+LVGL/src/draw/lv_draw_arc.s: LVGL/src/draw/lv_draw_arc.c.s
+.PHONY : LVGL/src/draw/lv_draw_arc.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_arc.c.s
+.PHONY : LVGL/src/draw/lv_draw_arc.c.s
+
+LVGL/src/draw/lv_draw_blend.obj: LVGL/src/draw/lv_draw_blend.c.obj
+.PHONY : LVGL/src/draw/lv_draw_blend.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_blend.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.obj
+.PHONY : LVGL/src/draw/lv_draw_blend.c.obj
+
+LVGL/src/draw/lv_draw_blend.i: LVGL/src/draw/lv_draw_blend.c.i
+.PHONY : LVGL/src/draw/lv_draw_blend.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_blend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.i
+.PHONY : LVGL/src/draw/lv_draw_blend.c.i
+
+LVGL/src/draw/lv_draw_blend.s: LVGL/src/draw/lv_draw_blend.c.s
+.PHONY : LVGL/src/draw/lv_draw_blend.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_blend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_blend.c.s
+.PHONY : LVGL/src/draw/lv_draw_blend.c.s
+
+LVGL/src/draw/lv_draw_img.obj: LVGL/src/draw/lv_draw_img.c.obj
+.PHONY : LVGL/src/draw/lv_draw_img.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.obj
+.PHONY : LVGL/src/draw/lv_draw_img.c.obj
+
+LVGL/src/draw/lv_draw_img.i: LVGL/src/draw/lv_draw_img.c.i
+.PHONY : LVGL/src/draw/lv_draw_img.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.i
+.PHONY : LVGL/src/draw/lv_draw_img.c.i
+
+LVGL/src/draw/lv_draw_img.s: LVGL/src/draw/lv_draw_img.c.s
+.PHONY : LVGL/src/draw/lv_draw_img.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_img.c.s
+.PHONY : LVGL/src/draw/lv_draw_img.c.s
+
+LVGL/src/draw/lv_draw_label.obj: LVGL/src/draw/lv_draw_label.c.obj
+.PHONY : LVGL/src/draw/lv_draw_label.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.obj
+.PHONY : LVGL/src/draw/lv_draw_label.c.obj
+
+LVGL/src/draw/lv_draw_label.i: LVGL/src/draw/lv_draw_label.c.i
+.PHONY : LVGL/src/draw/lv_draw_label.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.i
+.PHONY : LVGL/src/draw/lv_draw_label.c.i
+
+LVGL/src/draw/lv_draw_label.s: LVGL/src/draw/lv_draw_label.c.s
+.PHONY : LVGL/src/draw/lv_draw_label.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_label.c.s
+.PHONY : LVGL/src/draw/lv_draw_label.c.s
+
+LVGL/src/draw/lv_draw_line.obj: LVGL/src/draw/lv_draw_line.c.obj
+.PHONY : LVGL/src/draw/lv_draw_line.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.obj
+.PHONY : LVGL/src/draw/lv_draw_line.c.obj
+
+LVGL/src/draw/lv_draw_line.i: LVGL/src/draw/lv_draw_line.c.i
+.PHONY : LVGL/src/draw/lv_draw_line.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.i
+.PHONY : LVGL/src/draw/lv_draw_line.c.i
+
+LVGL/src/draw/lv_draw_line.s: LVGL/src/draw/lv_draw_line.c.s
+.PHONY : LVGL/src/draw/lv_draw_line.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_line.c.s
+.PHONY : LVGL/src/draw/lv_draw_line.c.s
+
+LVGL/src/draw/lv_draw_mask.obj: LVGL/src/draw/lv_draw_mask.c.obj
+.PHONY : LVGL/src/draw/lv_draw_mask.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_mask.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.obj
+.PHONY : LVGL/src/draw/lv_draw_mask.c.obj
+
+LVGL/src/draw/lv_draw_mask.i: LVGL/src/draw/lv_draw_mask.c.i
+.PHONY : LVGL/src/draw/lv_draw_mask.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_mask.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.i
+.PHONY : LVGL/src/draw/lv_draw_mask.c.i
+
+LVGL/src/draw/lv_draw_mask.s: LVGL/src/draw/lv_draw_mask.c.s
+.PHONY : LVGL/src/draw/lv_draw_mask.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_mask.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_mask.c.s
+.PHONY : LVGL/src/draw/lv_draw_mask.c.s
+
+LVGL/src/draw/lv_draw_rect.obj: LVGL/src/draw/lv_draw_rect.c.obj
+.PHONY : LVGL/src/draw/lv_draw_rect.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_rect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.obj
+.PHONY : LVGL/src/draw/lv_draw_rect.c.obj
+
+LVGL/src/draw/lv_draw_rect.i: LVGL/src/draw/lv_draw_rect.c.i
+.PHONY : LVGL/src/draw/lv_draw_rect.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_rect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.i
+.PHONY : LVGL/src/draw/lv_draw_rect.c.i
+
+LVGL/src/draw/lv_draw_rect.s: LVGL/src/draw/lv_draw_rect.c.s
+.PHONY : LVGL/src/draw/lv_draw_rect.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_rect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_rect.c.s
+.PHONY : LVGL/src/draw/lv_draw_rect.c.s
+
+LVGL/src/draw/lv_draw_triangle.obj: LVGL/src/draw/lv_draw_triangle.c.obj
+.PHONY : LVGL/src/draw/lv_draw_triangle.obj
+
+# target to build an object file
+LVGL/src/draw/lv_draw_triangle.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.obj
+.PHONY : LVGL/src/draw/lv_draw_triangle.c.obj
+
+LVGL/src/draw/lv_draw_triangle.i: LVGL/src/draw/lv_draw_triangle.c.i
+.PHONY : LVGL/src/draw/lv_draw_triangle.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_draw_triangle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.i
+.PHONY : LVGL/src/draw/lv_draw_triangle.c.i
+
+LVGL/src/draw/lv_draw_triangle.s: LVGL/src/draw/lv_draw_triangle.c.s
+.PHONY : LVGL/src/draw/lv_draw_triangle.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_draw_triangle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_draw_triangle.c.s
+.PHONY : LVGL/src/draw/lv_draw_triangle.c.s
+
+LVGL/src/draw/lv_img_buf.obj: LVGL/src/draw/lv_img_buf.c.obj
+.PHONY : LVGL/src/draw/lv_img_buf.obj
+
+# target to build an object file
+LVGL/src/draw/lv_img_buf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.obj
+.PHONY : LVGL/src/draw/lv_img_buf.c.obj
+
+LVGL/src/draw/lv_img_buf.i: LVGL/src/draw/lv_img_buf.c.i
+.PHONY : LVGL/src/draw/lv_img_buf.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_img_buf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.i
+.PHONY : LVGL/src/draw/lv_img_buf.c.i
+
+LVGL/src/draw/lv_img_buf.s: LVGL/src/draw/lv_img_buf.c.s
+.PHONY : LVGL/src/draw/lv_img_buf.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_img_buf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_buf.c.s
+.PHONY : LVGL/src/draw/lv_img_buf.c.s
+
+LVGL/src/draw/lv_img_cache.obj: LVGL/src/draw/lv_img_cache.c.obj
+.PHONY : LVGL/src/draw/lv_img_cache.obj
+
+# target to build an object file
+LVGL/src/draw/lv_img_cache.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.obj
+.PHONY : LVGL/src/draw/lv_img_cache.c.obj
+
+LVGL/src/draw/lv_img_cache.i: LVGL/src/draw/lv_img_cache.c.i
+.PHONY : LVGL/src/draw/lv_img_cache.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_img_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.i
+.PHONY : LVGL/src/draw/lv_img_cache.c.i
+
+LVGL/src/draw/lv_img_cache.s: LVGL/src/draw/lv_img_cache.c.s
+.PHONY : LVGL/src/draw/lv_img_cache.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_img_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_cache.c.s
+.PHONY : LVGL/src/draw/lv_img_cache.c.s
+
+LVGL/src/draw/lv_img_decoder.obj: LVGL/src/draw/lv_img_decoder.c.obj
+.PHONY : LVGL/src/draw/lv_img_decoder.obj
+
+# target to build an object file
+LVGL/src/draw/lv_img_decoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.obj
+.PHONY : LVGL/src/draw/lv_img_decoder.c.obj
+
+LVGL/src/draw/lv_img_decoder.i: LVGL/src/draw/lv_img_decoder.c.i
+.PHONY : LVGL/src/draw/lv_img_decoder.i
+
+# target to preprocess a source file
+LVGL/src/draw/lv_img_decoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.i
+.PHONY : LVGL/src/draw/lv_img_decoder.c.i
+
+LVGL/src/draw/lv_img_decoder.s: LVGL/src/draw/lv_img_decoder.c.s
+.PHONY : LVGL/src/draw/lv_img_decoder.s
+
+# target to generate assembly for a file
+LVGL/src/draw/lv_img_decoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/draw/lv_img_decoder.c.s
+.PHONY : LVGL/src/draw/lv_img_decoder.c.s
+
+LVGL/src/extra/layouts/flex/lv_flex.obj: LVGL/src/extra/layouts/flex/lv_flex.c.obj
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.obj
+
+# target to build an object file
+LVGL/src/extra/layouts/flex/lv_flex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.c.obj
+
+LVGL/src/extra/layouts/flex/lv_flex.i: LVGL/src/extra/layouts/flex/lv_flex.c.i
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.i
+
+# target to preprocess a source file
+LVGL/src/extra/layouts/flex/lv_flex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.i
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.c.i
+
+LVGL/src/extra/layouts/flex/lv_flex.s: LVGL/src/extra/layouts/flex/lv_flex.c.s
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.s
+
+# target to generate assembly for a file
+LVGL/src/extra/layouts/flex/lv_flex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/flex/lv_flex.c.s
+.PHONY : LVGL/src/extra/layouts/flex/lv_flex.c.s
+
+LVGL/src/extra/layouts/grid/lv_grid.obj: LVGL/src/extra/layouts/grid/lv_grid.c.obj
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.obj
+
+# target to build an object file
+LVGL/src/extra/layouts/grid/lv_grid.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.c.obj
+
+LVGL/src/extra/layouts/grid/lv_grid.i: LVGL/src/extra/layouts/grid/lv_grid.c.i
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.i
+
+# target to preprocess a source file
+LVGL/src/extra/layouts/grid/lv_grid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.i
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.c.i
+
+LVGL/src/extra/layouts/grid/lv_grid.s: LVGL/src/extra/layouts/grid/lv_grid.c.s
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.s
+
+# target to generate assembly for a file
+LVGL/src/extra/layouts/grid/lv_grid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/layouts/grid/lv_grid.c.s
+.PHONY : LVGL/src/extra/layouts/grid/lv_grid.c.s
+
+LVGL/src/extra/lv_extra.obj: LVGL/src/extra/lv_extra.c.obj
+.PHONY : LVGL/src/extra/lv_extra.obj
+
+# target to build an object file
+LVGL/src/extra/lv_extra.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.obj
+.PHONY : LVGL/src/extra/lv_extra.c.obj
+
+LVGL/src/extra/lv_extra.i: LVGL/src/extra/lv_extra.c.i
+.PHONY : LVGL/src/extra/lv_extra.i
+
+# target to preprocess a source file
+LVGL/src/extra/lv_extra.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.i
+.PHONY : LVGL/src/extra/lv_extra.c.i
+
+LVGL/src/extra/lv_extra.s: LVGL/src/extra/lv_extra.c.s
+.PHONY : LVGL/src/extra/lv_extra.s
+
+# target to generate assembly for a file
+LVGL/src/extra/lv_extra.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/lv_extra.c.s
+.PHONY : LVGL/src/extra/lv_extra.c.s
+
+LVGL/src/extra/themes/basic/lv_theme_basic.obj: LVGL/src/extra/themes/basic/lv_theme_basic.c.obj
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.obj
+
+# target to build an object file
+LVGL/src/extra/themes/basic/lv_theme_basic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.c.obj
+
+LVGL/src/extra/themes/basic/lv_theme_basic.i: LVGL/src/extra/themes/basic/lv_theme_basic.c.i
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.i
+
+# target to preprocess a source file
+LVGL/src/extra/themes/basic/lv_theme_basic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.i
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.c.i
+
+LVGL/src/extra/themes/basic/lv_theme_basic.s: LVGL/src/extra/themes/basic/lv_theme_basic.c.s
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.s
+
+# target to generate assembly for a file
+LVGL/src/extra/themes/basic/lv_theme_basic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.s
+.PHONY : LVGL/src/extra/themes/basic/lv_theme_basic.c.s
+
+LVGL/src/extra/themes/default/lv_theme_default.obj: LVGL/src/extra/themes/default/lv_theme_default.c.obj
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.obj
+
+# target to build an object file
+LVGL/src/extra/themes/default/lv_theme_default.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.c.obj
+
+LVGL/src/extra/themes/default/lv_theme_default.i: LVGL/src/extra/themes/default/lv_theme_default.c.i
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.i
+
+# target to preprocess a source file
+LVGL/src/extra/themes/default/lv_theme_default.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.i
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.c.i
+
+LVGL/src/extra/themes/default/lv_theme_default.s: LVGL/src/extra/themes/default/lv_theme_default.c.s
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.s
+
+# target to generate assembly for a file
+LVGL/src/extra/themes/default/lv_theme_default.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/default/lv_theme_default.c.s
+.PHONY : LVGL/src/extra/themes/default/lv_theme_default.c.s
+
+LVGL/src/extra/themes/mono/lv_theme_mono.obj: LVGL/src/extra/themes/mono/lv_theme_mono.c.obj
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.obj
+
+# target to build an object file
+LVGL/src/extra/themes/mono/lv_theme_mono.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.c.obj
+
+LVGL/src/extra/themes/mono/lv_theme_mono.i: LVGL/src/extra/themes/mono/lv_theme_mono.c.i
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.i
+
+# target to preprocess a source file
+LVGL/src/extra/themes/mono/lv_theme_mono.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.i
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.c.i
+
+LVGL/src/extra/themes/mono/lv_theme_mono.s: LVGL/src/extra/themes/mono/lv_theme_mono.c.s
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.s
+
+# target to generate assembly for a file
+LVGL/src/extra/themes/mono/lv_theme_mono.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.s
+.PHONY : LVGL/src/extra/themes/mono/lv_theme_mono.c.s
+
+LVGL/src/extra/widgets/animimg/lv_animimg.obj: LVGL/src/extra/widgets/animimg/lv_animimg.c.obj
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/animimg/lv_animimg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.c.obj
+
+LVGL/src/extra/widgets/animimg/lv_animimg.i: LVGL/src/extra/widgets/animimg/lv_animimg.c.i
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/animimg/lv_animimg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.i
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.c.i
+
+LVGL/src/extra/widgets/animimg/lv_animimg.s: LVGL/src/extra/widgets/animimg/lv_animimg.c.s
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/animimg/lv_animimg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.s
+.PHONY : LVGL/src/extra/widgets/animimg/lv_animimg.c.s
+
+LVGL/src/extra/widgets/calendar/lv_calendar.obj: LVGL/src/extra/widgets/calendar/lv_calendar.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/calendar/lv_calendar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.c.obj
+
+LVGL/src/extra/widgets/calendar/lv_calendar.i: LVGL/src/extra/widgets/calendar/lv_calendar.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/calendar/lv_calendar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.c.i
+
+LVGL/src/extra/widgets/calendar/lv_calendar.s: LVGL/src/extra/widgets/calendar/lv_calendar.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/calendar/lv_calendar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar.c.s
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.obj: LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.i: LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.s: LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.obj: LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.i: LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i
+
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.s: LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
+.PHONY : LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.s
+
+LVGL/src/extra/widgets/chart/lv_chart.obj: LVGL/src/extra/widgets/chart/lv_chart.c.obj
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/chart/lv_chart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.c.obj
+
+LVGL/src/extra/widgets/chart/lv_chart.i: LVGL/src/extra/widgets/chart/lv_chart.c.i
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/chart/lv_chart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.i
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.c.i
+
+LVGL/src/extra/widgets/chart/lv_chart.s: LVGL/src/extra/widgets/chart/lv_chart.c.s
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/chart/lv_chart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/chart/lv_chart.c.s
+.PHONY : LVGL/src/extra/widgets/chart/lv_chart.c.s
+
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.obj: LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj
+
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.i: LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i
+
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.s: LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s
+.PHONY : LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s
+
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.obj: LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj
+
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.i: LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i
+
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.s: LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s
+.PHONY : LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s
+
+LVGL/src/extra/widgets/keyboard/lv_keyboard.obj: LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj
+
+LVGL/src/extra/widgets/keyboard/lv_keyboard.i: LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i
+
+LVGL/src/extra/widgets/keyboard/lv_keyboard.s: LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s
+.PHONY : LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s
+
+LVGL/src/extra/widgets/led/lv_led.obj: LVGL/src/extra/widgets/led/lv_led.c.obj
+.PHONY : LVGL/src/extra/widgets/led/lv_led.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/led/lv_led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.obj
+.PHONY : LVGL/src/extra/widgets/led/lv_led.c.obj
+
+LVGL/src/extra/widgets/led/lv_led.i: LVGL/src/extra/widgets/led/lv_led.c.i
+.PHONY : LVGL/src/extra/widgets/led/lv_led.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/led/lv_led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.i
+.PHONY : LVGL/src/extra/widgets/led/lv_led.c.i
+
+LVGL/src/extra/widgets/led/lv_led.s: LVGL/src/extra/widgets/led/lv_led.c.s
+.PHONY : LVGL/src/extra/widgets/led/lv_led.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/led/lv_led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/led/lv_led.c.s
+.PHONY : LVGL/src/extra/widgets/led/lv_led.c.s
+
+LVGL/src/extra/widgets/list/lv_list.obj: LVGL/src/extra/widgets/list/lv_list.c.obj
+.PHONY : LVGL/src/extra/widgets/list/lv_list.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/list/lv_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.obj
+.PHONY : LVGL/src/extra/widgets/list/lv_list.c.obj
+
+LVGL/src/extra/widgets/list/lv_list.i: LVGL/src/extra/widgets/list/lv_list.c.i
+.PHONY : LVGL/src/extra/widgets/list/lv_list.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/list/lv_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.i
+.PHONY : LVGL/src/extra/widgets/list/lv_list.c.i
+
+LVGL/src/extra/widgets/list/lv_list.s: LVGL/src/extra/widgets/list/lv_list.c.s
+.PHONY : LVGL/src/extra/widgets/list/lv_list.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/list/lv_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/list/lv_list.c.s
+.PHONY : LVGL/src/extra/widgets/list/lv_list.c.s
+
+LVGL/src/extra/widgets/meter/lv_meter.obj: LVGL/src/extra/widgets/meter/lv_meter.c.obj
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/meter/lv_meter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.c.obj
+
+LVGL/src/extra/widgets/meter/lv_meter.i: LVGL/src/extra/widgets/meter/lv_meter.c.i
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/meter/lv_meter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.i
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.c.i
+
+LVGL/src/extra/widgets/meter/lv_meter.s: LVGL/src/extra/widgets/meter/lv_meter.c.s
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/meter/lv_meter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/meter/lv_meter.c.s
+.PHONY : LVGL/src/extra/widgets/meter/lv_meter.c.s
+
+LVGL/src/extra/widgets/msgbox/lv_msgbox.obj: LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj
+
+LVGL/src/extra/widgets/msgbox/lv_msgbox.i: LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i
+
+LVGL/src/extra/widgets/msgbox/lv_msgbox.s: LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s
+.PHONY : LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s
+
+LVGL/src/extra/widgets/span/lv_span.obj: LVGL/src/extra/widgets/span/lv_span.c.obj
+.PHONY : LVGL/src/extra/widgets/span/lv_span.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/span/lv_span.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.obj
+.PHONY : LVGL/src/extra/widgets/span/lv_span.c.obj
+
+LVGL/src/extra/widgets/span/lv_span.i: LVGL/src/extra/widgets/span/lv_span.c.i
+.PHONY : LVGL/src/extra/widgets/span/lv_span.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/span/lv_span.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.i
+.PHONY : LVGL/src/extra/widgets/span/lv_span.c.i
+
+LVGL/src/extra/widgets/span/lv_span.s: LVGL/src/extra/widgets/span/lv_span.c.s
+.PHONY : LVGL/src/extra/widgets/span/lv_span.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/span/lv_span.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/span/lv_span.c.s
+.PHONY : LVGL/src/extra/widgets/span/lv_span.c.s
+
+LVGL/src/extra/widgets/spinbox/lv_spinbox.obj: LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj
+
+LVGL/src/extra/widgets/spinbox/lv_spinbox.i: LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i
+
+LVGL/src/extra/widgets/spinbox/lv_spinbox.s: LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s
+.PHONY : LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s
+
+LVGL/src/extra/widgets/spinner/lv_spinner.obj: LVGL/src/extra/widgets/spinner/lv_spinner.c.obj
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/spinner/lv_spinner.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.c.obj
+
+LVGL/src/extra/widgets/spinner/lv_spinner.i: LVGL/src/extra/widgets/spinner/lv_spinner.c.i
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/spinner/lv_spinner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.i
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.c.i
+
+LVGL/src/extra/widgets/spinner/lv_spinner.s: LVGL/src/extra/widgets/spinner/lv_spinner.c.s
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/spinner/lv_spinner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.s
+.PHONY : LVGL/src/extra/widgets/spinner/lv_spinner.c.s
+
+LVGL/src/extra/widgets/tabview/lv_tabview.obj: LVGL/src/extra/widgets/tabview/lv_tabview.c.obj
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/tabview/lv_tabview.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.c.obj
+
+LVGL/src/extra/widgets/tabview/lv_tabview.i: LVGL/src/extra/widgets/tabview/lv_tabview.c.i
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/tabview/lv_tabview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.i
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.c.i
+
+LVGL/src/extra/widgets/tabview/lv_tabview.s: LVGL/src/extra/widgets/tabview/lv_tabview.c.s
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/tabview/lv_tabview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.s
+.PHONY : LVGL/src/extra/widgets/tabview/lv_tabview.c.s
+
+LVGL/src/extra/widgets/tileview/lv_tileview.obj: LVGL/src/extra/widgets/tileview/lv_tileview.c.obj
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/tileview/lv_tileview.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.c.obj
+
+LVGL/src/extra/widgets/tileview/lv_tileview.i: LVGL/src/extra/widgets/tileview/lv_tileview.c.i
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/tileview/lv_tileview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.i
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.c.i
+
+LVGL/src/extra/widgets/tileview/lv_tileview.s: LVGL/src/extra/widgets/tileview/lv_tileview.c.s
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/tileview/lv_tileview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.s
+.PHONY : LVGL/src/extra/widgets/tileview/lv_tileview.c.s
+
+LVGL/src/extra/widgets/win/lv_win.obj: LVGL/src/extra/widgets/win/lv_win.c.obj
+.PHONY : LVGL/src/extra/widgets/win/lv_win.obj
+
+# target to build an object file
+LVGL/src/extra/widgets/win/lv_win.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.obj
+.PHONY : LVGL/src/extra/widgets/win/lv_win.c.obj
+
+LVGL/src/extra/widgets/win/lv_win.i: LVGL/src/extra/widgets/win/lv_win.c.i
+.PHONY : LVGL/src/extra/widgets/win/lv_win.i
+
+# target to preprocess a source file
+LVGL/src/extra/widgets/win/lv_win.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.i
+.PHONY : LVGL/src/extra/widgets/win/lv_win.c.i
+
+LVGL/src/extra/widgets/win/lv_win.s: LVGL/src/extra/widgets/win/lv_win.c.s
+.PHONY : LVGL/src/extra/widgets/win/lv_win.s
+
+# target to generate assembly for a file
+LVGL/src/extra/widgets/win/lv_win.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/widgets/win/lv_win.c.s
+.PHONY : LVGL/src/extra/widgets/win/lv_win.c.s
+
+LVGL/src/font/lv_font.obj: LVGL/src/font/lv_font.c.obj
+.PHONY : LVGL/src/font/lv_font.obj
+
+# target to build an object file
+LVGL/src/font/lv_font.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.obj
+.PHONY : LVGL/src/font/lv_font.c.obj
+
+LVGL/src/font/lv_font.i: LVGL/src/font/lv_font.c.i
+.PHONY : LVGL/src/font/lv_font.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.i
+.PHONY : LVGL/src/font/lv_font.c.i
+
+LVGL/src/font/lv_font.s: LVGL/src/font/lv_font.c.s
+.PHONY : LVGL/src/font/lv_font.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font.c.s
+.PHONY : LVGL/src/font/lv_font.c.s
+
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.obj: LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj
+
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.i: LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i
+
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.s: LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+.PHONY : LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s
+
+LVGL/src/font/lv_font_fmt_txt.obj: LVGL/src/font/lv_font_fmt_txt.c.obj
+.PHONY : LVGL/src/font/lv_font_fmt_txt.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_fmt_txt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.obj
+.PHONY : LVGL/src/font/lv_font_fmt_txt.c.obj
+
+LVGL/src/font/lv_font_fmt_txt.i: LVGL/src/font/lv_font_fmt_txt.c.i
+.PHONY : LVGL/src/font/lv_font_fmt_txt.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_fmt_txt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.i
+.PHONY : LVGL/src/font/lv_font_fmt_txt.c.i
+
+LVGL/src/font/lv_font_fmt_txt.s: LVGL/src/font/lv_font_fmt_txt.c.s
+.PHONY : LVGL/src/font/lv_font_fmt_txt.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_fmt_txt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_fmt_txt.c.s
+.PHONY : LVGL/src/font/lv_font_fmt_txt.c.s
+
+LVGL/src/font/lv_font_loader.obj: LVGL/src/font/lv_font_loader.c.obj
+.PHONY : LVGL/src/font/lv_font_loader.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_loader.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.obj
+.PHONY : LVGL/src/font/lv_font_loader.c.obj
+
+LVGL/src/font/lv_font_loader.i: LVGL/src/font/lv_font_loader.c.i
+.PHONY : LVGL/src/font/lv_font_loader.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_loader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.i
+.PHONY : LVGL/src/font/lv_font_loader.c.i
+
+LVGL/src/font/lv_font_loader.s: LVGL/src/font/lv_font_loader.c.s
+.PHONY : LVGL/src/font/lv_font_loader.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_loader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_loader.c.s
+.PHONY : LVGL/src/font/lv_font_loader.c.s
+
+LVGL/src/font/lv_font_montserrat_10.obj: LVGL/src/font/lv_font_montserrat_10.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_10.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_10.c.obj
+
+LVGL/src/font/lv_font_montserrat_10.i: LVGL/src/font/lv_font_montserrat_10.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_10.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_10.c.i
+
+LVGL/src/font/lv_font_montserrat_10.s: LVGL/src/font/lv_font_montserrat_10.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_10.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_10.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_10.c.s
+
+LVGL/src/font/lv_font_montserrat_12.obj: LVGL/src/font/lv_font_montserrat_12.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_12.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_12.c.obj
+
+LVGL/src/font/lv_font_montserrat_12.i: LVGL/src/font/lv_font_montserrat_12.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_12.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_12.c.i
+
+LVGL/src/font/lv_font_montserrat_12.s: LVGL/src/font/lv_font_montserrat_12.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_12.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_12.c.s
+
+LVGL/src/font/lv_font_montserrat_12_subpx.obj: LVGL/src/font/lv_font_montserrat_12_subpx.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_12_subpx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.c.obj
+
+LVGL/src/font/lv_font_montserrat_12_subpx.i: LVGL/src/font/lv_font_montserrat_12_subpx.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_12_subpx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.c.i
+
+LVGL/src/font/lv_font_montserrat_12_subpx.s: LVGL/src/font/lv_font_montserrat_12_subpx.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_12_subpx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_12_subpx.c.s
+
+LVGL/src/font/lv_font_montserrat_14.obj: LVGL/src/font/lv_font_montserrat_14.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_14.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_14.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_14.c.obj
+
+LVGL/src/font/lv_font_montserrat_14.i: LVGL/src/font/lv_font_montserrat_14.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_14.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_14.c.i
+
+LVGL/src/font/lv_font_montserrat_14.s: LVGL/src/font/lv_font_montserrat_14.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_14.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_14.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_14.c.s
+
+LVGL/src/font/lv_font_montserrat_16.obj: LVGL/src/font/lv_font_montserrat_16.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_16.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_16.c.obj
+
+LVGL/src/font/lv_font_montserrat_16.i: LVGL/src/font/lv_font_montserrat_16.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_16.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_16.c.i
+
+LVGL/src/font/lv_font_montserrat_16.s: LVGL/src/font/lv_font_montserrat_16.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_16.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_16.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_16.c.s
+
+LVGL/src/font/lv_font_montserrat_18.obj: LVGL/src/font/lv_font_montserrat_18.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_18.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_18.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_18.c.obj
+
+LVGL/src/font/lv_font_montserrat_18.i: LVGL/src/font/lv_font_montserrat_18.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_18.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_18.c.i
+
+LVGL/src/font/lv_font_montserrat_18.s: LVGL/src/font/lv_font_montserrat_18.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_18.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_18.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_18.c.s
+
+LVGL/src/font/lv_font_montserrat_20.obj: LVGL/src/font/lv_font_montserrat_20.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_20.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_20.c.obj
+
+LVGL/src/font/lv_font_montserrat_20.i: LVGL/src/font/lv_font_montserrat_20.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_20.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_20.c.i
+
+LVGL/src/font/lv_font_montserrat_20.s: LVGL/src/font/lv_font_montserrat_20.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_20.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_20.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_20.c.s
+
+LVGL/src/font/lv_font_montserrat_22.obj: LVGL/src/font/lv_font_montserrat_22.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_22.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_22.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_22.c.obj
+
+LVGL/src/font/lv_font_montserrat_22.i: LVGL/src/font/lv_font_montserrat_22.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_22.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_22.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_22.c.i
+
+LVGL/src/font/lv_font_montserrat_22.s: LVGL/src/font/lv_font_montserrat_22.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_22.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_22.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_22.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_22.c.s
+
+LVGL/src/font/lv_font_montserrat_24.obj: LVGL/src/font/lv_font_montserrat_24.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_24.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_24.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_24.c.obj
+
+LVGL/src/font/lv_font_montserrat_24.i: LVGL/src/font/lv_font_montserrat_24.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_24.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_24.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_24.c.i
+
+LVGL/src/font/lv_font_montserrat_24.s: LVGL/src/font/lv_font_montserrat_24.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_24.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_24.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_24.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_24.c.s
+
+LVGL/src/font/lv_font_montserrat_26.obj: LVGL/src/font/lv_font_montserrat_26.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_26.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_26.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_26.c.obj
+
+LVGL/src/font/lv_font_montserrat_26.i: LVGL/src/font/lv_font_montserrat_26.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_26.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_26.c.i
+
+LVGL/src/font/lv_font_montserrat_26.s: LVGL/src/font/lv_font_montserrat_26.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_26.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_26.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_26.c.s
+
+LVGL/src/font/lv_font_montserrat_28.obj: LVGL/src/font/lv_font_montserrat_28.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_28.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_28.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_28.c.obj
+
+LVGL/src/font/lv_font_montserrat_28.i: LVGL/src/font/lv_font_montserrat_28.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_28.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_28.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_28.c.i
+
+LVGL/src/font/lv_font_montserrat_28.s: LVGL/src/font/lv_font_montserrat_28.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_28.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_28.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_28.c.s
+
+LVGL/src/font/lv_font_montserrat_28_compressed.obj: LVGL/src/font/lv_font_montserrat_28_compressed.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_28_compressed.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.c.obj
+
+LVGL/src/font/lv_font_montserrat_28_compressed.i: LVGL/src/font/lv_font_montserrat_28_compressed.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_28_compressed.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.c.i
+
+LVGL/src/font/lv_font_montserrat_28_compressed.s: LVGL/src/font/lv_font_montserrat_28_compressed.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_28_compressed.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_28_compressed.c.s
+
+LVGL/src/font/lv_font_montserrat_30.obj: LVGL/src/font/lv_font_montserrat_30.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_30.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_30.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_30.c.obj
+
+LVGL/src/font/lv_font_montserrat_30.i: LVGL/src/font/lv_font_montserrat_30.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_30.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_30.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_30.c.i
+
+LVGL/src/font/lv_font_montserrat_30.s: LVGL/src/font/lv_font_montserrat_30.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_30.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_30.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_30.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_30.c.s
+
+LVGL/src/font/lv_font_montserrat_32.obj: LVGL/src/font/lv_font_montserrat_32.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_32.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_32.c.obj
+
+LVGL/src/font/lv_font_montserrat_32.i: LVGL/src/font/lv_font_montserrat_32.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_32.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_32.c.i
+
+LVGL/src/font/lv_font_montserrat_32.s: LVGL/src/font/lv_font_montserrat_32.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_32.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_32.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_32.c.s
+
+LVGL/src/font/lv_font_montserrat_34.obj: LVGL/src/font/lv_font_montserrat_34.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_34.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_34.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_34.c.obj
+
+LVGL/src/font/lv_font_montserrat_34.i: LVGL/src/font/lv_font_montserrat_34.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_34.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_34.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_34.c.i
+
+LVGL/src/font/lv_font_montserrat_34.s: LVGL/src/font/lv_font_montserrat_34.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_34.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_34.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_34.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_34.c.s
+
+LVGL/src/font/lv_font_montserrat_36.obj: LVGL/src/font/lv_font_montserrat_36.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_36.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_36.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_36.c.obj
+
+LVGL/src/font/lv_font_montserrat_36.i: LVGL/src/font/lv_font_montserrat_36.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_36.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_36.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_36.c.i
+
+LVGL/src/font/lv_font_montserrat_36.s: LVGL/src/font/lv_font_montserrat_36.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_36.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_36.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_36.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_36.c.s
+
+LVGL/src/font/lv_font_montserrat_38.obj: LVGL/src/font/lv_font_montserrat_38.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_38.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_38.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_38.c.obj
+
+LVGL/src/font/lv_font_montserrat_38.i: LVGL/src/font/lv_font_montserrat_38.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_38.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_38.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_38.c.i
+
+LVGL/src/font/lv_font_montserrat_38.s: LVGL/src/font/lv_font_montserrat_38.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_38.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_38.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_38.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_38.c.s
+
+LVGL/src/font/lv_font_montserrat_40.obj: LVGL/src/font/lv_font_montserrat_40.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_40.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_40.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_40.c.obj
+
+LVGL/src/font/lv_font_montserrat_40.i: LVGL/src/font/lv_font_montserrat_40.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_40.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_40.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_40.c.i
+
+LVGL/src/font/lv_font_montserrat_40.s: LVGL/src/font/lv_font_montserrat_40.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_40.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_40.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_40.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_40.c.s
+
+LVGL/src/font/lv_font_montserrat_42.obj: LVGL/src/font/lv_font_montserrat_42.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_42.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_42.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_42.c.obj
+
+LVGL/src/font/lv_font_montserrat_42.i: LVGL/src/font/lv_font_montserrat_42.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_42.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_42.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_42.c.i
+
+LVGL/src/font/lv_font_montserrat_42.s: LVGL/src/font/lv_font_montserrat_42.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_42.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_42.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_42.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_42.c.s
+
+LVGL/src/font/lv_font_montserrat_44.obj: LVGL/src/font/lv_font_montserrat_44.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_44.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_44.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_44.c.obj
+
+LVGL/src/font/lv_font_montserrat_44.i: LVGL/src/font/lv_font_montserrat_44.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_44.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_44.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_44.c.i
+
+LVGL/src/font/lv_font_montserrat_44.s: LVGL/src/font/lv_font_montserrat_44.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_44.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_44.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_44.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_44.c.s
+
+LVGL/src/font/lv_font_montserrat_46.obj: LVGL/src/font/lv_font_montserrat_46.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_46.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_46.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_46.c.obj
+
+LVGL/src/font/lv_font_montserrat_46.i: LVGL/src/font/lv_font_montserrat_46.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_46.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_46.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_46.c.i
+
+LVGL/src/font/lv_font_montserrat_46.s: LVGL/src/font/lv_font_montserrat_46.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_46.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_46.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_46.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_46.c.s
+
+LVGL/src/font/lv_font_montserrat_48.obj: LVGL/src/font/lv_font_montserrat_48.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_48.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_48.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_48.c.obj
+
+LVGL/src/font/lv_font_montserrat_48.i: LVGL/src/font/lv_font_montserrat_48.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_48.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_48.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_48.c.i
+
+LVGL/src/font/lv_font_montserrat_48.s: LVGL/src/font/lv_font_montserrat_48.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_48.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_48.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_48.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_48.c.s
+
+LVGL/src/font/lv_font_montserrat_8.obj: LVGL/src/font/lv_font_montserrat_8.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_8.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_montserrat_8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.obj
+.PHONY : LVGL/src/font/lv_font_montserrat_8.c.obj
+
+LVGL/src/font/lv_font_montserrat_8.i: LVGL/src/font/lv_font_montserrat_8.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_8.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_montserrat_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.i
+.PHONY : LVGL/src/font/lv_font_montserrat_8.c.i
+
+LVGL/src/font/lv_font_montserrat_8.s: LVGL/src/font/lv_font_montserrat_8.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_8.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_montserrat_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_montserrat_8.c.s
+.PHONY : LVGL/src/font/lv_font_montserrat_8.c.s
+
+LVGL/src/font/lv_font_simsun_16_cjk.obj: LVGL/src/font/lv_font_simsun_16_cjk.c.obj
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_simsun_16_cjk.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.c.obj
+
+LVGL/src/font/lv_font_simsun_16_cjk.i: LVGL/src/font/lv_font_simsun_16_cjk.c.i
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_simsun_16_cjk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.i
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.c.i
+
+LVGL/src/font/lv_font_simsun_16_cjk.s: LVGL/src/font/lv_font_simsun_16_cjk.c.s
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_simsun_16_cjk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.s
+.PHONY : LVGL/src/font/lv_font_simsun_16_cjk.c.s
+
+LVGL/src/font/lv_font_unscii_16.obj: LVGL/src/font/lv_font_unscii_16.c.obj
+.PHONY : LVGL/src/font/lv_font_unscii_16.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_unscii_16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.obj
+.PHONY : LVGL/src/font/lv_font_unscii_16.c.obj
+
+LVGL/src/font/lv_font_unscii_16.i: LVGL/src/font/lv_font_unscii_16.c.i
+.PHONY : LVGL/src/font/lv_font_unscii_16.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_unscii_16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.i
+.PHONY : LVGL/src/font/lv_font_unscii_16.c.i
+
+LVGL/src/font/lv_font_unscii_16.s: LVGL/src/font/lv_font_unscii_16.c.s
+.PHONY : LVGL/src/font/lv_font_unscii_16.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_unscii_16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_16.c.s
+.PHONY : LVGL/src/font/lv_font_unscii_16.c.s
+
+LVGL/src/font/lv_font_unscii_8.obj: LVGL/src/font/lv_font_unscii_8.c.obj
+.PHONY : LVGL/src/font/lv_font_unscii_8.obj
+
+# target to build an object file
+LVGL/src/font/lv_font_unscii_8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.obj
+.PHONY : LVGL/src/font/lv_font_unscii_8.c.obj
+
+LVGL/src/font/lv_font_unscii_8.i: LVGL/src/font/lv_font_unscii_8.c.i
+.PHONY : LVGL/src/font/lv_font_unscii_8.i
+
+# target to preprocess a source file
+LVGL/src/font/lv_font_unscii_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.i
+.PHONY : LVGL/src/font/lv_font_unscii_8.c.i
+
+LVGL/src/font/lv_font_unscii_8.s: LVGL/src/font/lv_font_unscii_8.c.s
+.PHONY : LVGL/src/font/lv_font_unscii_8.s
+
+# target to generate assembly for a file
+LVGL/src/font/lv_font_unscii_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/font/lv_font_unscii_8.c.s
+.PHONY : LVGL/src/font/lv_font_unscii_8.c.s
+
+LVGL/src/gpu/lv_gpu_nxp_pxp.obj: LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.obj
+
+# target to build an object file
+LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.c.obj
+
+LVGL/src/gpu/lv_gpu_nxp_pxp.i: LVGL/src/gpu/lv_gpu_nxp_pxp.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.i
+
+# target to preprocess a source file
+LVGL/src/gpu/lv_gpu_nxp_pxp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.c.i
+
+LVGL/src/gpu/lv_gpu_nxp_pxp.s: LVGL/src/gpu/lv_gpu_nxp_pxp.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.s
+
+# target to generate assembly for a file
+LVGL/src/gpu/lv_gpu_nxp_pxp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp.c.s
+
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.obj: LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.obj
+
+# target to build an object file
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.obj
+
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.i: LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.i
+
+# target to preprocess a source file
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.i
+
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.s: LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.s
+
+# target to generate assembly for a file
+LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c.s
+
+LVGL/src/gpu/lv_gpu_nxp_vglite.obj: LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.obj
+
+# target to build an object file
+LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.c.obj
+
+LVGL/src/gpu/lv_gpu_nxp_vglite.i: LVGL/src/gpu/lv_gpu_nxp_vglite.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.i
+
+# target to preprocess a source file
+LVGL/src/gpu/lv_gpu_nxp_vglite.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.c.i
+
+LVGL/src/gpu/lv_gpu_nxp_vglite.s: LVGL/src/gpu/lv_gpu_nxp_vglite.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.s
+
+# target to generate assembly for a file
+LVGL/src/gpu/lv_gpu_nxp_vglite.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_nxp_vglite.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_nxp_vglite.c.s
+
+LVGL/src/gpu/lv_gpu_stm32_dma2d.obj: LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.obj
+
+# target to build an object file
+LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.c.obj
+
+LVGL/src/gpu/lv_gpu_stm32_dma2d.i: LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.i
+
+# target to preprocess a source file
+LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.c.i
+
+LVGL/src/gpu/lv_gpu_stm32_dma2d.s: LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.s
+
+# target to generate assembly for a file
+LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s
+.PHONY : LVGL/src/gpu/lv_gpu_stm32_dma2d.c.s
+
+LVGL/src/hal/lv_hal_disp.obj: LVGL/src/hal/lv_hal_disp.c.obj
+.PHONY : LVGL/src/hal/lv_hal_disp.obj
+
+# target to build an object file
+LVGL/src/hal/lv_hal_disp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.obj
+.PHONY : LVGL/src/hal/lv_hal_disp.c.obj
+
+LVGL/src/hal/lv_hal_disp.i: LVGL/src/hal/lv_hal_disp.c.i
+.PHONY : LVGL/src/hal/lv_hal_disp.i
+
+# target to preprocess a source file
+LVGL/src/hal/lv_hal_disp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.i
+.PHONY : LVGL/src/hal/lv_hal_disp.c.i
+
+LVGL/src/hal/lv_hal_disp.s: LVGL/src/hal/lv_hal_disp.c.s
+.PHONY : LVGL/src/hal/lv_hal_disp.s
+
+# target to generate assembly for a file
+LVGL/src/hal/lv_hal_disp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_disp.c.s
+.PHONY : LVGL/src/hal/lv_hal_disp.c.s
+
+LVGL/src/hal/lv_hal_indev.obj: LVGL/src/hal/lv_hal_indev.c.obj
+.PHONY : LVGL/src/hal/lv_hal_indev.obj
+
+# target to build an object file
+LVGL/src/hal/lv_hal_indev.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.obj
+.PHONY : LVGL/src/hal/lv_hal_indev.c.obj
+
+LVGL/src/hal/lv_hal_indev.i: LVGL/src/hal/lv_hal_indev.c.i
+.PHONY : LVGL/src/hal/lv_hal_indev.i
+
+# target to preprocess a source file
+LVGL/src/hal/lv_hal_indev.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.i
+.PHONY : LVGL/src/hal/lv_hal_indev.c.i
+
+LVGL/src/hal/lv_hal_indev.s: LVGL/src/hal/lv_hal_indev.c.s
+.PHONY : LVGL/src/hal/lv_hal_indev.s
+
+# target to generate assembly for a file
+LVGL/src/hal/lv_hal_indev.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_indev.c.s
+.PHONY : LVGL/src/hal/lv_hal_indev.c.s
+
+LVGL/src/hal/lv_hal_tick.obj: LVGL/src/hal/lv_hal_tick.c.obj
+.PHONY : LVGL/src/hal/lv_hal_tick.obj
+
+# target to build an object file
+LVGL/src/hal/lv_hal_tick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.obj
+.PHONY : LVGL/src/hal/lv_hal_tick.c.obj
+
+LVGL/src/hal/lv_hal_tick.i: LVGL/src/hal/lv_hal_tick.c.i
+.PHONY : LVGL/src/hal/lv_hal_tick.i
+
+# target to preprocess a source file
+LVGL/src/hal/lv_hal_tick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.i
+.PHONY : LVGL/src/hal/lv_hal_tick.c.i
+
+LVGL/src/hal/lv_hal_tick.s: LVGL/src/hal/lv_hal_tick.c.s
+.PHONY : LVGL/src/hal/lv_hal_tick.s
+
+# target to generate assembly for a file
+LVGL/src/hal/lv_hal_tick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/hal/lv_hal_tick.c.s
+.PHONY : LVGL/src/hal/lv_hal_tick.c.s
+
+LVGL/src/misc/lv_anim.obj: LVGL/src/misc/lv_anim.c.obj
+.PHONY : LVGL/src/misc/lv_anim.obj
+
+# target to build an object file
+LVGL/src/misc/lv_anim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.obj
+.PHONY : LVGL/src/misc/lv_anim.c.obj
+
+LVGL/src/misc/lv_anim.i: LVGL/src/misc/lv_anim.c.i
+.PHONY : LVGL/src/misc/lv_anim.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_anim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.i
+.PHONY : LVGL/src/misc/lv_anim.c.i
+
+LVGL/src/misc/lv_anim.s: LVGL/src/misc/lv_anim.c.s
+.PHONY : LVGL/src/misc/lv_anim.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_anim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_anim.c.s
+.PHONY : LVGL/src/misc/lv_anim.c.s
+
+LVGL/src/misc/lv_area.obj: LVGL/src/misc/lv_area.c.obj
+.PHONY : LVGL/src/misc/lv_area.obj
+
+# target to build an object file
+LVGL/src/misc/lv_area.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj
+.PHONY : LVGL/src/misc/lv_area.c.obj
+
+LVGL/src/misc/lv_area.i: LVGL/src/misc/lv_area.c.i
+.PHONY : LVGL/src/misc/lv_area.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_area.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.i
+.PHONY : LVGL/src/misc/lv_area.c.i
+
+LVGL/src/misc/lv_area.s: LVGL/src/misc/lv_area.c.s
+.PHONY : LVGL/src/misc/lv_area.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_area.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.s
+.PHONY : LVGL/src/misc/lv_area.c.s
+
+LVGL/src/misc/lv_async.obj: LVGL/src/misc/lv_async.c.obj
+.PHONY : LVGL/src/misc/lv_async.obj
+
+# target to build an object file
+LVGL/src/misc/lv_async.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.obj
+.PHONY : LVGL/src/misc/lv_async.c.obj
+
+LVGL/src/misc/lv_async.i: LVGL/src/misc/lv_async.c.i
+.PHONY : LVGL/src/misc/lv_async.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_async.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.i
+.PHONY : LVGL/src/misc/lv_async.c.i
+
+LVGL/src/misc/lv_async.s: LVGL/src/misc/lv_async.c.s
+.PHONY : LVGL/src/misc/lv_async.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_async.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_async.c.s
+.PHONY : LVGL/src/misc/lv_async.c.s
+
+LVGL/src/misc/lv_bidi.obj: LVGL/src/misc/lv_bidi.c.obj
+.PHONY : LVGL/src/misc/lv_bidi.obj
+
+# target to build an object file
+LVGL/src/misc/lv_bidi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.obj
+.PHONY : LVGL/src/misc/lv_bidi.c.obj
+
+LVGL/src/misc/lv_bidi.i: LVGL/src/misc/lv_bidi.c.i
+.PHONY : LVGL/src/misc/lv_bidi.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_bidi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.i
+.PHONY : LVGL/src/misc/lv_bidi.c.i
+
+LVGL/src/misc/lv_bidi.s: LVGL/src/misc/lv_bidi.c.s
+.PHONY : LVGL/src/misc/lv_bidi.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_bidi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_bidi.c.s
+.PHONY : LVGL/src/misc/lv_bidi.c.s
+
+LVGL/src/misc/lv_color.obj: LVGL/src/misc/lv_color.c.obj
+.PHONY : LVGL/src/misc/lv_color.obj
+
+# target to build an object file
+LVGL/src/misc/lv_color.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.obj
+.PHONY : LVGL/src/misc/lv_color.c.obj
+
+LVGL/src/misc/lv_color.i: LVGL/src/misc/lv_color.c.i
+.PHONY : LVGL/src/misc/lv_color.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_color.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.i
+.PHONY : LVGL/src/misc/lv_color.c.i
+
+LVGL/src/misc/lv_color.s: LVGL/src/misc/lv_color.c.s
+.PHONY : LVGL/src/misc/lv_color.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_color.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_color.c.s
+.PHONY : LVGL/src/misc/lv_color.c.s
+
+LVGL/src/misc/lv_fs.obj: LVGL/src/misc/lv_fs.c.obj
+.PHONY : LVGL/src/misc/lv_fs.obj
+
+# target to build an object file
+LVGL/src/misc/lv_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.obj
+.PHONY : LVGL/src/misc/lv_fs.c.obj
+
+LVGL/src/misc/lv_fs.i: LVGL/src/misc/lv_fs.c.i
+.PHONY : LVGL/src/misc/lv_fs.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.i
+.PHONY : LVGL/src/misc/lv_fs.c.i
+
+LVGL/src/misc/lv_fs.s: LVGL/src/misc/lv_fs.c.s
+.PHONY : LVGL/src/misc/lv_fs.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_fs.c.s
+.PHONY : LVGL/src/misc/lv_fs.c.s
+
+LVGL/src/misc/lv_gc.obj: LVGL/src/misc/lv_gc.c.obj
+.PHONY : LVGL/src/misc/lv_gc.obj
+
+# target to build an object file
+LVGL/src/misc/lv_gc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.obj
+.PHONY : LVGL/src/misc/lv_gc.c.obj
+
+LVGL/src/misc/lv_gc.i: LVGL/src/misc/lv_gc.c.i
+.PHONY : LVGL/src/misc/lv_gc.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_gc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.i
+.PHONY : LVGL/src/misc/lv_gc.c.i
+
+LVGL/src/misc/lv_gc.s: LVGL/src/misc/lv_gc.c.s
+.PHONY : LVGL/src/misc/lv_gc.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_gc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_gc.c.s
+.PHONY : LVGL/src/misc/lv_gc.c.s
+
+LVGL/src/misc/lv_ll.obj: LVGL/src/misc/lv_ll.c.obj
+.PHONY : LVGL/src/misc/lv_ll.obj
+
+# target to build an object file
+LVGL/src/misc/lv_ll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.obj
+.PHONY : LVGL/src/misc/lv_ll.c.obj
+
+LVGL/src/misc/lv_ll.i: LVGL/src/misc/lv_ll.c.i
+.PHONY : LVGL/src/misc/lv_ll.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.i
+.PHONY : LVGL/src/misc/lv_ll.c.i
+
+LVGL/src/misc/lv_ll.s: LVGL/src/misc/lv_ll.c.s
+.PHONY : LVGL/src/misc/lv_ll.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_ll.c.s
+.PHONY : LVGL/src/misc/lv_ll.c.s
+
+LVGL/src/misc/lv_log.obj: LVGL/src/misc/lv_log.c.obj
+.PHONY : LVGL/src/misc/lv_log.obj
+
+# target to build an object file
+LVGL/src/misc/lv_log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.obj
+.PHONY : LVGL/src/misc/lv_log.c.obj
+
+LVGL/src/misc/lv_log.i: LVGL/src/misc/lv_log.c.i
+.PHONY : LVGL/src/misc/lv_log.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.i
+.PHONY : LVGL/src/misc/lv_log.c.i
+
+LVGL/src/misc/lv_log.s: LVGL/src/misc/lv_log.c.s
+.PHONY : LVGL/src/misc/lv_log.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_log.c.s
+.PHONY : LVGL/src/misc/lv_log.c.s
+
+LVGL/src/misc/lv_math.obj: LVGL/src/misc/lv_math.c.obj
+.PHONY : LVGL/src/misc/lv_math.obj
+
+# target to build an object file
+LVGL/src/misc/lv_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.obj
+.PHONY : LVGL/src/misc/lv_math.c.obj
+
+LVGL/src/misc/lv_math.i: LVGL/src/misc/lv_math.c.i
+.PHONY : LVGL/src/misc/lv_math.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.i
+.PHONY : LVGL/src/misc/lv_math.c.i
+
+LVGL/src/misc/lv_math.s: LVGL/src/misc/lv_math.c.s
+.PHONY : LVGL/src/misc/lv_math.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_math.c.s
+.PHONY : LVGL/src/misc/lv_math.c.s
+
+LVGL/src/misc/lv_mem.obj: LVGL/src/misc/lv_mem.c.obj
+.PHONY : LVGL/src/misc/lv_mem.obj
+
+# target to build an object file
+LVGL/src/misc/lv_mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.obj
+.PHONY : LVGL/src/misc/lv_mem.c.obj
+
+LVGL/src/misc/lv_mem.i: LVGL/src/misc/lv_mem.c.i
+.PHONY : LVGL/src/misc/lv_mem.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.i
+.PHONY : LVGL/src/misc/lv_mem.c.i
+
+LVGL/src/misc/lv_mem.s: LVGL/src/misc/lv_mem.c.s
+.PHONY : LVGL/src/misc/lv_mem.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_mem.c.s
+.PHONY : LVGL/src/misc/lv_mem.c.s
+
+LVGL/src/misc/lv_printf.obj: LVGL/src/misc/lv_printf.c.obj
+.PHONY : LVGL/src/misc/lv_printf.obj
+
+# target to build an object file
+LVGL/src/misc/lv_printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.obj
+.PHONY : LVGL/src/misc/lv_printf.c.obj
+
+LVGL/src/misc/lv_printf.i: LVGL/src/misc/lv_printf.c.i
+.PHONY : LVGL/src/misc/lv_printf.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.i
+.PHONY : LVGL/src/misc/lv_printf.c.i
+
+LVGL/src/misc/lv_printf.s: LVGL/src/misc/lv_printf.c.s
+.PHONY : LVGL/src/misc/lv_printf.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_printf.c.s
+.PHONY : LVGL/src/misc/lv_printf.c.s
+
+LVGL/src/misc/lv_style.obj: LVGL/src/misc/lv_style.c.obj
+.PHONY : LVGL/src/misc/lv_style.obj
+
+# target to build an object file
+LVGL/src/misc/lv_style.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.obj
+.PHONY : LVGL/src/misc/lv_style.c.obj
+
+LVGL/src/misc/lv_style.i: LVGL/src/misc/lv_style.c.i
+.PHONY : LVGL/src/misc/lv_style.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_style.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.i
+.PHONY : LVGL/src/misc/lv_style.c.i
+
+LVGL/src/misc/lv_style.s: LVGL/src/misc/lv_style.c.s
+.PHONY : LVGL/src/misc/lv_style.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_style.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style.c.s
+.PHONY : LVGL/src/misc/lv_style.c.s
+
+LVGL/src/misc/lv_style_gen.obj: LVGL/src/misc/lv_style_gen.c.obj
+.PHONY : LVGL/src/misc/lv_style_gen.obj
+
+# target to build an object file
+LVGL/src/misc/lv_style_gen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj
+.PHONY : LVGL/src/misc/lv_style_gen.c.obj
+
+LVGL/src/misc/lv_style_gen.i: LVGL/src/misc/lv_style_gen.c.i
+.PHONY : LVGL/src/misc/lv_style_gen.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_style_gen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.i
+.PHONY : LVGL/src/misc/lv_style_gen.c.i
+
+LVGL/src/misc/lv_style_gen.s: LVGL/src/misc/lv_style_gen.c.s
+.PHONY : LVGL/src/misc/lv_style_gen.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_style_gen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.s
+.PHONY : LVGL/src/misc/lv_style_gen.c.s
+
+LVGL/src/misc/lv_templ.obj: LVGL/src/misc/lv_templ.c.obj
+.PHONY : LVGL/src/misc/lv_templ.obj
+
+# target to build an object file
+LVGL/src/misc/lv_templ.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj
+.PHONY : LVGL/src/misc/lv_templ.c.obj
+
+LVGL/src/misc/lv_templ.i: LVGL/src/misc/lv_templ.c.i
+.PHONY : LVGL/src/misc/lv_templ.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_templ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.i
+.PHONY : LVGL/src/misc/lv_templ.c.i
+
+LVGL/src/misc/lv_templ.s: LVGL/src/misc/lv_templ.c.s
+.PHONY : LVGL/src/misc/lv_templ.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_templ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.s
+.PHONY : LVGL/src/misc/lv_templ.c.s
+
+LVGL/src/misc/lv_timer.obj: LVGL/src/misc/lv_timer.c.obj
+.PHONY : LVGL/src/misc/lv_timer.obj
+
+# target to build an object file
+LVGL/src/misc/lv_timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.obj
+.PHONY : LVGL/src/misc/lv_timer.c.obj
+
+LVGL/src/misc/lv_timer.i: LVGL/src/misc/lv_timer.c.i
+.PHONY : LVGL/src/misc/lv_timer.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.i
+.PHONY : LVGL/src/misc/lv_timer.c.i
+
+LVGL/src/misc/lv_timer.s: LVGL/src/misc/lv_timer.c.s
+.PHONY : LVGL/src/misc/lv_timer.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_timer.c.s
+.PHONY : LVGL/src/misc/lv_timer.c.s
+
+LVGL/src/misc/lv_tlsf.obj: LVGL/src/misc/lv_tlsf.c.obj
+.PHONY : LVGL/src/misc/lv_tlsf.obj
+
+# target to build an object file
+LVGL/src/misc/lv_tlsf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.obj
+.PHONY : LVGL/src/misc/lv_tlsf.c.obj
+
+LVGL/src/misc/lv_tlsf.i: LVGL/src/misc/lv_tlsf.c.i
+.PHONY : LVGL/src/misc/lv_tlsf.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_tlsf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.i
+.PHONY : LVGL/src/misc/lv_tlsf.c.i
+
+LVGL/src/misc/lv_tlsf.s: LVGL/src/misc/lv_tlsf.c.s
+.PHONY : LVGL/src/misc/lv_tlsf.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_tlsf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_tlsf.c.s
+.PHONY : LVGL/src/misc/lv_tlsf.c.s
+
+LVGL/src/misc/lv_txt.obj: LVGL/src/misc/lv_txt.c.obj
+.PHONY : LVGL/src/misc/lv_txt.obj
+
+# target to build an object file
+LVGL/src/misc/lv_txt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.obj
+.PHONY : LVGL/src/misc/lv_txt.c.obj
+
+LVGL/src/misc/lv_txt.i: LVGL/src/misc/lv_txt.c.i
+.PHONY : LVGL/src/misc/lv_txt.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_txt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.i
+.PHONY : LVGL/src/misc/lv_txt.c.i
+
+LVGL/src/misc/lv_txt.s: LVGL/src/misc/lv_txt.c.s
+.PHONY : LVGL/src/misc/lv_txt.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_txt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt.c.s
+.PHONY : LVGL/src/misc/lv_txt.c.s
+
+LVGL/src/misc/lv_txt_ap.obj: LVGL/src/misc/lv_txt_ap.c.obj
+.PHONY : LVGL/src/misc/lv_txt_ap.obj
+
+# target to build an object file
+LVGL/src/misc/lv_txt_ap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.obj
+.PHONY : LVGL/src/misc/lv_txt_ap.c.obj
+
+LVGL/src/misc/lv_txt_ap.i: LVGL/src/misc/lv_txt_ap.c.i
+.PHONY : LVGL/src/misc/lv_txt_ap.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_txt_ap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.i
+.PHONY : LVGL/src/misc/lv_txt_ap.c.i
+
+LVGL/src/misc/lv_txt_ap.s: LVGL/src/misc/lv_txt_ap.c.s
+.PHONY : LVGL/src/misc/lv_txt_ap.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_txt_ap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_txt_ap.c.s
+.PHONY : LVGL/src/misc/lv_txt_ap.c.s
+
+LVGL/src/misc/lv_utils.obj: LVGL/src/misc/lv_utils.c.obj
+.PHONY : LVGL/src/misc/lv_utils.obj
+
+# target to build an object file
+LVGL/src/misc/lv_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.obj
+.PHONY : LVGL/src/misc/lv_utils.c.obj
+
+LVGL/src/misc/lv_utils.i: LVGL/src/misc/lv_utils.c.i
+.PHONY : LVGL/src/misc/lv_utils.i
+
+# target to preprocess a source file
+LVGL/src/misc/lv_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.i
+.PHONY : LVGL/src/misc/lv_utils.c.i
+
+LVGL/src/misc/lv_utils.s: LVGL/src/misc/lv_utils.c.s
+.PHONY : LVGL/src/misc/lv_utils.s
+
+# target to generate assembly for a file
+LVGL/src/misc/lv_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_utils.c.s
+.PHONY : LVGL/src/misc/lv_utils.c.s
+
+LVGL/src/widgets/lv_arc.obj: LVGL/src/widgets/lv_arc.c.obj
+.PHONY : LVGL/src/widgets/lv_arc.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_arc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.obj
+.PHONY : LVGL/src/widgets/lv_arc.c.obj
+
+LVGL/src/widgets/lv_arc.i: LVGL/src/widgets/lv_arc.c.i
+.PHONY : LVGL/src/widgets/lv_arc.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_arc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.i
+.PHONY : LVGL/src/widgets/lv_arc.c.i
+
+LVGL/src/widgets/lv_arc.s: LVGL/src/widgets/lv_arc.c.s
+.PHONY : LVGL/src/widgets/lv_arc.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_arc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_arc.c.s
+.PHONY : LVGL/src/widgets/lv_arc.c.s
+
+LVGL/src/widgets/lv_bar.obj: LVGL/src/widgets/lv_bar.c.obj
+.PHONY : LVGL/src/widgets/lv_bar.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_bar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.obj
+.PHONY : LVGL/src/widgets/lv_bar.c.obj
+
+LVGL/src/widgets/lv_bar.i: LVGL/src/widgets/lv_bar.c.i
+.PHONY : LVGL/src/widgets/lv_bar.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_bar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.i
+.PHONY : LVGL/src/widgets/lv_bar.c.i
+
+LVGL/src/widgets/lv_bar.s: LVGL/src/widgets/lv_bar.c.s
+.PHONY : LVGL/src/widgets/lv_bar.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_bar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_bar.c.s
+.PHONY : LVGL/src/widgets/lv_bar.c.s
+
+LVGL/src/widgets/lv_btn.obj: LVGL/src/widgets/lv_btn.c.obj
+.PHONY : LVGL/src/widgets/lv_btn.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_btn.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.obj
+.PHONY : LVGL/src/widgets/lv_btn.c.obj
+
+LVGL/src/widgets/lv_btn.i: LVGL/src/widgets/lv_btn.c.i
+.PHONY : LVGL/src/widgets/lv_btn.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_btn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.i
+.PHONY : LVGL/src/widgets/lv_btn.c.i
+
+LVGL/src/widgets/lv_btn.s: LVGL/src/widgets/lv_btn.c.s
+.PHONY : LVGL/src/widgets/lv_btn.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_btn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btn.c.s
+.PHONY : LVGL/src/widgets/lv_btn.c.s
+
+LVGL/src/widgets/lv_btnmatrix.obj: LVGL/src/widgets/lv_btnmatrix.c.obj
+.PHONY : LVGL/src/widgets/lv_btnmatrix.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_btnmatrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.obj
+.PHONY : LVGL/src/widgets/lv_btnmatrix.c.obj
+
+LVGL/src/widgets/lv_btnmatrix.i: LVGL/src/widgets/lv_btnmatrix.c.i
+.PHONY : LVGL/src/widgets/lv_btnmatrix.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_btnmatrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.i
+.PHONY : LVGL/src/widgets/lv_btnmatrix.c.i
+
+LVGL/src/widgets/lv_btnmatrix.s: LVGL/src/widgets/lv_btnmatrix.c.s
+.PHONY : LVGL/src/widgets/lv_btnmatrix.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_btnmatrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_btnmatrix.c.s
+.PHONY : LVGL/src/widgets/lv_btnmatrix.c.s
+
+LVGL/src/widgets/lv_canvas.obj: LVGL/src/widgets/lv_canvas.c.obj
+.PHONY : LVGL/src/widgets/lv_canvas.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_canvas.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.obj
+.PHONY : LVGL/src/widgets/lv_canvas.c.obj
+
+LVGL/src/widgets/lv_canvas.i: LVGL/src/widgets/lv_canvas.c.i
+.PHONY : LVGL/src/widgets/lv_canvas.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_canvas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.i
+.PHONY : LVGL/src/widgets/lv_canvas.c.i
+
+LVGL/src/widgets/lv_canvas.s: LVGL/src/widgets/lv_canvas.c.s
+.PHONY : LVGL/src/widgets/lv_canvas.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_canvas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_canvas.c.s
+.PHONY : LVGL/src/widgets/lv_canvas.c.s
+
+LVGL/src/widgets/lv_checkbox.obj: LVGL/src/widgets/lv_checkbox.c.obj
+.PHONY : LVGL/src/widgets/lv_checkbox.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_checkbox.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.obj
+.PHONY : LVGL/src/widgets/lv_checkbox.c.obj
+
+LVGL/src/widgets/lv_checkbox.i: LVGL/src/widgets/lv_checkbox.c.i
+.PHONY : LVGL/src/widgets/lv_checkbox.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_checkbox.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.i
+.PHONY : LVGL/src/widgets/lv_checkbox.c.i
+
+LVGL/src/widgets/lv_checkbox.s: LVGL/src/widgets/lv_checkbox.c.s
+.PHONY : LVGL/src/widgets/lv_checkbox.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_checkbox.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_checkbox.c.s
+.PHONY : LVGL/src/widgets/lv_checkbox.c.s
+
+LVGL/src/widgets/lv_dropdown.obj: LVGL/src/widgets/lv_dropdown.c.obj
+.PHONY : LVGL/src/widgets/lv_dropdown.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_dropdown.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.obj
+.PHONY : LVGL/src/widgets/lv_dropdown.c.obj
+
+LVGL/src/widgets/lv_dropdown.i: LVGL/src/widgets/lv_dropdown.c.i
+.PHONY : LVGL/src/widgets/lv_dropdown.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_dropdown.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.i
+.PHONY : LVGL/src/widgets/lv_dropdown.c.i
+
+LVGL/src/widgets/lv_dropdown.s: LVGL/src/widgets/lv_dropdown.c.s
+.PHONY : LVGL/src/widgets/lv_dropdown.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_dropdown.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_dropdown.c.s
+.PHONY : LVGL/src/widgets/lv_dropdown.c.s
+
+LVGL/src/widgets/lv_img.obj: LVGL/src/widgets/lv_img.c.obj
+.PHONY : LVGL/src/widgets/lv_img.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_img.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.obj
+.PHONY : LVGL/src/widgets/lv_img.c.obj
+
+LVGL/src/widgets/lv_img.i: LVGL/src/widgets/lv_img.c.i
+.PHONY : LVGL/src/widgets/lv_img.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_img.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.i
+.PHONY : LVGL/src/widgets/lv_img.c.i
+
+LVGL/src/widgets/lv_img.s: LVGL/src/widgets/lv_img.c.s
+.PHONY : LVGL/src/widgets/lv_img.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_img.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_img.c.s
+.PHONY : LVGL/src/widgets/lv_img.c.s
+
+LVGL/src/widgets/lv_label.obj: LVGL/src/widgets/lv_label.c.obj
+.PHONY : LVGL/src/widgets/lv_label.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_label.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.obj
+.PHONY : LVGL/src/widgets/lv_label.c.obj
+
+LVGL/src/widgets/lv_label.i: LVGL/src/widgets/lv_label.c.i
+.PHONY : LVGL/src/widgets/lv_label.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_label.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.i
+.PHONY : LVGL/src/widgets/lv_label.c.i
+
+LVGL/src/widgets/lv_label.s: LVGL/src/widgets/lv_label.c.s
+.PHONY : LVGL/src/widgets/lv_label.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_label.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_label.c.s
+.PHONY : LVGL/src/widgets/lv_label.c.s
+
+LVGL/src/widgets/lv_line.obj: LVGL/src/widgets/lv_line.c.obj
+.PHONY : LVGL/src/widgets/lv_line.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_line.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.obj
+.PHONY : LVGL/src/widgets/lv_line.c.obj
+
+LVGL/src/widgets/lv_line.i: LVGL/src/widgets/lv_line.c.i
+.PHONY : LVGL/src/widgets/lv_line.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.i
+.PHONY : LVGL/src/widgets/lv_line.c.i
+
+LVGL/src/widgets/lv_line.s: LVGL/src/widgets/lv_line.c.s
+.PHONY : LVGL/src/widgets/lv_line.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_line.c.s
+.PHONY : LVGL/src/widgets/lv_line.c.s
+
+LVGL/src/widgets/lv_objx_templ.obj: LVGL/src/widgets/lv_objx_templ.c.obj
+.PHONY : LVGL/src/widgets/lv_objx_templ.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_objx_templ.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.obj
+.PHONY : LVGL/src/widgets/lv_objx_templ.c.obj
+
+LVGL/src/widgets/lv_objx_templ.i: LVGL/src/widgets/lv_objx_templ.c.i
+.PHONY : LVGL/src/widgets/lv_objx_templ.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_objx_templ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.i
+.PHONY : LVGL/src/widgets/lv_objx_templ.c.i
+
+LVGL/src/widgets/lv_objx_templ.s: LVGL/src/widgets/lv_objx_templ.c.s
+.PHONY : LVGL/src/widgets/lv_objx_templ.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_objx_templ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_objx_templ.c.s
+.PHONY : LVGL/src/widgets/lv_objx_templ.c.s
+
+LVGL/src/widgets/lv_roller.obj: LVGL/src/widgets/lv_roller.c.obj
+.PHONY : LVGL/src/widgets/lv_roller.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_roller.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.obj
+.PHONY : LVGL/src/widgets/lv_roller.c.obj
+
+LVGL/src/widgets/lv_roller.i: LVGL/src/widgets/lv_roller.c.i
+.PHONY : LVGL/src/widgets/lv_roller.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_roller.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.i
+.PHONY : LVGL/src/widgets/lv_roller.c.i
+
+LVGL/src/widgets/lv_roller.s: LVGL/src/widgets/lv_roller.c.s
+.PHONY : LVGL/src/widgets/lv_roller.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_roller.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_roller.c.s
+.PHONY : LVGL/src/widgets/lv_roller.c.s
+
+LVGL/src/widgets/lv_slider.obj: LVGL/src/widgets/lv_slider.c.obj
+.PHONY : LVGL/src/widgets/lv_slider.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_slider.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.obj
+.PHONY : LVGL/src/widgets/lv_slider.c.obj
+
+LVGL/src/widgets/lv_slider.i: LVGL/src/widgets/lv_slider.c.i
+.PHONY : LVGL/src/widgets/lv_slider.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_slider.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.i
+.PHONY : LVGL/src/widgets/lv_slider.c.i
+
+LVGL/src/widgets/lv_slider.s: LVGL/src/widgets/lv_slider.c.s
+.PHONY : LVGL/src/widgets/lv_slider.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_slider.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_slider.c.s
+.PHONY : LVGL/src/widgets/lv_slider.c.s
+
+LVGL/src/widgets/lv_switch.obj: LVGL/src/widgets/lv_switch.c.obj
+.PHONY : LVGL/src/widgets/lv_switch.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_switch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.obj
+.PHONY : LVGL/src/widgets/lv_switch.c.obj
+
+LVGL/src/widgets/lv_switch.i: LVGL/src/widgets/lv_switch.c.i
+.PHONY : LVGL/src/widgets/lv_switch.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_switch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.i
+.PHONY : LVGL/src/widgets/lv_switch.c.i
+
+LVGL/src/widgets/lv_switch.s: LVGL/src/widgets/lv_switch.c.s
+.PHONY : LVGL/src/widgets/lv_switch.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_switch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_switch.c.s
+.PHONY : LVGL/src/widgets/lv_switch.c.s
+
+LVGL/src/widgets/lv_table.obj: LVGL/src/widgets/lv_table.c.obj
+.PHONY : LVGL/src/widgets/lv_table.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_table.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.obj
+.PHONY : LVGL/src/widgets/lv_table.c.obj
+
+LVGL/src/widgets/lv_table.i: LVGL/src/widgets/lv_table.c.i
+.PHONY : LVGL/src/widgets/lv_table.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.i
+.PHONY : LVGL/src/widgets/lv_table.c.i
+
+LVGL/src/widgets/lv_table.s: LVGL/src/widgets/lv_table.c.s
+.PHONY : LVGL/src/widgets/lv_table.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_table.c.s
+.PHONY : LVGL/src/widgets/lv_table.c.s
+
+LVGL/src/widgets/lv_textarea.obj: LVGL/src/widgets/lv_textarea.c.obj
+.PHONY : LVGL/src/widgets/lv_textarea.obj
+
+# target to build an object file
+LVGL/src/widgets/lv_textarea.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.obj
+.PHONY : LVGL/src/widgets/lv_textarea.c.obj
+
+LVGL/src/widgets/lv_textarea.i: LVGL/src/widgets/lv_textarea.c.i
+.PHONY : LVGL/src/widgets/lv_textarea.i
+
+# target to preprocess a source file
+LVGL/src/widgets/lv_textarea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.i
+.PHONY : LVGL/src/widgets/lv_textarea.c.i
+
+LVGL/src/widgets/lv_textarea.s: LVGL/src/widgets/lv_textarea.c.s
+.PHONY : LVGL/src/widgets/lv_textarea.s
+
+# target to generate assembly for a file
+LVGL/src/widgets/lv_textarea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_libarary.elf.dir\build.make CMakeFiles/my_libarary.elf.dir/LVGL/src/widgets/lv_textarea.c.s
+.PHONY : LVGL/src/widgets/lv_textarea.c.s
+
 MyApplication/Src/Flash.obj: MyApplication/Src/Flash.cpp.obj
 .PHONY : MyApplication/Src/Flash.obj
 
@@ -1463,6 +4487,384 @@ help:
 	@echo ... LCD/lcd.obj
 	@echo ... LCD/lcd.i
 	@echo ... LCD/lcd.s
+	@echo ... LVGL/examples/porting/lv_port_disp.obj
+	@echo ... LVGL/examples/porting/lv_port_disp.i
+	@echo ... LVGL/examples/porting/lv_port_disp.s
+	@echo ... LVGL/examples/porting/lv_port_fs.obj
+	@echo ... LVGL/examples/porting/lv_port_fs.i
+	@echo ... LVGL/examples/porting/lv_port_fs.s
+	@echo ... LVGL/examples/porting/lv_port_indev.obj
+	@echo ... LVGL/examples/porting/lv_port_indev.i
+	@echo ... LVGL/examples/porting/lv_port_indev.s
+	@echo ... LVGL/src/core/lv_disp.obj
+	@echo ... LVGL/src/core/lv_disp.i
+	@echo ... LVGL/src/core/lv_disp.s
+	@echo ... LVGL/src/core/lv_event.obj
+	@echo ... LVGL/src/core/lv_event.i
+	@echo ... LVGL/src/core/lv_event.s
+	@echo ... LVGL/src/core/lv_group.obj
+	@echo ... LVGL/src/core/lv_group.i
+	@echo ... LVGL/src/core/lv_group.s
+	@echo ... LVGL/src/core/lv_indev.obj
+	@echo ... LVGL/src/core/lv_indev.i
+	@echo ... LVGL/src/core/lv_indev.s
+	@echo ... LVGL/src/core/lv_indev_scroll.obj
+	@echo ... LVGL/src/core/lv_indev_scroll.i
+	@echo ... LVGL/src/core/lv_indev_scroll.s
+	@echo ... LVGL/src/core/lv_obj.obj
+	@echo ... LVGL/src/core/lv_obj.i
+	@echo ... LVGL/src/core/lv_obj.s
+	@echo ... LVGL/src/core/lv_obj_class.obj
+	@echo ... LVGL/src/core/lv_obj_class.i
+	@echo ... LVGL/src/core/lv_obj_class.s
+	@echo ... LVGL/src/core/lv_obj_draw.obj
+	@echo ... LVGL/src/core/lv_obj_draw.i
+	@echo ... LVGL/src/core/lv_obj_draw.s
+	@echo ... LVGL/src/core/lv_obj_pos.obj
+	@echo ... LVGL/src/core/lv_obj_pos.i
+	@echo ... LVGL/src/core/lv_obj_pos.s
+	@echo ... LVGL/src/core/lv_obj_scroll.obj
+	@echo ... LVGL/src/core/lv_obj_scroll.i
+	@echo ... LVGL/src/core/lv_obj_scroll.s
+	@echo ... LVGL/src/core/lv_obj_style.obj
+	@echo ... LVGL/src/core/lv_obj_style.i
+	@echo ... LVGL/src/core/lv_obj_style.s
+	@echo ... LVGL/src/core/lv_obj_style_gen.obj
+	@echo ... LVGL/src/core/lv_obj_style_gen.i
+	@echo ... LVGL/src/core/lv_obj_style_gen.s
+	@echo ... LVGL/src/core/lv_obj_tree.obj
+	@echo ... LVGL/src/core/lv_obj_tree.i
+	@echo ... LVGL/src/core/lv_obj_tree.s
+	@echo ... LVGL/src/core/lv_refr.obj
+	@echo ... LVGL/src/core/lv_refr.i
+	@echo ... LVGL/src/core/lv_refr.s
+	@echo ... LVGL/src/core/lv_theme.obj
+	@echo ... LVGL/src/core/lv_theme.i
+	@echo ... LVGL/src/core/lv_theme.s
+	@echo ... LVGL/src/draw/lv_draw_arc.obj
+	@echo ... LVGL/src/draw/lv_draw_arc.i
+	@echo ... LVGL/src/draw/lv_draw_arc.s
+	@echo ... LVGL/src/draw/lv_draw_blend.obj
+	@echo ... LVGL/src/draw/lv_draw_blend.i
+	@echo ... LVGL/src/draw/lv_draw_blend.s
+	@echo ... LVGL/src/draw/lv_draw_img.obj
+	@echo ... LVGL/src/draw/lv_draw_img.i
+	@echo ... LVGL/src/draw/lv_draw_img.s
+	@echo ... LVGL/src/draw/lv_draw_label.obj
+	@echo ... LVGL/src/draw/lv_draw_label.i
+	@echo ... LVGL/src/draw/lv_draw_label.s
+	@echo ... LVGL/src/draw/lv_draw_line.obj
+	@echo ... LVGL/src/draw/lv_draw_line.i
+	@echo ... LVGL/src/draw/lv_draw_line.s
+	@echo ... LVGL/src/draw/lv_draw_mask.obj
+	@echo ... LVGL/src/draw/lv_draw_mask.i
+	@echo ... LVGL/src/draw/lv_draw_mask.s
+	@echo ... LVGL/src/draw/lv_draw_rect.obj
+	@echo ... LVGL/src/draw/lv_draw_rect.i
+	@echo ... LVGL/src/draw/lv_draw_rect.s
+	@echo ... LVGL/src/draw/lv_draw_triangle.obj
+	@echo ... LVGL/src/draw/lv_draw_triangle.i
+	@echo ... LVGL/src/draw/lv_draw_triangle.s
+	@echo ... LVGL/src/draw/lv_img_buf.obj
+	@echo ... LVGL/src/draw/lv_img_buf.i
+	@echo ... LVGL/src/draw/lv_img_buf.s
+	@echo ... LVGL/src/draw/lv_img_cache.obj
+	@echo ... LVGL/src/draw/lv_img_cache.i
+	@echo ... LVGL/src/draw/lv_img_cache.s
+	@echo ... LVGL/src/draw/lv_img_decoder.obj
+	@echo ... LVGL/src/draw/lv_img_decoder.i
+	@echo ... LVGL/src/draw/lv_img_decoder.s
+	@echo ... LVGL/src/extra/layouts/flex/lv_flex.obj
+	@echo ... LVGL/src/extra/layouts/flex/lv_flex.i
+	@echo ... LVGL/src/extra/layouts/flex/lv_flex.s
+	@echo ... LVGL/src/extra/layouts/grid/lv_grid.obj
+	@echo ... LVGL/src/extra/layouts/grid/lv_grid.i
+	@echo ... LVGL/src/extra/layouts/grid/lv_grid.s
+	@echo ... LVGL/src/extra/lv_extra.obj
+	@echo ... LVGL/src/extra/lv_extra.i
+	@echo ... LVGL/src/extra/lv_extra.s
+	@echo ... LVGL/src/extra/themes/basic/lv_theme_basic.obj
+	@echo ... LVGL/src/extra/themes/basic/lv_theme_basic.i
+	@echo ... LVGL/src/extra/themes/basic/lv_theme_basic.s
+	@echo ... LVGL/src/extra/themes/default/lv_theme_default.obj
+	@echo ... LVGL/src/extra/themes/default/lv_theme_default.i
+	@echo ... LVGL/src/extra/themes/default/lv_theme_default.s
+	@echo ... LVGL/src/extra/themes/mono/lv_theme_mono.obj
+	@echo ... LVGL/src/extra/themes/mono/lv_theme_mono.i
+	@echo ... LVGL/src/extra/themes/mono/lv_theme_mono.s
+	@echo ... LVGL/src/extra/widgets/animimg/lv_animimg.obj
+	@echo ... LVGL/src/extra/widgets/animimg/lv_animimg.i
+	@echo ... LVGL/src/extra/widgets/animimg/lv_animimg.s
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar.obj
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar.i
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar.s
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.obj
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.i
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.s
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.obj
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.i
+	@echo ... LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.s
+	@echo ... LVGL/src/extra/widgets/chart/lv_chart.obj
+	@echo ... LVGL/src/extra/widgets/chart/lv_chart.i
+	@echo ... LVGL/src/extra/widgets/chart/lv_chart.s
+	@echo ... LVGL/src/extra/widgets/colorwheel/lv_colorwheel.obj
+	@echo ... LVGL/src/extra/widgets/colorwheel/lv_colorwheel.i
+	@echo ... LVGL/src/extra/widgets/colorwheel/lv_colorwheel.s
+	@echo ... LVGL/src/extra/widgets/imgbtn/lv_imgbtn.obj
+	@echo ... LVGL/src/extra/widgets/imgbtn/lv_imgbtn.i
+	@echo ... LVGL/src/extra/widgets/imgbtn/lv_imgbtn.s
+	@echo ... LVGL/src/extra/widgets/keyboard/lv_keyboard.obj
+	@echo ... LVGL/src/extra/widgets/keyboard/lv_keyboard.i
+	@echo ... LVGL/src/extra/widgets/keyboard/lv_keyboard.s
+	@echo ... LVGL/src/extra/widgets/led/lv_led.obj
+	@echo ... LVGL/src/extra/widgets/led/lv_led.i
+	@echo ... LVGL/src/extra/widgets/led/lv_led.s
+	@echo ... LVGL/src/extra/widgets/list/lv_list.obj
+	@echo ... LVGL/src/extra/widgets/list/lv_list.i
+	@echo ... LVGL/src/extra/widgets/list/lv_list.s
+	@echo ... LVGL/src/extra/widgets/meter/lv_meter.obj
+	@echo ... LVGL/src/extra/widgets/meter/lv_meter.i
+	@echo ... LVGL/src/extra/widgets/meter/lv_meter.s
+	@echo ... LVGL/src/extra/widgets/msgbox/lv_msgbox.obj
+	@echo ... LVGL/src/extra/widgets/msgbox/lv_msgbox.i
+	@echo ... LVGL/src/extra/widgets/msgbox/lv_msgbox.s
+	@echo ... LVGL/src/extra/widgets/span/lv_span.obj
+	@echo ... LVGL/src/extra/widgets/span/lv_span.i
+	@echo ... LVGL/src/extra/widgets/span/lv_span.s
+	@echo ... LVGL/src/extra/widgets/spinbox/lv_spinbox.obj
+	@echo ... LVGL/src/extra/widgets/spinbox/lv_spinbox.i
+	@echo ... LVGL/src/extra/widgets/spinbox/lv_spinbox.s
+	@echo ... LVGL/src/extra/widgets/spinner/lv_spinner.obj
+	@echo ... LVGL/src/extra/widgets/spinner/lv_spinner.i
+	@echo ... LVGL/src/extra/widgets/spinner/lv_spinner.s
+	@echo ... LVGL/src/extra/widgets/tabview/lv_tabview.obj
+	@echo ... LVGL/src/extra/widgets/tabview/lv_tabview.i
+	@echo ... LVGL/src/extra/widgets/tabview/lv_tabview.s
+	@echo ... LVGL/src/extra/widgets/tileview/lv_tileview.obj
+	@echo ... LVGL/src/extra/widgets/tileview/lv_tileview.i
+	@echo ... LVGL/src/extra/widgets/tileview/lv_tileview.s
+	@echo ... LVGL/src/extra/widgets/win/lv_win.obj
+	@echo ... LVGL/src/extra/widgets/win/lv_win.i
+	@echo ... LVGL/src/extra/widgets/win/lv_win.s
+	@echo ... LVGL/src/font/lv_font.obj
+	@echo ... LVGL/src/font/lv_font.i
+	@echo ... LVGL/src/font/lv_font.s
+	@echo ... LVGL/src/font/lv_font_dejavu_16_persian_hebrew.obj
+	@echo ... LVGL/src/font/lv_font_dejavu_16_persian_hebrew.i
+	@echo ... LVGL/src/font/lv_font_dejavu_16_persian_hebrew.s
+	@echo ... LVGL/src/font/lv_font_fmt_txt.obj
+	@echo ... LVGL/src/font/lv_font_fmt_txt.i
+	@echo ... LVGL/src/font/lv_font_fmt_txt.s
+	@echo ... LVGL/src/font/lv_font_loader.obj
+	@echo ... LVGL/src/font/lv_font_loader.i
+	@echo ... LVGL/src/font/lv_font_loader.s
+	@echo ... LVGL/src/font/lv_font_montserrat_10.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_10.i
+	@echo ... LVGL/src/font/lv_font_montserrat_10.s
+	@echo ... LVGL/src/font/lv_font_montserrat_12.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_12.i
+	@echo ... LVGL/src/font/lv_font_montserrat_12.s
+	@echo ... LVGL/src/font/lv_font_montserrat_12_subpx.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_12_subpx.i
+	@echo ... LVGL/src/font/lv_font_montserrat_12_subpx.s
+	@echo ... LVGL/src/font/lv_font_montserrat_14.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_14.i
+	@echo ... LVGL/src/font/lv_font_montserrat_14.s
+	@echo ... LVGL/src/font/lv_font_montserrat_16.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_16.i
+	@echo ... LVGL/src/font/lv_font_montserrat_16.s
+	@echo ... LVGL/src/font/lv_font_montserrat_18.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_18.i
+	@echo ... LVGL/src/font/lv_font_montserrat_18.s
+	@echo ... LVGL/src/font/lv_font_montserrat_20.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_20.i
+	@echo ... LVGL/src/font/lv_font_montserrat_20.s
+	@echo ... LVGL/src/font/lv_font_montserrat_22.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_22.i
+	@echo ... LVGL/src/font/lv_font_montserrat_22.s
+	@echo ... LVGL/src/font/lv_font_montserrat_24.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_24.i
+	@echo ... LVGL/src/font/lv_font_montserrat_24.s
+	@echo ... LVGL/src/font/lv_font_montserrat_26.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_26.i
+	@echo ... LVGL/src/font/lv_font_montserrat_26.s
+	@echo ... LVGL/src/font/lv_font_montserrat_28.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_28.i
+	@echo ... LVGL/src/font/lv_font_montserrat_28.s
+	@echo ... LVGL/src/font/lv_font_montserrat_28_compressed.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_28_compressed.i
+	@echo ... LVGL/src/font/lv_font_montserrat_28_compressed.s
+	@echo ... LVGL/src/font/lv_font_montserrat_30.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_30.i
+	@echo ... LVGL/src/font/lv_font_montserrat_30.s
+	@echo ... LVGL/src/font/lv_font_montserrat_32.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_32.i
+	@echo ... LVGL/src/font/lv_font_montserrat_32.s
+	@echo ... LVGL/src/font/lv_font_montserrat_34.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_34.i
+	@echo ... LVGL/src/font/lv_font_montserrat_34.s
+	@echo ... LVGL/src/font/lv_font_montserrat_36.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_36.i
+	@echo ... LVGL/src/font/lv_font_montserrat_36.s
+	@echo ... LVGL/src/font/lv_font_montserrat_38.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_38.i
+	@echo ... LVGL/src/font/lv_font_montserrat_38.s
+	@echo ... LVGL/src/font/lv_font_montserrat_40.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_40.i
+	@echo ... LVGL/src/font/lv_font_montserrat_40.s
+	@echo ... LVGL/src/font/lv_font_montserrat_42.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_42.i
+	@echo ... LVGL/src/font/lv_font_montserrat_42.s
+	@echo ... LVGL/src/font/lv_font_montserrat_44.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_44.i
+	@echo ... LVGL/src/font/lv_font_montserrat_44.s
+	@echo ... LVGL/src/font/lv_font_montserrat_46.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_46.i
+	@echo ... LVGL/src/font/lv_font_montserrat_46.s
+	@echo ... LVGL/src/font/lv_font_montserrat_48.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_48.i
+	@echo ... LVGL/src/font/lv_font_montserrat_48.s
+	@echo ... LVGL/src/font/lv_font_montserrat_8.obj
+	@echo ... LVGL/src/font/lv_font_montserrat_8.i
+	@echo ... LVGL/src/font/lv_font_montserrat_8.s
+	@echo ... LVGL/src/font/lv_font_simsun_16_cjk.obj
+	@echo ... LVGL/src/font/lv_font_simsun_16_cjk.i
+	@echo ... LVGL/src/font/lv_font_simsun_16_cjk.s
+	@echo ... LVGL/src/font/lv_font_unscii_16.obj
+	@echo ... LVGL/src/font/lv_font_unscii_16.i
+	@echo ... LVGL/src/font/lv_font_unscii_16.s
+	@echo ... LVGL/src/font/lv_font_unscii_8.obj
+	@echo ... LVGL/src/font/lv_font_unscii_8.i
+	@echo ... LVGL/src/font/lv_font_unscii_8.s
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp.obj
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp.i
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp.s
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp_osa.obj
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp_osa.i
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_pxp_osa.s
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_vglite.obj
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_vglite.i
+	@echo ... LVGL/src/gpu/lv_gpu_nxp_vglite.s
+	@echo ... LVGL/src/gpu/lv_gpu_stm32_dma2d.obj
+	@echo ... LVGL/src/gpu/lv_gpu_stm32_dma2d.i
+	@echo ... LVGL/src/gpu/lv_gpu_stm32_dma2d.s
+	@echo ... LVGL/src/hal/lv_hal_disp.obj
+	@echo ... LVGL/src/hal/lv_hal_disp.i
+	@echo ... LVGL/src/hal/lv_hal_disp.s
+	@echo ... LVGL/src/hal/lv_hal_indev.obj
+	@echo ... LVGL/src/hal/lv_hal_indev.i
+	@echo ... LVGL/src/hal/lv_hal_indev.s
+	@echo ... LVGL/src/hal/lv_hal_tick.obj
+	@echo ... LVGL/src/hal/lv_hal_tick.i
+	@echo ... LVGL/src/hal/lv_hal_tick.s
+	@echo ... LVGL/src/misc/lv_anim.obj
+	@echo ... LVGL/src/misc/lv_anim.i
+	@echo ... LVGL/src/misc/lv_anim.s
+	@echo ... LVGL/src/misc/lv_area.obj
+	@echo ... LVGL/src/misc/lv_area.i
+	@echo ... LVGL/src/misc/lv_area.s
+	@echo ... LVGL/src/misc/lv_async.obj
+	@echo ... LVGL/src/misc/lv_async.i
+	@echo ... LVGL/src/misc/lv_async.s
+	@echo ... LVGL/src/misc/lv_bidi.obj
+	@echo ... LVGL/src/misc/lv_bidi.i
+	@echo ... LVGL/src/misc/lv_bidi.s
+	@echo ... LVGL/src/misc/lv_color.obj
+	@echo ... LVGL/src/misc/lv_color.i
+	@echo ... LVGL/src/misc/lv_color.s
+	@echo ... LVGL/src/misc/lv_fs.obj
+	@echo ... LVGL/src/misc/lv_fs.i
+	@echo ... LVGL/src/misc/lv_fs.s
+	@echo ... LVGL/src/misc/lv_gc.obj
+	@echo ... LVGL/src/misc/lv_gc.i
+	@echo ... LVGL/src/misc/lv_gc.s
+	@echo ... LVGL/src/misc/lv_ll.obj
+	@echo ... LVGL/src/misc/lv_ll.i
+	@echo ... LVGL/src/misc/lv_ll.s
+	@echo ... LVGL/src/misc/lv_log.obj
+	@echo ... LVGL/src/misc/lv_log.i
+	@echo ... LVGL/src/misc/lv_log.s
+	@echo ... LVGL/src/misc/lv_math.obj
+	@echo ... LVGL/src/misc/lv_math.i
+	@echo ... LVGL/src/misc/lv_math.s
+	@echo ... LVGL/src/misc/lv_mem.obj
+	@echo ... LVGL/src/misc/lv_mem.i
+	@echo ... LVGL/src/misc/lv_mem.s
+	@echo ... LVGL/src/misc/lv_printf.obj
+	@echo ... LVGL/src/misc/lv_printf.i
+	@echo ... LVGL/src/misc/lv_printf.s
+	@echo ... LVGL/src/misc/lv_style.obj
+	@echo ... LVGL/src/misc/lv_style.i
+	@echo ... LVGL/src/misc/lv_style.s
+	@echo ... LVGL/src/misc/lv_style_gen.obj
+	@echo ... LVGL/src/misc/lv_style_gen.i
+	@echo ... LVGL/src/misc/lv_style_gen.s
+	@echo ... LVGL/src/misc/lv_templ.obj
+	@echo ... LVGL/src/misc/lv_templ.i
+	@echo ... LVGL/src/misc/lv_templ.s
+	@echo ... LVGL/src/misc/lv_timer.obj
+	@echo ... LVGL/src/misc/lv_timer.i
+	@echo ... LVGL/src/misc/lv_timer.s
+	@echo ... LVGL/src/misc/lv_tlsf.obj
+	@echo ... LVGL/src/misc/lv_tlsf.i
+	@echo ... LVGL/src/misc/lv_tlsf.s
+	@echo ... LVGL/src/misc/lv_txt.obj
+	@echo ... LVGL/src/misc/lv_txt.i
+	@echo ... LVGL/src/misc/lv_txt.s
+	@echo ... LVGL/src/misc/lv_txt_ap.obj
+	@echo ... LVGL/src/misc/lv_txt_ap.i
+	@echo ... LVGL/src/misc/lv_txt_ap.s
+	@echo ... LVGL/src/misc/lv_utils.obj
+	@echo ... LVGL/src/misc/lv_utils.i
+	@echo ... LVGL/src/misc/lv_utils.s
+	@echo ... LVGL/src/widgets/lv_arc.obj
+	@echo ... LVGL/src/widgets/lv_arc.i
+	@echo ... LVGL/src/widgets/lv_arc.s
+	@echo ... LVGL/src/widgets/lv_bar.obj
+	@echo ... LVGL/src/widgets/lv_bar.i
+	@echo ... LVGL/src/widgets/lv_bar.s
+	@echo ... LVGL/src/widgets/lv_btn.obj
+	@echo ... LVGL/src/widgets/lv_btn.i
+	@echo ... LVGL/src/widgets/lv_btn.s
+	@echo ... LVGL/src/widgets/lv_btnmatrix.obj
+	@echo ... LVGL/src/widgets/lv_btnmatrix.i
+	@echo ... LVGL/src/widgets/lv_btnmatrix.s
+	@echo ... LVGL/src/widgets/lv_canvas.obj
+	@echo ... LVGL/src/widgets/lv_canvas.i
+	@echo ... LVGL/src/widgets/lv_canvas.s
+	@echo ... LVGL/src/widgets/lv_checkbox.obj
+	@echo ... LVGL/src/widgets/lv_checkbox.i
+	@echo ... LVGL/src/widgets/lv_checkbox.s
+	@echo ... LVGL/src/widgets/lv_dropdown.obj
+	@echo ... LVGL/src/widgets/lv_dropdown.i
+	@echo ... LVGL/src/widgets/lv_dropdown.s
+	@echo ... LVGL/src/widgets/lv_img.obj
+	@echo ... LVGL/src/widgets/lv_img.i
+	@echo ... LVGL/src/widgets/lv_img.s
+	@echo ... LVGL/src/widgets/lv_label.obj
+	@echo ... LVGL/src/widgets/lv_label.i
+	@echo ... LVGL/src/widgets/lv_label.s
+	@echo ... LVGL/src/widgets/lv_line.obj
+	@echo ... LVGL/src/widgets/lv_line.i
+	@echo ... LVGL/src/widgets/lv_line.s
+	@echo ... LVGL/src/widgets/lv_objx_templ.obj
+	@echo ... LVGL/src/widgets/lv_objx_templ.i
+	@echo ... LVGL/src/widgets/lv_objx_templ.s
+	@echo ... LVGL/src/widgets/lv_roller.obj
+	@echo ... LVGL/src/widgets/lv_roller.i
+	@echo ... LVGL/src/widgets/lv_roller.s
+	@echo ... LVGL/src/widgets/lv_slider.obj
+	@echo ... LVGL/src/widgets/lv_slider.i
+	@echo ... LVGL/src/widgets/lv_slider.s
+	@echo ... LVGL/src/widgets/lv_switch.obj
+	@echo ... LVGL/src/widgets/lv_switch.i
+	@echo ... LVGL/src/widgets/lv_switch.s
+	@echo ... LVGL/src/widgets/lv_table.obj
+	@echo ... LVGL/src/widgets/lv_table.i
+	@echo ... LVGL/src/widgets/lv_table.s
+	@echo ... LVGL/src/widgets/lv_textarea.obj
+	@echo ... LVGL/src/widgets/lv_textarea.i
+	@echo ... LVGL/src/widgets/lv_textarea.s
 	@echo ... MyApplication/Src/Flash.obj
 	@echo ... MyApplication/Src/Flash.i
 	@echo ... MyApplication/Src/Flash.s

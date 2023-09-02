@@ -27,6 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ConnectCplusplus.h"
+#include "lvgl.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,7 +94,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM6_Init();
   MX_FSMC_Init();
+  MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
+    HAL_TIM_Base_Start_IT(&htim7);
     //Step();
     MyMain();
   /* USER CODE END 2 */
@@ -156,6 +159,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+    if (htim->Instance==TIM7){
+
+    }
+}
 
 /* USER CODE END 4 */
 
