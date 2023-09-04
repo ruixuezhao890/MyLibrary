@@ -16,6 +16,7 @@
 #define MY_LIBARARY_MYLCD_H
 #include "main.h"
 #include "WString.h"
+#include "lcd.h"
 //#include "lvgl.h"
 //#include "lv_port_disp.h"
 //#include "lv_port_indev.h"
