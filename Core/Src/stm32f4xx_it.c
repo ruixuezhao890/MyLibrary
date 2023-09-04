@@ -188,7 +188,7 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
-    lv_tick_inc(1);
+    lv_tick_inc(1);//
 
     KeyTimeBenchmark();
   /* USER CODE END SysTick_IRQn 0 */

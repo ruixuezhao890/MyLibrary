@@ -23,13 +23,13 @@
 //{
 //#endif
 #include "main.h"
-
+#define endl  "\r\n"
 #define DEC 10
 #define HEX 16
 #define OCT 8
 #define BIN 2
 #define CMD 0
-#define endl "\r\n"
+
 /*______________________类的声明在这下面________________:*/
 
 class outputStream{

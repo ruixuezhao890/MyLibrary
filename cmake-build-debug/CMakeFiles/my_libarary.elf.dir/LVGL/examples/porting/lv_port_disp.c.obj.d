@@ -2,6 +2,8 @@ CMakeFiles/my_libarary.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj: \
  D:\myLib\my_libarary\LVGL\examples\porting\lv_port_disp.c \
  D:\myLib\my_libarary\LVGL\examples\porting\lv_port_disp.h \
  D:\myLib\my_libarary\LVGL/lvgl.h \
+ D:\myLib\my_libarary\LVGL\examples\porting/lv_port_disp.h \
+ D:\myLib\my_libarary\LVGL\examples\porting/lv_port_indev.h \
  D:\myLib\my_libarary\LVGL/src/misc/lv_log.h \
  d:\mylib\my_libarary\lvgl\src\lv_conf_internal.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \

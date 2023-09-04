@@ -30,9 +30,9 @@ void Flash::norflash_init(void) {
             norflash_write_enable();        /* 写使能 */
             temp |= 1 << 1;                 /* ADP=1, 上电4位地址模式 */
             norflash_write_sr(3, temp);     /* 写SR3 */
-            SetCS(0);
+
             print(FLASH_Enable4ByteAddr,CMD);
-            SetCS(1);
+
 //            NORFLASH_CS(0);
 //            spi1_read_write_byte(FLASH_Enable4ByteAddr);    /* 使能4字节地址指令 */
 //            NORFLASH_CS(1);
@@ -44,14 +44,14 @@ void Flash::norflash_init(void) {
 uint16_t Flash::norflash_read_id(void) {
     uint16_t deviceId=0;
     uint8_t temp;
-    SetCS(0);
+
     print(FLASH_ManufactDeviceID,CMD);
     for (int i = 0; i < 3; ++i) {
         print(0);
     }
     scan(temp,CMD);deviceId=temp<<8;
     scan(temp,CMD);deviceId|=temp;
-    SetCS(1);
+
     return deviceId;
 
 }

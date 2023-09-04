@@ -27,7 +27,9 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/myLib/my_libarary/lvvglpp/src"/>
 					<Add directory="D:/myLib/my_libarary/LVGL"/>
+					<Add directory="D:/myLib/my_libarary/LVGL/src"/>
 					<Add directory="D:/myLib/my_libarary/LVGL/examples/porting"/>
 					<Add directory="D:/myLib/my_libarary/MyApplication/Inc"/>
 					<Add directory="D:/myLib/my_libarary/BSP/touch"/>
@@ -65,7 +67,9 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/myLib/my_libarary/lvvglpp/src"/>
 					<Add directory="D:/myLib/my_libarary/LVGL"/>
+					<Add directory="D:/myLib/my_libarary/LVGL/src"/>
 					<Add directory="D:/myLib/my_libarary/LVGL/examples/porting"/>
 					<Add directory="D:/myLib/my_libarary/MyApplication/Inc"/>
 					<Add directory="D:/myLib/my_libarary/BSP/touch"/>
@@ -462,22 +466,22 @@
 		<Unit filename="D:/myLib/my_libarary/LCD/lcd.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_disp.c">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_disp_template.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_disp.h">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_disp_template.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_fs.c">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_fs_template.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_fs.h">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_fs_template.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_indev.c">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_indev_template.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_indev.h">
+		<Unit filename="D:/myLib/my_libarary/LVGL/examples/porting/lv_port_indev_template.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/lv_conf.h">
@@ -579,6 +583,18 @@
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/core/lv_theme.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/arm2d/lv_draw_arm2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/arm2d/lv_gpu_arm2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/arm2d/lv_gpu_arm2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
@@ -591,12 +607,6 @@
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_arc.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_blend.c">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_blend.h">
-			<Option target="my_libarary.elf"/>
-		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_img.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
@@ -607,6 +617,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_label.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_layer.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_line.c">
@@ -625,6 +641,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_transform.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_transform.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_draw_triangle.c">
@@ -651,10 +673,211 @@
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/lv_img_decoder.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/README.md">
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/lv_draw_nxp.mk">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/extra.mk">
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/lv_gpu_nxp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/lv_gpu_nxp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/nxp/vglite/lv_gpu_nxp_vglite.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/README.md">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_bg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_composite.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_composite.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_img.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_label.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_layer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_mask.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_mask.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_priv.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_rect.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_utils.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sdl/lv_draw_sdl_utils.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_arc.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_blend.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_blend.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_dither.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_dither.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_gradient.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_gradient.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_img.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_layer.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_letter.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_line.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_polygon.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_rect.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/sw/lv_draw_sw_transform.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/README.md">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/layouts/flex/lv_flex.c">
@@ -672,10 +895,160 @@
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/layouts/lv_layouts.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/bmp/lv_bmp.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/bmp/lv_bmp.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/freetype/arial.ttf">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/freetype/lv_freetype.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/freetype/lv_freetype.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/fsdrv/lv_fsdrv.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/gif/gifdec.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/gif/gifdec.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/gif/lv_gif.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/gif/lv_gif.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/lv_libs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/png/lodepng.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/png/lodepng.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/png/lv_png.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/png/lv_png.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/qrcode/lv_qrcode.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/qrcode/lv_qrcode.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/qrcode/qrcodegen.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/qrcode/qrcodegen.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/rlottie/lv_rlottie.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/rlottie/lv_rlottie.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/sjpg/lv_sjpg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/sjpg/lv_sjpg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/sjpg/tjpgd.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/sjpg/tjpgd.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/libs/sjpg/tjpgdcnf.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/lv_extra.c">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/lv_extra.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/lv_extra.mk">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/fragment/README.md">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/fragment/lv_fragment.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/fragment/lv_fragment.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/fragment/lv_fragment_manager.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/gridnav/lv_gridnav.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/gridnav/lv_gridnav.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/ime/lv_ime_pinyin.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/ime/lv_ime_pinyin.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/imgfont/lv_imgfont.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/imgfont/lv_imgfont.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/lv_others.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/monkey/lv_monkey.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/monkey/lv_monkey.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/msg/lv_msg.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/msg/lv_msg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/snapshot/lv_snapshot.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/others/snapshot/lv_snapshot.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/themes/basic/lv_theme_basic.c">
@@ -760,6 +1133,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/widgets/lv_widgets.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/widgets/menu/lv_menu.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/widgets/menu/lv_menu.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/extra/widgets/meter/lv_meter.c">
@@ -918,33 +1297,6 @@
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/font/lv_symbol_def.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu.mk">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_pxp.c">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_pxp.h">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.c">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_pxp_osa.h">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_vglite.c">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_nxp_vglite.h">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_stm32_dma2d.c">
-			<Option target="my_libarary.elf"/>
-		</Unit>
-		<Unit filename="D:/myLib/my_libarary/LVGL/src/gpu/lv_gpu_stm32_dma2d.h">
-			<Option target="my_libarary.elf"/>
-		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/hal/lv_hal.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
@@ -985,6 +1337,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_anim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_anim_timeline.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_anim_timeline.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_area.c">
@@ -1036,6 +1394,12 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_log.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_lru.c">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_lru.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/LVGL/src/misc/lv_math.c">
@@ -1237,6 +1601,282 @@
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/STM32F407ZGTX_FLASH.ld">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/display.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/display.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/event.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/event.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/group.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/group.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/indev.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/indev.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/object.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/object.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/theme.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/core/theme.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/desc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/desc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/image.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/image.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/mask.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/draw/mask.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/font/font.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/font/font.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/anim.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/anim.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/area.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/area.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/color.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/color.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/fs.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/fs.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/style.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/style.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/timer.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/misc/timer.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/animimg/animimg.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/animimg/animimg.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/arc/arc.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/arc/arc.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/bar/bar.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/bar/bar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/btnmatrix/btnmatrix.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/btnmatrix/btnmatrix.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/calendar/calendar.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/calendar/calendar.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/canvas/canvas.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/canvas/canvas.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/chart/chart.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/chart/chart.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/checkbox/checkbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/checkbox/checkbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/colorwheel/colorwheel.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/colorwheel/colorwheel.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/dropdown/dropdown.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/dropdown/dropdown.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/image/image.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/image/image.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/imgbtn/imgbtn.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/imgbtn/imgbtn.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/keyboard/keyboard.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/keyboard/keyboard.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/label/label.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/label/label.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/led/led.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/led/led.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/line/line.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/line/line.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/list/list.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/list/list.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/menu/menu.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/menu/menu.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/meter/meter.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/meter/meter.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/msgbox/msgbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/msgbox/msgbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/roller/roller.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/roller/roller.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/slider/slider.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/slider/slider.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/span/span.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/span/span.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/spinbox/spinbox.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/spinbox/spinbox.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/spinner/spinner.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/spinner/spinner.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/table/table.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/table/table.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/tabview/tabview.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/tabview/tabview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/textarea/textarea.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/textarea/textarea.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/tileview/tileview.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/tileview/tileview.h">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/win/win.cpp">
+			<Option target="my_libarary.elf"/>
+		</Unit>
+		<Unit filename="D:/myLib/my_libarary/lvvglpp/src/lvglpp/widgets/win/win.h">
 			<Option target="my_libarary.elf"/>
 		</Unit>
 		<Unit filename="D:/myLib/my_libarary/other_library/WString.cpp">

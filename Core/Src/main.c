@@ -161,7 +161,7 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
     if (htim->Instance==TIM7){
-
+        lv_timer_handler();
     }
 }
 

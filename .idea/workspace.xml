@@ -108,11 +108,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myLib\my_libarary\ManageLVGL\Src" />
       <recent name="D:\myLib\my_libarary\MyLibrary\Src" />
       <recent name="D:\myLib\my_libarary\MyLibrary\Inc" />
       <recent name="D:\myLib\my_libarary\MyLibrary" />
       <recent name="D:\myLib\my_libarary\MyApplication\Src" />
-      <recent name="D:\myLib\my_libarary\MyApplication\Inc" />
     </key>
   </component>
   <component name="RtosSettings">
@@ -178,7 +178,12 @@
       <workItem from="1693537922490" duration="27239000" />
       <workItem from="1693616995178" duration="467000" />
       <workItem from="1693617738926" duration="126000" />
-      <workItem from="1693617921146" duration="10577000" />
+      <workItem from="1693617921146" duration="16253000" />
+      <workItem from="1693655851058" duration="1411000" />
+      <workItem from="1693706694414" duration="14894000" />
+      <workItem from="1693744832718" duration="5927000" />
+      <workItem from="1693790948839" duration="19723000" />
+      <workItem from="1693831184511" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="增添GPIO可以设置硬件复用引脚的功能">
       <created>1692732846083</created>
@@ -215,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693574787475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加lvgl图形库">
+      <created>1693640479006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693640479006</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,16 +261,12 @@
     <MESSAGE value="代码再次初始化SPI" />
     <MESSAGE value="增加oled" />
     <MESSAGE value="增加增加key" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加增加key" />
+    <MESSAGE value="增加lvgl图形库" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加lvgl图形库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp</url>
-          <line>92</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Core/Src/stm32f4xx_it.c</url>
           <line>215</line>
@@ -268,6 +276,16 @@
           <url>file://$PROJECT_DIR$/MyLibrary/Src/MyKey.cpp</url>
           <line>110</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lvvglpp/src/lvglpp/core/indev.h</url>
+          <line>24</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ConnectingBridge/Src/Startup.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

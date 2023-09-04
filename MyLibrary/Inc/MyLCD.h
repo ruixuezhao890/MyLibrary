@@ -16,16 +16,16 @@
 #define MY_LIBARARY_MYLCD_H
 #include "main.h"
 #include "WString.h"
-#include "lvgl.h"
-#include "lv_port_disp.h"
-#include "lv_port_indev.h"
+//#include "lvgl.h"
+//#include "lv_port_disp.h"
+//#include "lv_port_indev.h"
 #include "inputStream.h"
 #include "outputStream.h"
-typedef void (*CallbackFun)(lv_event_t *);
+
 class MyLCD{
 public:
     MyLCD(uint8_t mode=1);
-    void MyLCDGreatButton(uint16_t x,uint16_t y,String text,CallbackFun callbackFun,uint16_t wight=100,uint16_t high=50);
+    //void MyLCDGreatButton(uint16_t x,uint16_t y,String text,uint16_t color,CallbackFun callbackFun,uint16_t wight=(lcddev.width)/6,uint16_t high=(lcddev.height)/6);
     ~MyLCD();
 private:
 };

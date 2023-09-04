@@ -5,6 +5,12 @@ CMake Warning (dev) at CMakeLists.txt:57:
   Argument not separated from preceding token by whitespace.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
+CMake Warning (dev) at CMakeLists.txt:108:
+  Syntax Warning in cmake code at column 49
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done

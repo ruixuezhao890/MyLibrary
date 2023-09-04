@@ -301,7 +301,7 @@ static uint8_t tp_scan(uint8_t mode)
             tp_dev.y[0] = 0xFFFF;
         }
     }
-
+//    tp_dev.sta=tp_dev.sta & TP_PRES_DOWN;
     return tp_dev.sta & TP_PRES_DOWN; /* 返回当前的触屏状态 */
 }
 

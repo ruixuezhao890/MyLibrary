@@ -23,4 +23,14 @@
 #include "Flash.h"
 //#include "OLED.h"
 #include "MyKey.h"
+//#include "Button.h"
+
+#include "lvglpp/lvglpp.h"
+#include "lvglpp/core/display.h" // for Display
+#include "lvglpp/core/indev.h" // for InputDevice
+#include "lvglpp/core/event.h"
+#include "lvglpp/widgets/button/button.h" // for Button
+#include "lvglpp/widgets/label/label.h"
+// ... add includes for widgets your want to use here
+#include "lvglpp/misc/style.h" // for Style
 #endif //MY_LIBARARY_ALLFILE_H
