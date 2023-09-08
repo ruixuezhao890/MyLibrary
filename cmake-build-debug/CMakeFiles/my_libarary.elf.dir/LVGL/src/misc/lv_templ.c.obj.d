@@ -1,2 +1,2 @@
 CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_templ.c.obj: \
- D:\myLib\my_libarary\LVGL\src\misc\lv_templ.c
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_templ.c

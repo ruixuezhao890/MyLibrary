@@ -22,6 +22,7 @@ Flash::Flash(SPI_HandleTypeDef *SPISelect, GPIO *CS) : MySPI(SPISelect, CS) {
 #endif
 void Flash::norflash_init(void) {
     uint8_t temp;
+    this->SoftSPIModeSet(SPIMode3);
     g_norflash_type=norflash_read_id();
     if (g_norflash_type==W25Q256){
         temp = norflash_read_sr(3);
@@ -44,14 +45,14 @@ void Flash::norflash_init(void) {
 uint16_t Flash::norflash_read_id(void) {
     uint16_t deviceId=0;
     uint8_t temp;
-
+    SetCS(0);
     print(FLASH_ManufactDeviceID,CMD);
     for (int i = 0; i < 3; ++i) {
         print(0);
     }
     scan(temp,CMD);deviceId=temp<<8;
     scan(temp,CMD);deviceId|=temp;
-
+    SetCS(1);
     return deviceId;
 
 }

@@ -1,6 +1,6 @@
 CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: \
- D:\myLib\my_libarary\LVGL\src\misc\lv_style_gen.c \
- D:\myLib\my_libarary\LVGL\src\misc\lv_style.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_style_gen.c \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_style.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdint.h \
@@ -9,20 +9,20 @@ CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_newlib_version.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_stdint.h \
- d:\mylib\my_libarary\lvgl\src\font\lv_font.h \
- d:\mylib\my_libarary\lvgl\src\lv_conf_internal.h \
- d:\mylib\my_libarary\lvgl\src\lv_conf_kconfig.h \
- D:\myLib\my_libarary\LVGL/lv_conf.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\font\lv_font.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_internal.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_kconfig.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL/lv_conf.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- d:\mylib\my_libarary\lvgl\src\font\lv_symbol_def.h \
- d:\mylib\my_libarary\lvgl\src\misc\lv_area.h \
- d:\mylib\my_libarary\lvgl\src\lv_conf_internal.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_color.h \
- d:\mylib\my_libarary\lvgl\src\lv_conf_internal.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_assert.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_log.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_types.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_mem.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\font\lv_symbol_def.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\misc\lv_area.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_internal.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_color.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_internal.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_assert.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_log.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_types.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_mem.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\string.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\newlib.h \
@@ -37,12 +37,12 @@ CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_style_gen.c.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_math.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_area.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_anim.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_txt.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_math.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_area.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_anim.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_txt.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_printf.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_printf.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\inttypes.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_bidi.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_style_gen.h
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_bidi.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_style_gen.h

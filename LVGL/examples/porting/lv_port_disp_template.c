@@ -10,7 +10,7 @@
  *      INCLUDES
  *********************/
 #include "lv_port_disp_template.h"
-#include "hal/lv_hal_disp.h"
+//#include "lv_hal_disp.h"
 #include <stdbool.h>
 #include "lcd.h"
 /*********************

@@ -82,11 +82,11 @@ void MySPI::SoftGPIOInit() {
 
 
 size_t MySPI::write(uint8_t Send) {
-    SetCS(0);
+
     if (Mode==HardwareSPI){
 #ifdef HAL_SPI_ERROR_NONE
         HAL_SPI_Transmit(this->g_spi_handler,&Send,1,1000);
-           SetCS(1);
+ SetCS(1);
          return 1;
 #endif
 
@@ -94,18 +94,19 @@ size_t MySPI::write(uint8_t Send) {
     }
     if (Mode==SoftwareSPI){
         this->SoftSPIWR(Send);
-        SetCS(1);
+
         return 1;
     }
+
     return 0;
 }
 
 size_t MySPI::write(const uint8_t *SendData, size_t size) {
-    SetCS(0);
+
     if (Mode==HardwareSPI){
 #ifdef HAL_SPI_ERROR_NONE
         HAL_SPI_Transmit(this->g_spi_handler,(uint8_t *)SendData,size,1000);
-           SetCS(1);
+
          return 1;
 #endif
 
@@ -115,9 +116,10 @@ size_t MySPI::write(const uint8_t *SendData, size_t size) {
         for (int i = 0; i < size; ++i) {
             this->SoftSPIWR(SendData[i]);
         }
-        SetCS(1);
+
         return 1;
     }
+
     return 0;
 }
 
@@ -130,7 +132,7 @@ void MySPI::SetCS(uint8_t set) {
 }
 
 int MySPI::read() {
-    SetCS(0);
+
     uint8_t Trigger=0xff;
     if (Mode==HardwareSPI) {
 #ifdef HAL_SPI_ERROR_NONE
@@ -150,7 +152,7 @@ int MySPI::read() {
 //        } else {
 
             HAL_SPI_TransmitReceive(this->g_spi_handler, &Trigger, &buff.buf[buff.read_index++], 1, 1000);
-               SetCS(1);
+
             return buff.buf[buff.read_index - 1];
         }
 #endif
@@ -158,9 +160,10 @@ int MySPI::read() {
     if(Mode==SoftwareSPI)
     {
         buff.buf[buff.read_index++]=this->SoftSPIWR(Trigger);
-        SetCS(1);
+
         return buff.buf[buff.read_index-1];
     }
+
     return 0;
 }
 

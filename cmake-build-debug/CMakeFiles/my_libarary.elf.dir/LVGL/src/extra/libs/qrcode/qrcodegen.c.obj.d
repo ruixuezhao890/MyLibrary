@@ -1,5 +1,5 @@
 CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: \
- D:\myLib\my_libarary\LVGL\src\extra\libs\qrcode\qrcodegen.c \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\extra\libs\qrcode\qrcodegen.c \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\assert.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\newlib.h \
@@ -26,7 +26,7 @@ CMakeFiles/my_libarary.elf.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \
- D:\myLib\my_libarary\LVGL\src\extra\libs\qrcode\qrcodegen.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\extra\libs\qrcode\qrcodegen.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdint.h \

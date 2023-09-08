@@ -1,6 +1,6 @@
 CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj: \
- D:\myLib\my_libarary\LVGL\src\misc\lv_area.c \
- d:\mylib\my_libarary\lvgl\src\lv_conf_internal.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_area.c \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_internal.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -8,8 +8,8 @@ CMakeFiles/my_libarary.elf.dir/LVGL/src/misc/lv_area.c.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_newlib_version.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_stdint.h \
- d:\mylib\my_libarary\lvgl\src\lv_conf_kconfig.h \
- D:\myLib\my_libarary\LVGL/lv_conf.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_area.h \
+ d:\code\stm32\23\ years\ of\ competition\music\lvgl\src\lv_conf_kconfig.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL/lv_conf.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_area.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
- D:\myLib\my_libarary\LVGL\src\misc\lv_math.h
+ D:\CODE\stm32\23\ years\ of\ competition\Music\LVGL\src\misc\lv_math.h

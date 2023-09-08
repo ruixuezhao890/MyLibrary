@@ -1,5 +1,5 @@
 CMakeFiles/my_libarary.elf.dir/Core/Src/syscalls.c.obj: \
- D:\myLib\my_libarary\Core\Src\syscalls.c \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Core\Src\syscalls.c \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\stat.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\newlib.h \

@@ -1,5 +1,5 @@
 CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: \
- D:\myLib\my_libarary\other_library\stdlib_noniso.c \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library\stdlib_noniso.c \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\ieeefp.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
@@ -27,4 +27,4 @@ CMakeFiles/my_libarary.elf.dir/other_library/stdlib_noniso.c.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\math.h \
- D:\myLib\my_libarary\other_library\stdlib_noniso.h
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library\stdlib_noniso.h

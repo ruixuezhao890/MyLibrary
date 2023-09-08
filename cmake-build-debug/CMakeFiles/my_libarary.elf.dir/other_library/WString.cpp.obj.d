@@ -1,6 +1,6 @@
 CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: \
- D:\myLib\my_libarary\other_library\WString.cpp \
- D:\myLib\my_libarary\other_library\WString.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library\WString.cpp \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library\WString.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\c++config.h \
@@ -30,4 +30,4 @@ CMakeFiles/my_libarary.elf.dir/other_library/WString.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\string.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
- D:\myLib\my_libarary\other_library\stdlib_noniso.h
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library\stdlib_noniso.h

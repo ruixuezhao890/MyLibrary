@@ -1,5 +1,5 @@
 CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: \
- D:\myLib\my_libarary\MyLibrary\Src\MyUsart.cpp \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\MyLibrary\Src\MyUsart.cpp \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdarg \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\c++config.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m\nofp\bits\os_defines.h \
@@ -40,9 +40,9 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\sched.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\types.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\stdio.h \
- D:\myLib\my_libarary\MyLibrary\Inc/MyUsart.h \
- D:\myLib\my_libarary\MyLibrary\Inc/outputStream.h \
- D:\myLib\my_libarary\other_library/WString.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\MyLibrary\Inc/MyUsart.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\MyLibrary\Inc/outputStream.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\other_library/WString.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
@@ -50,40 +50,43 @@ CMakeFiles/my_libarary.elf.dir/MyLibrary/Src/MyUsart.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\alloca.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\ctype.h \
- D:\myLib\my_libarary\Core\Inc/main.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
- D:\myLib\my_libarary\Core\Inc/stm32f4xx_hal_conf.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Include/core_cm4.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Core\Inc/main.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Core\Inc/stm32f4xx_hal_conf.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f407xx.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Include/core_cm4.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdint.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_intsup.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Include/cmsis_version.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Include/cmsis_compiler.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Include/cmsis_gcc.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Include/mpu_armv7.h \
- D:\myLib\my_libarary\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sram.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_fsmc.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
- D:\myLib\my_libarary\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\myLib\my_libarary\MyLibrary\Inc/inputStream.h \
- D:\myLib\my_libarary\Core\Inc/usart.h \
- D:\myLib\my_libarary\Core\Inc/main.h
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Include/cmsis_version.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Include/cmsis_compiler.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Include/cmsis_gcc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Include/mpu_armv7.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_crc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sram.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_fsmc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\MyLibrary\Inc/inputStream.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Core\Inc/usart.h \
+ D:\CODE\stm32\23\ years\ of\ competition\Music\Core\Inc/main.h

@@ -21,7 +21,8 @@ extern "C"
 #include "main.h"
 #include "gpio.h"
 #include "usart.h"
-
+#include "sram.h"
+#include "malloc.h"
 void Step();
 void MyMain();
 void Interrupt_management(DMA_HandleTypeDef * hdma_usartx_rx);

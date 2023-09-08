@@ -18,7 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "crc.h"
 #include "dma.h"
+#include "fatfs.h"
+#include "sdio.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -95,6 +98,9 @@ int main(void)
   MX_TIM6_Init();
   MX_FSMC_Init();
   MX_TIM7_Init();
+  MX_CRC_Init();
+  MX_SDIO_SD_Init();
+  MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
     HAL_TIM_Base_Start_IT(&htim7);
     //Step();
@@ -137,7 +143,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.PLL.PLLM = 4;
   RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 4;
+  RCC_OscInitStruct.PLL.PLLQ = 7;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();

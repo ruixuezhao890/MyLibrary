@@ -49,23 +49,22 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(lvvglpp/src LVGL LVGL/src/ LVGL/examples/porting/ MyApplication/Inc BSP/touch BSP LCD other_library MyLibrary/Inc ConnectingBridge/Inc Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(Middlewares/Third_Party/FatFs/src/  Middlewares/Third_Party/FatFs/src/option LVppDisplayer FATFS/App FATFS/Target lvvglpp/src LVGL LVGL/examples/porting/ MyApplication/Inc BSP/touch BSP LCD other_library MyLibrary/Inc ConnectingBridge/Inc Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "ConnectingBridge/Src/*.*"
          "MyLibrary/Src/*.*""other_library/*.*" "LCD/lcd.c" "BSP/*.*" "BSP/touch/*.*"
-        "MyApplication/Src/*.*" "LVGL/*.*" "ManageLVGL/Src/*.*"
-        "lvvglpp/src/lvglpp/core/*.*"
-#        "src/lvglpp/core/event.cpp"
-#        "src/lvglpp/core/indev.cpp"
-#        "src/lvglpp/core/object.cpp"
-#        "src/lvglpp/core/group.cpp"
-#        "src/lvglpp/core/theme.cpp"
+     "Middlewares/Third_Party/FatFs/src/*.*" "LVppDisplayer/*.*"  "MyApplication/Src/*.*" "LVGL/*.*" "ManageLVGL/Src/*.*" "FATFS/App/*.*" "FATFS/Target/*.*"
+        "src/lvglpp/core/event.cpp"
+        #        "src/lvglpp/core/indev.cpp"
+        #        "src/lvglpp/core/object.cpp"
+        #        "src/lvglpp/core/group.cpp"
+        #        "src/lvglpp/core/theme.cpp"
 
         "lvvglpp/src/lvglpp/draw/*.*"
-#        "src/lvglpp/draw/image.cpp"
-#        "src/lvglpp/draw/mask.cpp"
+        #        "src/lvglpp/draw/image.cpp"
+        #        "src/lvglpp/draw/mask.cpp"
 
         "lvvglpp/src/lvglpp/font/font.cpp"
 
@@ -118,12 +117,12 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*" "ConnectingBridge/Src/*.*"
 
         "lvvglpp/src/lvglpp/font/font.cpp"
 
-#        "lvvglpp/src/lvglpp/misc/*.*"
-#        "lvvglpp/src/lvglpp/misc/area.cpp"
-#        "lvvglpp/src/lvglpp/misc/color.cpp"
-#        "lvvglpp/src/lvglpp/misc/fs.cpp"
-#        "lvvglpp/src/lvglpp/misc/style.cpp"
-#        "lvvglpp/src/lvglpp/misc/timer.cpp"
+        #        "lvvglpp/src/lvglpp/misc/*.*"
+        #        "lvvglpp/src/lvglpp/misc/area.cpp"
+        #        "lvvglpp/src/lvglpp/misc/color.cpp"
+        #        "lvvglpp/src/lvglpp/misc/fs.cpp"
+        #        "lvvglpp/src/lvglpp/misc/style.cpp"
+        #        "lvvglpp/src/lvglpp/misc/timer.cpp"
 
         "lvvglpp/src/lvglpp/widgets/animimg/animimg.cpp"
         "lvvglpp/src/lvglpp/widgets/arc/arc.cpp"
